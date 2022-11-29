@@ -32,8 +32,8 @@ function validatePaletteObj(obj) {
 
 palettes.forEach((palette, i) => {
   if (validatePaletteObj(palette)) {
-    console.log('Title:', customChalk.bold(palette.name + '\n'));
-    console.log('Colors:\n');
+    console.log('Title:', customChalk.bold(palette.name));
+    console.log('Colors:');
     palette.colors = palette.colors.map(color => {
       const parsed = parse(color);
       if (parsed) {
@@ -47,7 +47,7 @@ palettes.forEach((palette, i) => {
         return false;
       }
     });
-    console.log('\n');
+    console.log('⎯'.repeat(40));
   }
 });
 

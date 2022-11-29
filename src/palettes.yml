@@ -15,3 +15,42 @@
     - '#c8afbc'
     - '#f6cab4'
 
+- name: Yemen
+  colors:
+    - '#f00'
+    - '#fff'
+    - '#202123'
+
+- name: German Hop
+  colors:
+    - '#eac328'
+    - '#ce6d54'
+    - '#354046'
+
+- name: Chaotic Eight Ball
+  colors:
+    - '#b03b5f'
+    - '#e1e6eb'
+    - '#07080b'
+
+- name: Shrimp Latte
+  colors:
+    - '#e39e84' 
+    - '#73bede' 
+    - '#fdf8e7'
+
+
+#  ['#E39E84', '#73BEDE', '#FDF8E7'],
+#  ['#fff', '#E17887', '#90C6E6'],
+#  ['#DF3F1F', '#fff', '#A61C54'],
+#  ['turquoise', 'hotpink', '#212121'],
+#  ['gold', 'darkgray', 'purple'],
+#  ['#2487c6', '#f7f7f7', '#202124'],
+#  ['#fff', '#202124', '#fdd'],
+#  ['#ffd919', '#262104', '#fffbe6'],
+#  ['#ff4f19', '#15084d', '#5ce6e6'],
+#  ['#ee726b', '#ffc5c7', '#fef9c6'],
+#  ['#0a1966', '#ffef0d', '#fafafa'],
+#  ['#f9f9f9', '#ff0000', '#0000ff'],
+#  ['#226699', '#dd2e44', '#ffcc4d'],
+#  ['#021d34', '#228fca', '#dcedf0'],
