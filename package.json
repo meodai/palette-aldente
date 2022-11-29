@@ -35,5 +35,9 @@
     "culori": "^2.0.3",
     "js-yaml": "^4.1.0",
     "rollup": "^3.5.0"
+  },
+  "exports": {
+    "import": "./dist/palettes.esm.js",
+    "require": "./dist/palettes.js"
   }
 }

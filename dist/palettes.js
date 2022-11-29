@@ -30,7 +30,7 @@
 
   let localPalettes = palettes;
 
-  const pals = {
+  const colorPalettes = {
     palettes: localPalettes,
     get: (name) => {
       return localPalettes.find(p => p.name === name);
@@ -43,6 +43,6 @@
     }
   };
 
-  exports.pals = pals;
+  exports.colorPalettes = colorPalettes;
 
 }));
