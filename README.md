@@ -1,5 +1,6 @@
 # palette-aldente
-A collection of color palettes.
+A collection of color palettes I want to reause.
+Feel free to clone this and use it to create your own palette library
 
 ## Build
 1. Edit your palettes in [palettes.yml](/src/palettes.yml)
