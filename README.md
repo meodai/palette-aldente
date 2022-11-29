@@ -1,4 +1,4 @@
-# palette-aldente
+# palette-aldente 🍝
 A collection of color palettes I want to reause.
 Feel free to clone this and use it to create your own palette library
 
