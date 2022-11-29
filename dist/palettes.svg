@@ -1,20 +1,20 @@
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 104">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52">
     <style>
       text {
         font-family: sans-serif;
-        font-size: 12px;
+        font-size: 6px;
       }
     </style>
-    <text y="16" x="3">Twilight Chocolate</text><rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="0" fill="#1b1b19" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="28.571428571428573" fill="#803e23" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="57.142857142857146" fill="#ac6633" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="85.71428571428572" fill="#ea9e52" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="114.28571428571429" fill="#f7eedf" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="142.85714285714286" fill="#d7d3c8" />
-<rect width="28.571428571428573" height="30" stroke="#212121" stroke-width="1" y="20" x="171.42857142857144" fill="#aacfc8" />
-<text y="68" x="3">Gentle Sting</text><rect width="50" height="30" stroke="#212121" stroke-width="1" y="72" x="0" fill="#1b1b19" />
-<rect width="50" height="30" stroke="#212121" stroke-width="1" y="72" x="50" fill="#da704a" />
-<rect width="50" height="30" stroke="#212121" stroke-width="1" y="72" x="100" fill="#c8afbc" />
-<rect width="50" height="30" stroke="#212121" stroke-width="1" y="72" x="150" fill="#f6cab4" />
+    <text y="8.285714285714285" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
+<rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
+<rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
+<rect width="26.571428571428573" height="10" y="10" x="85.71428571428572" fill="#ea9e52" />
+<rect width="26.571428571428573" height="10" y="10" x="114.28571428571429" fill="#f7eedf" />
+<rect width="26.571428571428573" height="10" y="10" x="142.85714285714286" fill="#d7d3c8" />
+<rect width="26.571428571428573" height="10" y="10" x="171.42857142857144" fill="#aacfc8" />
+<text y="34.285714285714285" x="3">Gentle Sting</text><rect width="48" height="10" y="36" x="0" fill="#1b1b19" />
+<rect width="48" height="10" y="36" x="50" fill="#da704a" />
+<rect width="48" height="10" y="36" x="100" fill="#c8afbc" />
+<rect width="48" height="10" y="36" x="150" fill="#f6cab4" />
   </svg>
