@@ -1,5 +1,5 @@
 # palette-aldente 🍝
-A collection of color palettes I want to reause.
+A collection of color palettes I want to reuse.
 Feel free to clone this and use it to create your own palette library
 
 ## Build
