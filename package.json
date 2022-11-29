@@ -5,7 +5,7 @@
   "main": "dist/palettes.js",
   "type": "module",
   "scripts": {
-    "build": "npm run build:yml && build:svg && npm run build:js",
+    "build": "npm run build:yml && npm run build:svg && npm run build:js",
     "build:yml": "node build/build.js",
     "build:svg": "node build/buildSVG.js",
     "build:js": "rollup --config rollup.config.js",

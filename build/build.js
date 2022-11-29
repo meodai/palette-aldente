@@ -61,4 +61,9 @@ fs.writeFileSync(
   'utf8'
 );
 
+fs.copyFile('./src/index.html', './dist/index.html', (err) => {
+  if (err) throw err;
+  console.log('./src/index.html was copied for some reason');
+});
+
 console.log('Done!, Exported palettes to "dist/palettes.json"');
