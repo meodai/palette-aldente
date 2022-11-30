@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 182">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 208">
       <style>
         text {
           font-family: sans-serif;
@@ -32,5 +32,8 @@
 <text y="164.28571428571428" x="3">Doctor Pond</text><rect width="64.66666666666667" height="10" y="166" x="0" fill="#ffffff" />
 <rect width="64.66666666666667" height="10" y="166" x="66.66666666666667" fill="#e17887" />
 <rect width="64.66666666666667" height="10" y="166" x="133.33333333333334" fill="#90c6e6" />
+<text y="190.28571428571428" x="3">Voracious Blonde</text><rect width="64.66666666666667" height="10" y="192" x="0" fill="#ffeeee" />
+<rect width="64.66666666666667" height="10" y="192" x="66.66666666666667" fill="#202125" />
+<rect width="64.66666666666667" height="10" y="192" x="133.33333333333334" fill="#ffdddd" />
     </svg>
   

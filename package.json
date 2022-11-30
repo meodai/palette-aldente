@@ -1,6 +1,6 @@
 {
   "name": "palette-aldente",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "A collection of color palettes",
   "main": "dist/palettes.js",
   "type": "module",
@@ -29,9 +29,13 @@
   "homepage": "https://github.com/meodai/palette-aldente#readme",
   "dependencies": {
     "chalk": "^5.1.2",
+    "color-name-api": "^0.3.0",
+    "color-name-list": "^9.26.1",
+    "color-name-lists": "^3.8.1",
     "commander": "^9.4.1",
     "culori": "^2.0.3",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^5.0.2",

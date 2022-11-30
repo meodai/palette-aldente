@@ -51,8 +51,12 @@
       $pal.appendChild($h2);
 
       palette.colors.forEach(color => {
+        let colorValue = color;
+        if (typeof colorValue === 'object') {
+          colorValue = color.hasOwnProperty('hex') ? color.hex : color.value;
+        }
         const $li = document.createElement('li');
-        $li.style.setProperty('--color', color);
+        $li.style.setProperty('--color', colorValue);
         $ul.appendChild($li);
       });
 
@@ -61,7 +65,9 @@
       $wrap.appendChild($pal);
     });
 
-    console.log(colorPalettes.random());
+    console.log(
+      colorPalettes.random()
+    );
   </script>
 </body>
 

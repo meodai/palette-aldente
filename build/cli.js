@@ -53,6 +53,15 @@ program
     './dist'
   )
   .option(
+    '-A, --autoname <boolen>', 
+    'if true, the palette name will be generated from the colors contained', 
+    true
+  )
+  .option(
+    '--no-autoname', 
+    'unnamed palettes will be have "Untitled <n>" as name'
+  )
+  .option(
     '-F, --formats <string>',
     'comma separated list of formats to convert to'
   )
@@ -104,7 +113,8 @@ program
       const paletteArray = createPaletteArray(
         inputPalette, 
         defaultColorFormat, 
-        additionalColorFormats
+        additionalColorFormats,
+        options.autoname
       );
       
       if (!fs.existsSync(options.out)){
