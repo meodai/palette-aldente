@@ -44,15 +44,31 @@ const possibleConverters = [
 
 //console.log( converter('lrgb')('blue') );
 
-function validatePaletteObjKeys(obj) {
-  if (
-    !obj.hasOwnProperty('colors') && !obj.hasOwnProperty('palettes')
-  ) {
-    console.error('Palette object is missing a palettes or colors property', obj);
+function validatePaletteItem(item) {
+  if (!item) {
     return false;
-  } else {
+  }
+
+  if (Array.isArray(item) && item.length) {
     return true;
   }
+
+  if (
+    typeof item === 'object'
+  ) {
+    if ( !item.hasOwnProperty('colors') && !item.hasOwnProperty('palettes') ) {
+      console.error('Palette object is missing a palettes or colors property', item);
+      return false;
+    } else if (item.hasOwnProperty('colors') && !Array.isArray(item.colors)) {
+      console.error('Palette object\'s colors property is not an array', item);
+      return false;
+    } else {
+      return item;
+    }
+  }
+
+  console.error('Palette object is not an array or object', item);
+  return false;
 }
 
 function readFile(pathToFile) {
@@ -123,8 +139,6 @@ function parseColors(
   return parsedColors;
 };
 
-
-
 function createPaletteArray(
   paletteArrFromFile,
   defaultOutputFormat = 'hex',
@@ -132,29 +146,31 @@ function createPaletteArray(
   autoname = true,
 ) {
   let untitledCount = -1;
-  
+
   return paletteArrFromFile.map(palette => {
-    if (!validatePaletteObjKeys(palette)) {
+    if (!validatePaletteItem(palette)) {
       return;
     }
 
-    palette.colors = parseColors(
-      palette.colors, 
+    const paletteObj = {};
+
+    paletteObj.colors = parseColors(
+      Array.isArray(palette) ? palette : palette.colors, 
       defaultOutputFormat, 
       additionalOutputFormats,
       'bestOf'
     );
 
     if (autoname && !palette.hasOwnProperty('name')) {
-      palette.name = getPaletteTitle(palette.colors.map(c => c.name));
+      paletteObj.name = getPaletteTitle(paletteObj.colors.map(c => c.name));
     } else if (!palette.hasOwnProperty('name')) {
-      palette.name = `Untitled ${untitledCount += 1}`;
+      paletteObj.name = `Untitled ${untitledCount += 1}`;
     }
 
-    console.log('Title:', customChalk.bold(palette.name));
+    console.log('Title:', customChalk.bold(paletteObj.name));
     console.log('Colors:');
 
-    palette.colors = palette.colors.map(color => {
+    paletteObj.colors = paletteObj.colors.map(color => {
       console.log(
         customChalk.hex(color.hex).bold('██████▶'),
         color.value,
@@ -174,18 +190,13 @@ function createPaletteArray(
     
     console.log('⎯'.repeat(40));
     
-    return palette;
+    return paletteObj;
   });
 }
-
-/*
-fs.copyFile('./src/index.html', './dist/index.html', (err) => {
-  if (err) throw err;
-  console.log('./src/index.html was copied');
-});*/
 
 export {
   possibleConverters,
   readFile,
-  createPaletteArray
+  createPaletteArray,
+  avalibleColorNameLists,
 };

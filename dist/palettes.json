@@ -1,6 +1,5 @@
 [
   {
-    "name": "Twilight Chocolate",
     "colors": [
       "#1b1b19",
       "#803e23",
@@ -12,7 +11,6 @@
     ]
   },
   {
-    "name": "Gentle Sting",
     "colors": [
       "#1b1b19",
       "#da704a",
@@ -21,7 +19,6 @@
     ]
   },
   {
-    "name": "Yemen",
     "colors": [
       "#ff0000",
       "#ffffff",
@@ -29,7 +26,6 @@
     ]
   },
   {
-    "name": "German Hop",
     "colors": [
       "#eac328",
       "#ce6d54",
@@ -37,7 +33,6 @@
     ]
   },
   {
-    "name": "Chaotic Eight Ball",
     "colors": [
       "#b03b5f",
       "#e1e6eb",
@@ -45,7 +40,6 @@
     ]
   },
   {
-    "name": "Shrimp Latte",
     "colors": [
       "#e39e84",
       "#73bede",
@@ -53,7 +47,6 @@
     ]
   },
   {
-    "name": "Doctor Pond",
     "colors": [
       "#ffffff",
       "#e17887",
@@ -67,5 +60,13 @@
       "#ffdddd"
     ],
     "name": "Voracious Blonde"
+  },
+  {
+    "colors": [
+      "#ffd919",
+      "#262104",
+      "#fffbe6"
+    ],
+    "name": "Diamond Passage"
   }
 ]
