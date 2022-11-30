@@ -98,7 +98,21 @@ program
           path.join(options.out, 'palettes.svg'),
           buildSVG(paletteArray)
         );
+
+        console.log(`SVG exported palettes to "${
+          path.join(
+            options.out, 
+            'palettes.svg'
+          )
+        }"`);
       }
+
+      console.log(`Done!, Exported palettes to "${
+        path.join(
+          options.out, 
+          'palettes.json'
+        )
+      }"`);
 
     } else {
       console.error(`${file} not found`);

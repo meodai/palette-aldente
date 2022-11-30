@@ -112,8 +112,6 @@ fs.copyFile('./src/index.html', './dist/index.html', (err) => {
   console.log('./src/index.html was copied');
 });*/
 
-console.log('Done!, Exported palettes to "dist/palettes.json"');
-
 export {
   possibleConverters,
   readFile,
