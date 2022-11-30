@@ -1,5 +1,15 @@
 # palette-aldente 🍝
 
+Helps maintaining and publishing your favourite color palettes:
+
+- Makes sure your `yml` or `json` is actually valid
+- Exports it to JSON
+- Provides a handy JS wrapper that works everyhere. (Node, Browser, Codepen etc..)
+- Exports a static SVG of all the palettes
+- Provides a HTML templete with all the palletes. (Ideal for github pages)
+- Coverts almost any color format to any other.
+- Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
+
 ```bash
 $ npx palette-aldente ./mypalettes.yml 
 $ palette-aldente --help
