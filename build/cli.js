@@ -3,11 +3,21 @@ import { program } from 'commander';
 import fs from 'fs';
 import path from 'path';
 
-/*
+
 import {fileURLToPath} from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-*/
+
+
+let JSESMTPL = fs.readFileSync(
+  path.join(__dirname, 'tpl', 'esm.tpl.js'),
+  'utf8'
+);
+
+let JSUMDTPL = fs.readFileSync(
+  path.join(__dirname, 'tpl', 'umd.tpl.js'), 
+  'utf8'
+);
 
 import {
   possibleConverters,
@@ -56,6 +66,15 @@ program
   .option(
     '--no-svg', 
     'do not export an overview SVG of the palettes'
+  )
+  .option(
+    '-J, --js', 
+    'export a JS wrapper file with the palettes an a minimal API', 
+    true
+  )
+  .option(
+    '--no-js', 
+    'do not export an JS file'
   );
 
 program
@@ -96,7 +115,8 @@ program
       if (options.svg) {
         fs.writeFileSync(
           path.join(options.out, 'palettes.svg'),
-          buildSVG(paletteArray)
+          buildSVG(paletteArray),
+          'utf8'
         );
 
         console.log(`SVG exported palettes to "${
@@ -105,6 +125,20 @@ program
             'palettes.svg'
           )
         }"`);
+      }
+
+      if (options.svg) {
+        fs.writeFileSync(
+          path.join(options.out, 'palettes.esm.js'),
+          JSESMTPL.replace('/**palettes**/', `const palettes = ${JSON.stringify(paletteArray)}`),
+          'utf8'
+        );
+
+        fs.writeFileSync(
+          path.join(options.out, 'palettes.js'),
+          JSUMDTPL.replace('/**palettes**/', `const palettes = ${JSON.stringify(paletteArray)}`),
+          'utf8'
+        );
       }
 
       console.log(`Done!, Exported palettes to "${

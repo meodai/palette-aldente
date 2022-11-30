@@ -1,4 +1,4 @@
-import palettes from '../dist/palettes.json';
+/**palettes**/
 
 let localPalettes = palettes;
 
