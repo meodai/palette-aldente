@@ -2,7 +2,8 @@
 
 ```bash
 $ npx palette-aldente ./mypalettes.yml 
-$ palette-aldente --help                                                                                                                                          (base)
+$ palette-aldente --help
+
 Usage: palette-aldente [options] <file>
 
 CLI to manage color palettes
