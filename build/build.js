@@ -152,7 +152,11 @@ function createPaletteArray(
       return;
     }
 
-    const paletteObj = {};
+    let paletteObj = {};
+
+    if (!Array.isArray(palette)) {
+      paletteObj = Object.assign(paletteObj, palette);
+    }
 
     paletteObj.colors = parseColors(
       Array.isArray(palette) ? palette : palette.colors, 
@@ -161,9 +165,9 @@ function createPaletteArray(
       'bestOf'
     );
 
-    if (autoname && !palette.hasOwnProperty('name')) {
+    if (autoname && !paletteObj.hasOwnProperty('name')) {
       paletteObj.name = getPaletteTitle(paletteObj.colors.map(c => c.name));
-    } else if (!palette.hasOwnProperty('name')) {
+    } else if (!paletteObj.hasOwnProperty('name')) {
       paletteObj.name = `Untitled ${untitledCount += 1}`;
     }
 
