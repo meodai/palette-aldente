@@ -1,4 +1,4 @@
-# palette-aldente 🍝
+# Palette Aldente 🍝
 
 Color palette parser that helps maintaining and publishing your favourite color palettes:
 
