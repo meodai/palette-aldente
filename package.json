@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run build:yml && npm run build:svg && npm run build:js",
-    "build:yml": "node build/build.js",
+    "build:yml": "node build/cli.js ./src/palettes.yml",
     "build:svg": "node build/buildSVG.js",
     "build:js": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,6 +32,7 @@
   "devDependencies": {
     "@rollup/plugin-json": "^5.0.2",
     "chalk": "^5.1.2",
+    "commander": "^9.4.1",
     "culori": "^2.0.3",
     "js-yaml": "^4.1.0",
     "rollup": "^3.5.0"
@@ -39,5 +40,8 @@
   "exports": {
     "import": "./dist/palettes.esm.js",
     "require": "./dist/palettes.js"
+  },
+  "bin": {
+    "palette-aldente": "./build/cli.js"
   }
 }

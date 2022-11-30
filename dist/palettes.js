@@ -29,8 +29,8 @@
   	{
   		name: "Yemen",
   		colors: [
-  			"#f00",
-  			"#fff",
+  			"#ff0000",
+  			"#ffffff",
   			"#202123"
   		]
   	},

@@ -1,5 +1,7 @@
 import yaml from 'js-yaml';
-import fs from 'fs';
+import fs, { read } from 'fs';
+import path from 'path';
+
 import {
   Chalk
 } from 'chalk';
@@ -9,17 +11,16 @@ const customChalk = new Chalk({
 });
 
 import {
-  parse
+  parse,
+  converter,
+  formatHex,
 } from 'culori';
 
-const ymlSrc = fs.readFileSync('./src/palettes.yml', 'utf8');
-let palettes;
+const possibleConverters = [
+  'lab', 'lch', 'rgb', 'hsl', 'hsv', 'hcl', 'hsi', 'hwb', 'lchuv', 'hsluv', 'luv', 'jch', 'jab', 'dlch', 'oklch', 'oklab', 'okhsl', 'okhsv', 'dlab', 'dlch', 'yiq', 'lrgb', 'hex',
+];
 
-try {
-  palettes = yaml.load(ymlSrc);
-} catch (e) {
-  console.error(e);
-}
+//console.log( converter('lrgb')('blue') );
 
 function validatePaletteObj(obj) {
   if (!obj.hasOwnProperty('name') || !obj.hasOwnProperty('colors')) {
@@ -30,40 +31,91 @@ function validatePaletteObj(obj) {
   }
 }
 
-palettes.forEach((palette, i) => {
-  if (validatePaletteObj(palette)) {
+function readFile(pathToFile) {
+  const fileContents = fs.readFileSync(pathToFile, 'utf8');
+
+  if (path.extname(pathToFile) === '.yml') {
+    return yaml.load(fileContents);
+  } else if (path.extname(pathToFile) === '.json') {
+    return JSON.parse(fileContents);
+  }
+}
+
+function createPaletteArray(
+  paletteArrFromFile,
+  defaultOutputFormat = 'hex',
+  additionalOutputFormats = [],
+) {
+  return paletteArrFromFile.map(palette => {
+    if (!validatePaletteObj(palette)) {
+      return;
+    }
+
     console.log('Title:', customChalk.bold(palette.name));
     console.log('Colors:');
-    palette.colors = palette.colors.map(color => {
-      const parsed = parse(color);
-      if (parsed) {
+
+    const defaultColors = [];
+    const colorInOtherFormats = {};
+
+    additionalOutputFormats.forEach(format => {
+      colorInOtherFormats[format] = [];
+    });
+
+    palette.colors.forEach(color => {
+      const parsedColor = parse(color);
+
+      if (parsedColor) {
+        const colorAsHex = formatHex(color);
+        const defaultExportColor = defaultOutputFormat === 'hex' ? formatHex(color) : converter(defaultOutputFormat)(color); 
+        
+        if (defaultOutputFormat !== 'hex') {
+          delete defaultExportColor['mode']
+        }
+
         console.log(
-          customChalk.hex(color).bold('██████▶'),
-          color
-        )
-        return color;
+          customChalk.hex(colorAsHex).bold('██████▶'),
+          defaultExportColor,
+        );
+
+        defaultColors.push(defaultExportColor);
+
+        if (additionalOutputFormats.length) {
+          additionalOutputFormats.forEach(format => {
+            const colorInOtherFormat = format === 'hex' ? formatHex(color) : converter(format)(color);
+            delete colorInOtherFormat['mode'];
+            colorInOtherFormats[format].push(colorInOtherFormat);
+          });
+        }
       } else {
         console.error('Invalid color', color);
         return false;
       }
     });
+
+    palette.colors = defaultColors;
+    
+    if (additionalOutputFormats) {
+      additionalOutputFormats.forEach(format => {
+        palette[`colors-${format}`] = colorInOtherFormats[format];
+      });
+    }
+
     console.log('⎯'.repeat(40));
-  }
-});
+    
+    return palette;
+  });
+}
 
-fs.writeFileSync(
-  './dist/palettes.json', 
-  JSON.stringify(
-    palettes,
-    null,
-    2
-  ),
-  'utf8'
-);
-
+/*
 fs.copyFile('./src/index.html', './dist/index.html', (err) => {
   if (err) throw err;
-  console.log('./src/index.html was copied for some reason');
-});
+  console.log('./src/index.html was copied');
+});*/
 
 console.log('Done!, Exported palettes to "dist/palettes.json"');
+
+export {
+  possibleConverters,
+  readFile,
+  createPaletteArray
+};

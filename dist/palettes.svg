@@ -17,8 +17,8 @@
 <rect width="48" height="10" y="36" x="50" fill="#da704a" />
 <rect width="48" height="10" y="36" x="100" fill="#c8afbc" />
 <rect width="48" height="10" y="36" x="150" fill="#f6cab4" />
-<text y="60.285714285714285" x="3">Yemen</text><rect width="64.66666666666667" height="10" y="62" x="0" fill="#f00" />
-<rect width="64.66666666666667" height="10" y="62" x="66.66666666666667" fill="#fff" />
+<text y="60.285714285714285" x="3">Yemen</text><rect width="64.66666666666667" height="10" y="62" x="0" fill="#ff0000" />
+<rect width="64.66666666666667" height="10" y="62" x="66.66666666666667" fill="#ffffff" />
 <rect width="64.66666666666667" height="10" y="62" x="133.33333333333334" fill="#202123" />
 <text y="86.28571428571429" x="3">German Hop</text><rect width="64.66666666666667" height="10" y="88" x="0" fill="#eac328" />
 <rect width="64.66666666666667" height="10" y="88" x="66.66666666666667" fill="#ce6d54" />
