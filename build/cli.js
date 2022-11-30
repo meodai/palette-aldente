@@ -9,6 +9,8 @@ import {
   createPaletteArray
 } from './build.js';
 
+import { buildSVG } from './buildSVG.js';
+
 function parsePossibleConverters (value) {
   if (possibleConverters.includes(value)) {
     return value;
@@ -27,19 +29,31 @@ program
     'path to input yaml or json file'
   )
   .option(
-    '-o, --out <directory>', 
+    '-O, --out <directory>', 
     'path to output directory',
     './dist'
   )
   .option(
-    '-f, --formats <string>',
+    '-F, --formats <string>',
     'comma separated list of formats to convert to'
   )
   .option(
-    '-d, --defaultformat <string>', 
+    '-D, --defaultformat <string>', 
     'default color format outputted in your target file', 
     'hex'
-  ).action((file, options, command) => {
+  )
+  .option(
+    '-S, --svg', 
+    'export an overview SVG of the palettes', 
+    true
+  )
+  .option(
+    '--no-svg', 
+    'do not export an overview SVG of the palettes'
+  );
+
+program
+  .action((file, options) => {
     const defaultColorFormat = parsePossibleConverters(options.defaultformat);
     
     let additionalColorFormats = [];
@@ -64,6 +78,14 @@ program
         ),
         'utf8'
       );
+      
+      if (options.svg) {
+        fs.writeFileSync(
+          path.join(options.out, 'palettes.svg'),
+          buildSVG(paletteArray)
+        );
+      }
+
     } else {
       console.error(`${file} not found`);
     }

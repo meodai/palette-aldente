@@ -1,12 +1,12 @@
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
-    <style>
-      text {
-        font-family: sans-serif;
-        font-size: 6px;
-      }
-    </style>
-    <text y="8.285714285714285" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
+      <style>
+        text {
+          font-family: sans-serif;
+          font-size: 6px;
+        }
+      </style>
+      <text y="8.285714285714285" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
 <rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
 <rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
 <rect width="26.571428571428573" height="10" y="10" x="85.71428571428572" fill="#ea9e52" />
@@ -29,4 +29,5 @@
 <text y="138.28571428571428" x="3">Shrimp Latte</text><rect width="64.66666666666667" height="10" y="140" x="0" fill="#e39e84" />
 <rect width="64.66666666666667" height="10" y="140" x="66.66666666666667" fill="#73bede" />
 <rect width="64.66666666666667" height="10" y="140" x="133.33333333333334" fill="#fdf8e7" />
-  </svg>
+    </svg>
+  
