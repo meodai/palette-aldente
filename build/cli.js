@@ -31,8 +31,8 @@ import {
 import { buildSVG } from './buildSVG.js';
 
 function parsePossibleConverters (value) {
-  if (possibleConverters.includes(value)) {
-    return value;
+  if (possibleConverters.includes(value.trim())) {
+    return value.trim();
   }
   throw new Error(`Invalid converter ${value} possible values are ${possibleConverters.join(', ')}`);
 }
@@ -105,7 +105,9 @@ program
     let additionalColorFormats = [];
 
     if (options.formats) {
-      additionalColorFormats = options.formats.split(',').map(parsePossibleConverters);
+      additionalColorFormats = options.formats.split(',').map(
+        parsePossibleConverters
+      );
     }
 
     if (fs.existsSync(file)) {

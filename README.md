@@ -10,6 +10,13 @@ Helps maintaining and publishing your favourite color palettes:
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
 
+## Quickstart
+  
+```bash
+npx palette-aldente ./src/palettes.yml --formats name,rgb,hsl
+```
+## Manual
+
 ```bash
 $ npx palette-aldente ./mypalettes.yml 
 $ palette-aldente --help
