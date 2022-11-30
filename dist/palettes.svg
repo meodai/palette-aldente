@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 182">
       <style>
         text {
           font-family: sans-serif;
@@ -29,5 +29,8 @@
 <text y="138.28571428571428" x="3">Shrimp Latte</text><rect width="64.66666666666667" height="10" y="140" x="0" fill="#e39e84" />
 <rect width="64.66666666666667" height="10" y="140" x="66.66666666666667" fill="#73bede" />
 <rect width="64.66666666666667" height="10" y="140" x="133.33333333333334" fill="#fdf8e7" />
+<text y="164.28571428571428" x="3">Doctor Pond</text><rect width="64.66666666666667" height="10" y="166" x="0" fill="#ffffff" />
+<rect width="64.66666666666667" height="10" y="166" x="66.66666666666667" fill="#e17887" />
+<rect width="64.66666666666667" height="10" y="166" x="133.33333333333334" fill="#90c6e6" />
     </svg>
   

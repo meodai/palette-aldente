@@ -2,20 +2,23 @@
 import { program } from 'commander';
 import fs from 'fs';
 import path from 'path';
-
-
 import {fileURLToPath} from 'url';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
-let JSESMTPL = fs.readFileSync(
+const JSESMTPL = fs.readFileSync(
   path.join(__dirname, 'tpl', 'esm.tpl.js'),
   'utf8'
 );
 
-let JSUMDTPL = fs.readFileSync(
+const JSUMDTPL = fs.readFileSync(
   path.join(__dirname, 'tpl', 'umd.tpl.js'), 
+  'utf8'
+);
+
+const HTMLTPL = fs.readFileSync(
+  path.join(__dirname, 'tpl', 'index.html'),
   'utf8'
 );
 
@@ -75,6 +78,15 @@ program
   .option(
     '--no-js', 
     'do not export an JS file'
+  )
+  .option(
+    '-H, --html', 
+    'export a HTML file that showcases the palettes', 
+    true
+  )
+  .option(
+    '--no-html', 
+    'do not export an HTML file'
   );
 
 program
@@ -127,7 +139,7 @@ program
         }"`);
       }
 
-      if (options.svg) {
+      if (options.js) {
         fs.writeFileSync(
           path.join(options.out, 'palettes.esm.js'),
           JSESMTPL.replace('/**palettes**/', `const palettes = ${JSON.stringify(paletteArray)}`),
@@ -137,6 +149,14 @@ program
         fs.writeFileSync(
           path.join(options.out, 'palettes.js'),
           JSUMDTPL.replace('/**palettes**/', `const palettes = ${JSON.stringify(paletteArray)}`),
+          'utf8'
+        );
+      }
+
+      if (options.html) {
+        fs.writeFileSync(
+          path.join(options.out, 'index.html'),
+          HTMLTPL,
           'utf8'
         );
       }
@@ -154,5 +174,3 @@ program
   });
 
 program.parse();
-
-//console.log(program.args[0].split(options.separator, limit));

@@ -1,7 +1,7 @@
 import json from '@rollup/plugin-json';
 
 export default {
-  input: 'src/index.js',
+  input: 'build/client.js',
   output: [
     {
       file: 'dist/palettes.js',
