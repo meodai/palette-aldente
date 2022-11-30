@@ -1,9 +1,9 @@
 import yaml from 'js-yaml';
-import fs, { read } from 'fs';
+import fs from 'fs';
 import path from 'path';
 
 import {
-  Chalk
+  Chalk,
 } from 'chalk';
 
 const customChalk = new Chalk({
@@ -39,11 +39,17 @@ const avalibleColorNameLists = Object.keys(colorsLists);
 const findColors = new FindColors(colorsLists);
 
 const possibleConverters = [
-  'lab', 'lch', 'rgb', 'hsl', 'hsv', 'hcl', 'hsi', 'hwb', 'lchuv', 'hsluv', 'luv', 'jch', 'jab', 'dlch', 'oklch', 'oklab', 'okhsl', 'okhsv', 'dlab', 'dlch', 'yiq', 'lrgb', 'hex', 'name',
+  'lab', 'lch', 'rgb', 'hsl', 'hsv', 'hcl', 'hsi', 'hwb', 'lchuv', 'hsluv',
+  'luv', 'jch', 'jab', 'dlch', 'oklch', 'oklab', 'okhsl', 'okhsv', 'dlab',
+  'dlch', 'yiq', 'lrgb', 'hex', 'name',
 ];
 
-//console.log( converter('lrgb')('blue') );
+// console.log( converter('lrgb')('blue') );
 
+/**
+ * @param {array|object} item 
+ * @return {boolean|item} valid item or false
+ */
 function validatePaletteItem(item) {
   if (!item) {
     return false;
@@ -57,7 +63,10 @@ function validatePaletteItem(item) {
     typeof item === 'object'
   ) {
     if ( !item.hasOwnProperty('colors') && !item.hasOwnProperty('palettes') ) {
-      console.error('Palette object is missing a palettes or colors property', item);
+      console.error(
+          'Palette object is missing a palettes or colors property',
+          item,
+      );
       return false;
     } else if (item.hasOwnProperty('colors') && !Array.isArray(item.colors)) {
       console.error('Palette object\'s colors property is not an array', item);
@@ -71,6 +80,10 @@ function validatePaletteItem(item) {
   return false;
 }
 
+/**
+ * @param {string} pathToFile to read
+ * @return {object} parsed file
+ */
 function readFile(pathToFile) {
   const fileContents = fs.readFileSync(pathToFile, 'utf8');
 
@@ -81,40 +94,48 @@ function readFile(pathToFile) {
   }
 }
 
+/**
+ * @param {Array} colorsArr Array of colors
+ * @param {String} defaultOutputFormat Main output format
+ * @param {Array} additionalOutputFormats Other formats besides default
+ * @param {String} nameList Key of colorNameLists to use for naming
+ * @return {Array} Array of parsed colors
+ */
 function parseColors(
-  colorsArr, 
-  defaultOutputFormat = 'hex', 
-  additionalOutputFormats = [],
-  nameList = 'bestOf'
+    colorsArr,
+    defaultOutputFormat = 'hex',
+    additionalOutputFormats = [],
+    nameList = 'bestOf',
 ) {
-  const parsedColors = colorsArr.map(color => {
+  const parsedColors = colorsArr.map((color) => {
     const colorObj = {};
 
     const parsedColor = parse(color);
 
     if (parsedColor) {
       colorObj.hex = formatHex(color);
-      colorObj.value = defaultOutputFormat === 'hex' ? formatHex(color) : converter(defaultOutputFormat)(color);
+      colorObj.value = defaultOutputFormat === 'hex' ?
+      formatHex(color) : converter(defaultOutputFormat)(color);
 
-      additionalOutputFormats.forEach(format => {
+      additionalOutputFormats.forEach((format) => {
         colorObj[format] = [];
       });
 
       if (defaultOutputFormat !== 'hex') {
-        delete colorObj.default['mode'];
+        delete colorObj.default.mode;
       }
 
       if (additionalOutputFormats.length) {
-        additionalOutputFormats.forEach(format => {
+        additionalOutputFormats.forEach((format) => {
           let colorInOtherFormat;
 
           if (format === 'hex') {
             colorInOtherFormat = colorObj.hex;
-          } 
-          
+          }
+
           if (format !== 'name') {
             colorInOtherFormat = converter(format)(color);
-            delete colorInOtherFormat['mode'];
+            delete colorInOtherFormat.mode;
           }
 
           colorObj[format] = colorInOtherFormat;
@@ -129,8 +150,8 @@ function parseColors(
   });
 
   const namesArr = findColors.getNamesForValues(
-    parsedColors.map(c => c.hex.slice(1)), true, nameList
-  ).map(colorNameObj => colorNameObj.name);
+      parsedColors.map((c) => c.hex.slice(1)), true, nameList,
+  ).map((colorNameObj) => colorNameObj.name);
 
   namesArr.forEach((name, i) => {
     parsedColors[i].name = name;
@@ -139,15 +160,23 @@ function parseColors(
   return parsedColors;
 };
 
+/**
+ * 
+ * @param {Array|Object} paletteArrFromFile Parse a palette from a file 
+ * @param {String} defaultOutputFormat Default output format
+ * @param {Array} additionalOutputFormats Array of additional output formats
+ * @param {Boolean} autoname Determine if palettes should be autonamed
+ * @return {Array} Array of parsed palettes
+ */
 function createPaletteArray(
-  paletteArrFromFile,
-  defaultOutputFormat = 'hex',
-  additionalOutputFormats = [],
-  autoname = true,
+    paletteArrFromFile,
+    defaultOutputFormat = 'hex',
+    additionalOutputFormats = [],
+    autoname = true,
 ) {
   let untitledCount = -1;
 
-  return paletteArrFromFile.map(palette => {
+  return paletteArrFromFile.map((palette) => {
     if (!validatePaletteItem(palette)) {
       return;
     }
@@ -159,14 +188,14 @@ function createPaletteArray(
     }
 
     paletteObj.colors = parseColors(
-      Array.isArray(palette) ? palette : palette.colors, 
-      defaultOutputFormat, 
+      Array.isArray(palette) ? palette : palette.colors,
+      defaultOutputFormat,
       additionalOutputFormats,
-      'bestOf'
+      'bestOf',
     );
 
     if (autoname && !paletteObj.hasOwnProperty('name')) {
-      paletteObj.name = getPaletteTitle(paletteObj.colors.map(c => c.name));
+      paletteObj.name = getPaletteTitle(paletteObj.colors.map((c) => c.name));
     } else if (!paletteObj.hasOwnProperty('name')) {
       paletteObj.name = `Untitled ${untitledCount += 1}`;
     }
@@ -174,11 +203,11 @@ function createPaletteArray(
     console.log('Title:', customChalk.bold(paletteObj.name));
     console.log('Colors:');
 
-    paletteObj.colors = paletteObj.colors.map(color => {
+    paletteObj.colors = paletteObj.colors.map((color) => {
       console.log(
-        customChalk.hex(color.hex).bold('██████▶'),
-        color.value,
-        customChalk.bold(color.name),
+          customChalk.hex(color.hex).bold('██████▶'),
+          color.value,
+          customChalk.bold(color.name),
       );
 
       if (!additionalOutputFormats.includes('hex')) {
@@ -191,9 +220,9 @@ function createPaletteArray(
 
       return Object.keys(color).length > 1 ? color : color.value;
     });
-    
+
     console.log('⎯'.repeat(40));
-    
+
     return paletteObj;
   });
 }

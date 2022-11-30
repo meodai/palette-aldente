@@ -1,6 +1,6 @@
 {
   "name": "palette-aldente",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "A collection of color palettes",
   "main": "dist/palettes.js",
   "type": "module",
@@ -39,6 +39,8 @@
   },
   "devDependencies": {
     "@rollup/plugin-json": "^5.0.2",
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0",
     "rollup": "^3.5.0"
   },
   "exports": {

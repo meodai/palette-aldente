@@ -8,7 +8,7 @@ const colorPalettes = {
     if (typeof nameOrIndex === 'number') {
       return localPalettes[nameOrIndex];
     }
-    return localPalettes.find(p => p.name === nameOrIndex);
+    return localPalettes.find((p) => p.name === nameOrIndex);
   },
   random: (nbr) => {
     if (nbr && typeof nbr != 'number' || nbr > 1 || nbr < 0) {
@@ -16,14 +16,14 @@ const colorPalettes = {
     }
 
     return localPalettes[
-      Math.floor(
-        (nbr || Math.random()) * localPalettes.length
-      )
+        Math.floor(
+            (nbr || Math.random()) * localPalettes.length,
+        )
     ];
   },
   addPalettes: (newPalettes) => {
     localPalettes = palettes.concat(newPalettes);
-  }
+  },
 };
 
 export {colorPalettes};

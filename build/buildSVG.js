@@ -6,20 +6,25 @@ const defaultOptions = {
   fontSize: 6,
 };
 
-export function buildSVG (
-  paletteArray, 
-  options = {}
+/**
+ * @param {Array} paletteArray 
+ * @param {Object} options 
+ * @return {String} SVG xml string
+ */
+export function buildSVG(
+    paletteArray,
+    options = {},
 ) {
   options = Object.assign(
-    {}, defaultOptions, options
+      {}, defaultOptions, options,
   );
 
-  const { 
-    width, 
-    colorSampleHeight, 
-    padding, 
-    inlineSpace, 
-    fontSize 
+  const {
+    width,
+    colorSampleHeight,
+    padding,
+    inlineSpace,
+    fontSize,
   } = options;
 
   const items = paletteArray.length;
@@ -34,18 +39,21 @@ export function buildSVG (
         }
       </style>
       ${paletteArray.map((c, i) => {
-        const itemWidth = width/c.colors.length - inlineSpace;
-        const top = fontSize + fontSize/1.5 + i * (colorSampleHeight + fontSize + padding * 2);
-        return `<text y="${top - fontSize + fontSize/1.4}" x="3">${c.name}</text>` + c.colors.map((color, j) => {
-          let value = color;
-          
-          if (typeof value === 'object') {
-            value = value.hasOwnProperty('hex') ? value.hex : value.value;
-          }
+    const itemWidth = width/c.colors.length - inlineSpace;
+    const top = fontSize + fontSize/1.5 + i *
+                (colorSampleHeight + fontSize + padding * 2);
+    return `<text y="${top - fontSize + fontSize/1.4}" x="3">${c.name}</text>`+
+    c.colors.map((color, j) => {
+      let value = color;
 
-          return `<rect width="${itemWidth}" height="${colorSampleHeight}" y="${top}" x="${j * itemWidth + j * inlineSpace}" fill="${value}" />`
-        }).join('\n');
-      }).join('\n')}
+      if (typeof value === 'object') {
+        value = value.hasOwnProperty('hex') ? value.hex : value.value;
+      }
+
+      return `<rect width="${itemWidth}" height="${colorSampleHeight}"` +
+      ` y="${top}" x="${j * itemWidth + j * inlineSpace}" fill="${value}" />`;
+    }).join('\n');
+  }).join('\n')}
     </svg>
   `;
 };
