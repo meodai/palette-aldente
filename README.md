@@ -1,6 +1,6 @@
 # palette-aldente 🍝
 
-Helps maintaining and publishing your favourite color palettes:
+Color palette parser that helps maintaining and publishing your favourite color palettes:
 
 - Makes sure your `yml` or `json` is actually valid
 - Exports it to JSON
