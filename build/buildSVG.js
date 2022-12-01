@@ -7,8 +7,39 @@ const defaultOptions = {
 };
 
 /**
- * @param {Array} paletteArray 
- * @param {Object} options 
+ * @param {String} title
+ * @param {Array} colors
+ * @param {Number} top
+ * @param {Object} options
+ * @return {String} SVG string
+ */
+function colorRow(title, colors, top, options) {
+  const {
+    colorSampleHeight,
+    width,
+    inlineSpace,
+    fontSize,
+  } = options;
+
+
+  const itemWidth = width/colors.length - inlineSpace;
+
+  return `<text y="${top - fontSize + fontSize/1.4}" x="3">${title}</text>` +
+  colors.map((color, j) => {
+    let value = color;
+
+    if (typeof value === 'object') {
+      value = value.hasOwnProperty('hex') ? value.hex : value.value;
+    }
+
+    return `<rect width="${itemWidth}" height="${colorSampleHeight}"` +
+      ` y="${top}" x="${j * itemWidth + j * inlineSpace}" fill="${value}" />`;
+  }).join('\n');
+}
+
+/**
+ * @param {Array} paletteArray
+ * @param {Object} options
  * @return {String} SVG xml string
  */
 export function buildSVG(
@@ -39,20 +70,24 @@ export function buildSVG(
         }
       </style>
       ${paletteArray.map((c, i) => {
-    const itemWidth = width/c.colors.length - inlineSpace;
     const top = fontSize + fontSize/1.5 + i *
                 (colorSampleHeight + fontSize + padding * 2);
-    return `<text y="${top - fontSize + fontSize/1.4}" x="3">${c.name}</text>`+
-    c.colors.map((color, j) => {
-      let value = color;
-
-      if (typeof value === 'object') {
-        value = value.hasOwnProperty('hex') ? value.hex : value.value;
-      }
-
-      return `<rect width="${itemWidth}" height="${colorSampleHeight}"` +
-      ` y="${top}" x="${j * itemWidth + j * inlineSpace}" fill="${value}" />`;
-    }).join('\n');
+    if (c.hasOwnProperty('colors')) {
+      return colorRow(
+          c.name,
+          c.colors,
+          top,
+          options,
+      );
+    } else if (c.hasOwnProperty('palettes')) {
+      return c.palettes.map((p, j) => {
+        return colorRow(
+            p.name, p.colors, top + j *
+            (colorSampleHeight + fontSize + padding * 2),
+            options,
+        );
+      }).join('\n');
+    }
   }).join('\n')}
     </svg>
   `;

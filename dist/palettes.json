@@ -75,5 +75,63 @@
       "#fffbe6"
     ],
     "name": "Diamond Passage"
+  },
+  {
+    "name": "My Simple Palettes",
+    "palettes": [
+      {
+        "colors": [
+          "#ee726b",
+          "#ffc5c7",
+          "#fef9c6"
+        ],
+        "name": "Piglet of Chilli"
+      },
+      {
+        "colors": [
+          "#0a1966",
+          "#ffef0d",
+          "#fafafa"
+        ],
+        "name": "20000 White"
+      },
+      {
+        "colors": [
+          "#f9f9f9",
+          "#ff0000",
+          "#0000ff"
+        ],
+        "name": "Blue Red"
+      }
+    ]
+  },
+  {
+    "palettes": [
+      {
+        "colors": [
+          "#ffffff",
+          "#202124",
+          "#ffdddd"
+        ],
+        "name": "Noble Blonde"
+      },
+      {
+        "colors": [
+          "#ffd919",
+          "#262104",
+          "#fffbe6"
+        ],
+        "name": "Diamond Passage"
+      },
+      {
+        "colors": [
+          "#ff4f19",
+          "#15084d",
+          "#5ce6e6"
+        ],
+        "name": "Poseidon Ravenclaw"
+      }
+    ],
+    "name": "Diamond Ravenclaw"
   }
 ]

@@ -185,43 +185,66 @@ function createPaletteArray(
 
     if (!Array.isArray(palette)) {
       paletteObj = Object.assign(paletteObj, palette);
+    } else if (palette.length && !Array.isArray(palette[0])) {
+      paletteObj.colors = palette;
+    } else {
+      paletteObj.palettes = palette;
     }
 
-    paletteObj.colors = parseColors(
-      Array.isArray(palette) ? palette : palette.colors,
-      defaultOutputFormat,
-      additionalOutputFormats,
-      'bestOf',
-    );
+    if (paletteObj.hasOwnProperty('colors')) {
+      paletteObj.colors = parseColors(
+          Array.isArray(palette) ? palette : palette.colors,
+          defaultOutputFormat,
+          additionalOutputFormats,
+          'bestOf',
+      );
+    }
+
+    if (paletteObj.hasOwnProperty('palettes')) {
+      paletteObj.palettes = createPaletteArray(
+          paletteObj.palettes,
+          defaultOutputFormat,
+          additionalOutputFormats,
+          autoname,
+      );
+    }
 
     if (autoname && !paletteObj.hasOwnProperty('name')) {
-      paletteObj.name = getPaletteTitle(paletteObj.colors.map((c) => c.name));
+      if (paletteObj.hasOwnProperty('colors')) {
+        paletteObj.name = getPaletteTitle(paletteObj.colors.map((c) => c.name));
+      } else if (paletteObj.hasOwnProperty('palettes')) {
+        paletteObj.name = getPaletteTitle(
+            paletteObj.palettes.map((p) => p.name),
+        );
+      }
     } else if (!paletteObj.hasOwnProperty('name')) {
       paletteObj.name = `Untitled ${untitledCount += 1}`;
     }
 
-    console.log('Title:', customChalk.bold(paletteObj.name));
-    console.log('Colors:');
+    if (paletteObj.hasOwnProperty('colors')) {
+      console.log('Title:', customChalk.bold(paletteObj.name));
+      console.log('Colors:');
 
-    paletteObj.colors = paletteObj.colors.map((color) => {
-      console.log(
-          customChalk.hex(color.hex).bold('██████▶'),
-          color.value,
-          customChalk.bold(color.name),
-      );
+      paletteObj.colors = paletteObj.colors.map((color) => {
+        console.log(
+            customChalk.hex(color.hex).bold('██████▶'),
+            color.value,
+            customChalk.bold(color.name),
+        );
 
-      if (!additionalOutputFormats.includes('hex')) {
-        delete color.hex;
-      }
+        if (!additionalOutputFormats.includes('hex')) {
+          delete color.hex;
+        }
 
-      if (!additionalOutputFormats.includes('name')) {
-        delete color.name;
-      }
+        if (!additionalOutputFormats.includes('name')) {
+          delete color.name;
+        }
 
-      return Object.keys(color).length > 1 ? color : color.value;
-    });
+        return Object.keys(color).length > 1 ? color : color.value;
+      });
 
-    console.log('⎯'.repeat(40));
+      console.log('⎯'.repeat(40));
+    }
 
     return paletteObj;
   });
