@@ -7,6 +7,19 @@ const defaultOptions = {
 };
 
 /**
+ * @param {Array} palettes
+ * @return {Array} Array of arrays of colors
+ */
+function flattenPalettes(palettes) {
+  return palettes.reduce((acc, palette) => {
+    if (palette.hasOwnProperty('palettes')) {
+      return acc.concat(flattenPalettes(palette.palettes));
+    }
+    return acc.concat(palette);
+  }, []);
+}
+
+/**
  * @param {String} title
  * @param {Array} colors
  * @param {Number} top
@@ -20,7 +33,6 @@ function colorRow(title, colors, top, options) {
     inlineSpace,
     fontSize,
   } = options;
-
 
   const itemWidth = width/colors.length - inlineSpace;
 
@@ -58,7 +70,9 @@ export function buildSVG(
     fontSize,
   } = options;
 
-  const items = paletteArray.length;
+
+  const palettes = flattenPalettes(paletteArray);
+  const items = palettes.length;
   const height = ( fontSize + colorSampleHeight + padding * 2 ) * items;
 
   return `
@@ -69,7 +83,7 @@ export function buildSVG(
           font-size: ${fontSize}px;
         }
       </style>
-      ${paletteArray.map((c, i) => {
+      ${palettes.map((c, i) => {
     const top = fontSize + fontSize/1.5 + i *
                 (colorSampleHeight + fontSize + padding * 2);
     if (c.hasOwnProperty('colors')) {
@@ -79,14 +93,6 @@ export function buildSVG(
           top,
           options,
       );
-    } else if (c.hasOwnProperty('palettes')) {
-      return c.palettes.map((p, j) => {
-        return colorRow(
-            p.name, p.colors, top + j *
-            (colorSampleHeight + fontSize + padding * 2),
-            options,
-        );
-      }).join('\n');
     }
   }).join('\n')}
     </svg>

@@ -1,11 +1,12 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 286">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 390">
       <style>
         text {
           font-family: sans-serif;
           font-size: 6px;
         }
       </style>
+      <rect width="200" height="390" fill="hotpink" />
       <text y="8.285714285714285" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
 <rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
 <rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
@@ -47,14 +48,14 @@
 <text y="294.2857142857143" x="3">Blue Red</text><rect width="64.66666666666667" height="10" y="296" x="0" fill="#f9f9f9" />
 <rect width="64.66666666666667" height="10" y="296" x="66.66666666666667" fill="#ff0000" />
 <rect width="64.66666666666667" height="10" y="296" x="133.33333333333334" fill="#0000ff" />
-<text y="268.2857142857143" x="3">Noble Blonde</text><rect width="64.66666666666667" height="10" y="270" x="0" fill="#ffffff" />
-<rect width="64.66666666666667" height="10" y="270" x="66.66666666666667" fill="#202124" />
-<rect width="64.66666666666667" height="10" y="270" x="133.33333333333334" fill="#ffdddd" />
-<text y="294.2857142857143" x="3">Diamond Passage</text><rect width="64.66666666666667" height="10" y="296" x="0" fill="#ffd919" />
-<rect width="64.66666666666667" height="10" y="296" x="66.66666666666667" fill="#262104" />
-<rect width="64.66666666666667" height="10" y="296" x="133.33333333333334" fill="#fffbe6" />
-<text y="320.2857142857143" x="3">Poseidon Ravenclaw</text><rect width="64.66666666666667" height="10" y="322" x="0" fill="#ff4f19" />
-<rect width="64.66666666666667" height="10" y="322" x="66.66666666666667" fill="#15084d" />
-<rect width="64.66666666666667" height="10" y="322" x="133.33333333333334" fill="#5ce6e6" />
+<text y="320.2857142857143" x="3">Noble Blonde</text><rect width="64.66666666666667" height="10" y="322" x="0" fill="#ffffff" />
+<rect width="64.66666666666667" height="10" y="322" x="66.66666666666667" fill="#202124" />
+<rect width="64.66666666666667" height="10" y="322" x="133.33333333333334" fill="#ffdddd" />
+<text y="346.2857142857143" x="3">Diamond Passage</text><rect width="64.66666666666667" height="10" y="348" x="0" fill="#ffd919" />
+<rect width="64.66666666666667" height="10" y="348" x="66.66666666666667" fill="#262104" />
+<rect width="64.66666666666667" height="10" y="348" x="133.33333333333334" fill="#fffbe6" />
+<text y="372.2857142857143" x="3">Poseidon Ravenclaw</text><rect width="64.66666666666667" height="10" y="374" x="0" fill="#ff4f19" />
+<rect width="64.66666666666667" height="10" y="374" x="66.66666666666667" fill="#15084d" />
+<rect width="64.66666666666667" height="10" y="374" x="133.33333333333334" fill="#5ce6e6" />
     </svg>
   
