@@ -6,7 +6,6 @@
           font-size: 6px;
         }
       </style>
-      <rect width="200" height="390" fill="hotpink" />
       <text y="8.285714285714285" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
 <rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
 <rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
