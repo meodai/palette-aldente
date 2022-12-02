@@ -61,5 +61,18 @@
       "#3b2a54"
     ],
     "name": "Warrior Pie"
+  },
+  {
+    "colors": [
+      "#f8ffad",
+      "#ffcf6e",
+      "#f49854",
+      "#c7aba1",
+      "#ecdfe3",
+      "#b4a9ec",
+      "#977cc7",
+      "#292222"
+    ],
+    "name": "Banana Tulip"
   }
 ]

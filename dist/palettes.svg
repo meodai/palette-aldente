@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 130">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
       <style>
         text {
           font-family: sans-serif;
@@ -44,5 +44,13 @@
 <rect width="31.333333333333336" height="10" y="114" x="100" fill="#ebe1e2" />
 <rect width="31.333333333333336" height="10" y="114" x="133.33333333333334" fill="#d74f32" />
 <rect width="31.333333333333336" height="10" y="114" x="166.66666666666669" fill="#3b2a54" />
+<text y="138.28571428571428" x="3">Banana Tulip</text><rect width="23" height="10" y="140" x="0" fill="#f8ffad" />
+<rect width="23" height="10" y="140" x="25" fill="#ffcf6e" />
+<rect width="23" height="10" y="140" x="50" fill="#f49854" />
+<rect width="23" height="10" y="140" x="75" fill="#c7aba1" />
+<rect width="23" height="10" y="140" x="100" fill="#ecdfe3" />
+<rect width="23" height="10" y="140" x="125" fill="#b4a9ec" />
+<rect width="23" height="10" y="140" x="150" fill="#977cc7" />
+<rect width="23" height="10" y="140" x="175" fill="#292222" />
     </svg>
   
