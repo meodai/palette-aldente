@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 104">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 130">
       <style>
         text {
           font-family: sans-serif;
@@ -38,5 +38,11 @@
 <rect width="12.285714285714286" height="10" y="88" x="157.14285714285714" fill="#c35448" />
 <rect width="12.285714285714286" height="10" y="88" x="171.42857142857144" fill="#947b98" />
 <rect width="12.285714285714286" height="10" y="88" x="185.71428571428572" fill="#786488" />
+<text y="112.28571428571429" x="3">Warrior Pie</text><rect width="31.333333333333336" height="10" y="114" x="0" fill="#29181e" />
+<rect width="31.333333333333336" height="10" y="114" x="33.333333333333336" fill="#81695d" />
+<rect width="31.333333333333336" height="10" y="114" x="66.66666666666667" fill="#ce7f50" />
+<rect width="31.333333333333336" height="10" y="114" x="100" fill="#ebe1e2" />
+<rect width="31.333333333333336" height="10" y="114" x="133.33333333333334" fill="#d74f32" />
+<rect width="31.333333333333336" height="10" y="114" x="166.66666666666669" fill="#3b2a54" />
     </svg>
   
