@@ -94,5 +94,12 @@
       "#b9fdd6"
     ],
     "name": "Ibis Mintastic"
+  },
+  {
+    "colors": [
+      "#ffff00",
+      "#00ffff"
+    ],
+    "name": "Yellow Aqua"
   }
 ]
