@@ -1,3 +1,8 @@
+import fs from 'fs';
+
+// read svg.css to inline it
+const css = fs.readFileSync('./build/svg.css', 'utf8');
+
 const defaultOptions = {
   width: 200,
   colorSampleHeight: 10,
@@ -36,7 +41,7 @@ function colorRow(title, colors, top, options) {
 
   const itemWidth = width/colors.length - inlineSpace;
 
-  return `<text y="${top - fontSize + fontSize/1.4}" x="3">${title}</text>` +
+  return `<text y="${top - fontSize * .5}" x="3">${title}</text>` +
   colors.map((color, j) => {
     let value = color;
 
@@ -78,8 +83,8 @@ export function buildSVG(
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
       <style>
+        ${css}
         text {
-          font-family: sans-serif;
           font-size: ${fontSize}px;
         }
       </style>

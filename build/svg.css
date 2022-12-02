@@ -1,7 +1,4 @@
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
-      <style>
-        @font-face {
+@font-face {
   font-family: 'DM Serif Display';
   font-weight: 400;
   font-style: normal;
@@ -13,55 +10,3 @@ text {
   font-weight: 400;
   font-style: normal;
 }
-        text {
-          font-size: 6px;
-        }
-      </style>
-      <text y="7" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
-<rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
-<rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
-<rect width="26.571428571428573" height="10" y="10" x="85.71428571428572" fill="#ea9e52" />
-<rect width="26.571428571428573" height="10" y="10" x="114.28571428571429" fill="#f7eedf" />
-<rect width="26.571428571428573" height="10" y="10" x="142.85714285714286" fill="#d7d3c8" />
-<rect width="26.571428571428573" height="10" y="10" x="171.42857142857144" fill="#aacfc8" />
-<text y="33" x="3">Gentle Sting</text><rect width="48" height="10" y="36" x="0" fill="#1b1b19" />
-<rect width="48" height="10" y="36" x="50" fill="#da704a" />
-<rect width="48" height="10" y="36" x="100" fill="#c8afbc" />
-<rect width="48" height="10" y="36" x="150" fill="#f6cab4" />
-<text y="59" x="3">Lobster Café</text><rect width="26.571428571428573" height="10" y="62" x="0" fill="#312512" />
-<rect width="26.571428571428573" height="10" y="62" x="28.571428571428573" fill="#cd2d10" />
-<rect width="26.571428571428573" height="10" y="62" x="57.142857142857146" fill="#d07e40" />
-<rect width="26.571428571428573" height="10" y="62" x="85.71428571428572" fill="#ce9464" />
-<rect width="26.571428571428573" height="10" y="62" x="114.28571428571429" fill="#d6a786" />
-<rect width="26.571428571428573" height="10" y="62" x="142.85714285714286" fill="#e5c9b5" />
-<rect width="26.571428571428573" height="10" y="62" x="171.42857142857144" fill="#f7ebda" />
-<text y="85" x="3">Acapulco Pomegranate</text><rect width="12.285714285714286" height="10" y="88" x="0" fill="#f2ebdf" />
-<rect width="12.285714285714286" height="10" y="88" x="14.285714285714286" fill="#353130" />
-<rect width="12.285714285714286" height="10" y="88" x="28.571428571428573" fill="#2f72a6" />
-<rect width="12.285714285714286" height="10" y="88" x="42.85714285714286" fill="#4e90c0" />
-<rect width="12.285714285714286" height="10" y="88" x="57.142857142857146" fill="#6ca6ce" />
-<rect width="12.285714285714286" height="10" y="88" x="71.42857142857143" fill="#80b994" />
-<rect width="12.285714285714286" height="10" y="88" x="85.71428571428572" fill="#55ab8c" />
-<rect width="12.285714285714286" height="10" y="88" x="100" fill="#f0b44c" />
-<rect width="12.285714285714286" height="10" y="88" x="114.28571428571429" fill="#dd8c40" />
-<rect width="12.285714285714286" height="10" y="88" x="128.57142857142858" fill="#e099a8" />
-<rect width="12.285714285714286" height="10" y="88" x="142.85714285714286" fill="#d76f76" />
-<rect width="12.285714285714286" height="10" y="88" x="157.14285714285714" fill="#c35448" />
-<rect width="12.285714285714286" height="10" y="88" x="171.42857142857144" fill="#947b98" />
-<rect width="12.285714285714286" height="10" y="88" x="185.71428571428572" fill="#786488" />
-<text y="111" x="3">Warrior Pie</text><rect width="31.333333333333336" height="10" y="114" x="0" fill="#29181e" />
-<rect width="31.333333333333336" height="10" y="114" x="33.333333333333336" fill="#81695d" />
-<rect width="31.333333333333336" height="10" y="114" x="66.66666666666667" fill="#ce7f50" />
-<rect width="31.333333333333336" height="10" y="114" x="100" fill="#ebe1e2" />
-<rect width="31.333333333333336" height="10" y="114" x="133.33333333333334" fill="#d74f32" />
-<rect width="31.333333333333336" height="10" y="114" x="166.66666666666669" fill="#3b2a54" />
-<text y="137" x="3">Banana Tulip</text><rect width="23" height="10" y="140" x="0" fill="#f8ffad" />
-<rect width="23" height="10" y="140" x="25" fill="#ffcf6e" />
-<rect width="23" height="10" y="140" x="50" fill="#f49854" />
-<rect width="23" height="10" y="140" x="75" fill="#c7aba1" />
-<rect width="23" height="10" y="140" x="100" fill="#ecdfe3" />
-<rect width="23" height="10" y="140" x="125" fill="#b4a9ec" />
-<rect width="23" height="10" y="140" x="150" fill="#977cc7" />
-<rect width="23" height="10" y="140" x="175" fill="#292222" />
-    </svg>
-  
