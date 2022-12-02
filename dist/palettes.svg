@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 234">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 208">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -73,7 +73,5 @@ text {
 <rect width="31.333333333333336" height="10" y="192" x="100" fill="#ffffff" />
 <rect width="31.333333333333336" height="10" y="192" x="133.33333333333334" fill="#abfcf8" />
 <rect width="31.333333333333336" height="10" y="192" x="166.66666666666669" fill="#b9fdd6" />
-<text y="215" x="3">Yellow Aqua</text><rect width="98" height="10" y="218" x="0" fill="#ffff00" />
-<rect width="98" height="10" y="218" x="100" fill="#00ffff" />
     </svg>
   
