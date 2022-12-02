@@ -57,4 +57,6 @@ To use this in your JS code import or include `dist/palettes.js`. It exposes the
 - `random()` returns a random palette
 - `addPalettes(object)` merges in new palettes
 
+## Example SVG Export
+
 ![List of Palettes](/dist/palettes.svg)
