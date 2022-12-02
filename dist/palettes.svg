@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 208">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -63,5 +63,15 @@ text {
 <rect width="23" height="10" y="140" x="125" fill="#b4a9ec" />
 <rect width="23" height="10" y="140" x="150" fill="#977cc7" />
 <rect width="23" height="10" y="140" x="175" fill="#292222" />
+<text y="163" x="3">Herbivore Pink</text><rect width="48" height="10" y="166" x="0" fill="#090909" />
+<rect width="48" height="10" y="166" x="50" fill="#f8f8f8" />
+<rect width="48" height="10" y="166" x="100" fill="#71ee6b" />
+<rect width="48" height="10" y="166" x="150" fill="#e541c7" />
+<text y="189" x="3">Ibis Mintastic</text><rect width="31.333333333333336" height="10" y="192" x="0" fill="#1e1b22" />
+<rect width="31.333333333333336" height="10" y="192" x="33.333333333333336" fill="#f3aebd" />
+<rect width="31.333333333333336" height="10" y="192" x="66.66666666666667" fill="#fdf4da" />
+<rect width="31.333333333333336" height="10" y="192" x="100" fill="#ffffff" />
+<rect width="31.333333333333336" height="10" y="192" x="133.33333333333334" fill="#abfcf8" />
+<rect width="31.333333333333336" height="10" y="192" x="166.66666666666669" fill="#b9fdd6" />
     </svg>
   

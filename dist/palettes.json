@@ -74,5 +74,25 @@
       "#292222"
     ],
     "name": "Banana Tulip"
+  },
+  {
+    "colors": [
+      "#090909",
+      "#f8f8f8",
+      "#71ee6b",
+      "#e541c7"
+    ],
+    "name": "Herbivore Pink"
+  },
+  {
+    "colors": [
+      "#1e1b22",
+      "#f3aebd",
+      "#fdf4da",
+      "#ffffff",
+      "#abfcf8",
+      "#b9fdd6"
+    ],
+    "name": "Ibis Mintastic"
   }
 ]
