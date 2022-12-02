@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 390">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 78">
       <style>
         text {
           font-family: sans-serif;
@@ -17,44 +17,12 @@
 <rect width="48" height="10" y="36" x="50" fill="#da704a" />
 <rect width="48" height="10" y="36" x="100" fill="#c8afbc" />
 <rect width="48" height="10" y="36" x="150" fill="#f6cab4" />
-<text y="60.285714285714285" x="3">Yemen</text><rect width="64.66666666666667" height="10" y="62" x="0" fill="#ff0000" />
-<rect width="64.66666666666667" height="10" y="62" x="66.66666666666667" fill="#ffffff" />
-<rect width="64.66666666666667" height="10" y="62" x="133.33333333333334" fill="#202123" />
-<text y="86.28571428571429" x="3">German Hop</text><rect width="64.66666666666667" height="10" y="88" x="0" fill="#eac328" />
-<rect width="64.66666666666667" height="10" y="88" x="66.66666666666667" fill="#ce6d54" />
-<rect width="64.66666666666667" height="10" y="88" x="133.33333333333334" fill="#354046" />
-<text y="112.28571428571429" x="3">Chaotic Eight Ball</text><rect width="64.66666666666667" height="10" y="114" x="0" fill="#b03b5f" />
-<rect width="64.66666666666667" height="10" y="114" x="66.66666666666667" fill="#e1e6eb" />
-<rect width="64.66666666666667" height="10" y="114" x="133.33333333333334" fill="#07080b" />
-<text y="138.28571428571428" x="3">Shrimp Latte</text><rect width="64.66666666666667" height="10" y="140" x="0" fill="#e39e84" />
-<rect width="64.66666666666667" height="10" y="140" x="66.66666666666667" fill="#73bede" />
-<rect width="64.66666666666667" height="10" y="140" x="133.33333333333334" fill="#fdf8e7" />
-<text y="164.28571428571428" x="3">Doctor Pond</text><rect width="64.66666666666667" height="10" y="166" x="0" fill="#ffffff" />
-<rect width="64.66666666666667" height="10" y="166" x="66.66666666666667" fill="#e17887" />
-<rect width="64.66666666666667" height="10" y="166" x="133.33333333333334" fill="#90c6e6" />
-<text y="190.28571428571428" x="3">Voracious Blonde</text><rect width="64.66666666666667" height="10" y="192" x="0" fill="#ffeeee" />
-<rect width="64.66666666666667" height="10" y="192" x="66.66666666666667" fill="#202125" />
-<rect width="64.66666666666667" height="10" y="192" x="133.33333333333334" fill="#ffdddd" />
-<text y="216.28571428571428" x="3">Diamond Passage</text><rect width="64.66666666666667" height="10" y="218" x="0" fill="#ffd919" />
-<rect width="64.66666666666667" height="10" y="218" x="66.66666666666667" fill="#262104" />
-<rect width="64.66666666666667" height="10" y="218" x="133.33333333333334" fill="#fffbe6" />
-<text y="242.28571428571428" x="3">Piglet of Chilli</text><rect width="64.66666666666667" height="10" y="244" x="0" fill="#ee726b" />
-<rect width="64.66666666666667" height="10" y="244" x="66.66666666666667" fill="#ffc5c7" />
-<rect width="64.66666666666667" height="10" y="244" x="133.33333333333334" fill="#fef9c6" />
-<text y="268.2857142857143" x="3">20000 White</text><rect width="64.66666666666667" height="10" y="270" x="0" fill="#0a1966" />
-<rect width="64.66666666666667" height="10" y="270" x="66.66666666666667" fill="#ffef0d" />
-<rect width="64.66666666666667" height="10" y="270" x="133.33333333333334" fill="#fafafa" />
-<text y="294.2857142857143" x="3">Blue Red</text><rect width="64.66666666666667" height="10" y="296" x="0" fill="#f9f9f9" />
-<rect width="64.66666666666667" height="10" y="296" x="66.66666666666667" fill="#ff0000" />
-<rect width="64.66666666666667" height="10" y="296" x="133.33333333333334" fill="#0000ff" />
-<text y="320.2857142857143" x="3">Noble Blonde</text><rect width="64.66666666666667" height="10" y="322" x="0" fill="#ffffff" />
-<rect width="64.66666666666667" height="10" y="322" x="66.66666666666667" fill="#202124" />
-<rect width="64.66666666666667" height="10" y="322" x="133.33333333333334" fill="#ffdddd" />
-<text y="346.2857142857143" x="3">Diamond Passage</text><rect width="64.66666666666667" height="10" y="348" x="0" fill="#ffd919" />
-<rect width="64.66666666666667" height="10" y="348" x="66.66666666666667" fill="#262104" />
-<rect width="64.66666666666667" height="10" y="348" x="133.33333333333334" fill="#fffbe6" />
-<text y="372.2857142857143" x="3">Poseidon Ravenclaw</text><rect width="64.66666666666667" height="10" y="374" x="0" fill="#ff4f19" />
-<rect width="64.66666666666667" height="10" y="374" x="66.66666666666667" fill="#15084d" />
-<rect width="64.66666666666667" height="10" y="374" x="133.33333333333334" fill="#5ce6e6" />
+<text y="60.285714285714285" x="3">Lobster Café</text><rect width="26.571428571428573" height="10" y="62" x="0" fill="#312512" />
+<rect width="26.571428571428573" height="10" y="62" x="28.571428571428573" fill="#cd2d10" />
+<rect width="26.571428571428573" height="10" y="62" x="57.142857142857146" fill="#d07e40" />
+<rect width="26.571428571428573" height="10" y="62" x="85.71428571428572" fill="#ce9464" />
+<rect width="26.571428571428573" height="10" y="62" x="114.28571428571429" fill="#d6a786" />
+<rect width="26.571428571428573" height="10" y="62" x="142.85714285714286" fill="#e5c9b5" />
+<rect width="26.571428571428573" height="10" y="62" x="171.42857142857144" fill="#f7ebda" />
     </svg>
   

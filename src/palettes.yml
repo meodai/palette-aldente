@@ -15,75 +15,12 @@
     - '#c8afbc'
     - '#f6cab4'
 
-- name: Yemen
+- name: Lobster Café
   colors:
-    - '#f00'
-    - '#fff'
-    - '#202123'
-
-- name: German Hop
-  colors:
-    - '#eac328'
-    - '#ce6d54'
-    - '#354046'
-
-- name: Chaotic Eight Ball
-  colors:
-    - '#b03b5f'
-    - '#e1e6eb'
-    - '#07080b'
-
-- name: Shrimp Latte
-  colors:
-    - '#e39e84' 
-    - '#73bede' 
-    - '#fdf8e7'
-
-- name: Doctor Pond
-  colors:
-    - '#fff'
-    - '#e17887'
-    - '#90c6e6'
-
-- colors:
-    - '#fee'
-    - '#202125'
-    - '#fdd'
-
--
-  - '#ffd919'
-  - '#262104' 
-  - '#fffbe6'
-
-- 
-  name: My Simple Palettes
-  palettes:
-    -
-      - '#ee726b'
-      - '#ffc5c7'
-      - '#fef9c6'
-    -
-      - '#0a1966'
-      - '#ffef0d'
-      - '#fafafa'
-    -
-      - '#f9f9f9'
-      - '#ff0000'
-      - '#0000ff'
-
-- 
-  -
-    - '#fff'
-    - '#202124'
-    - '#fdd'
-  -
-    - '#ffd919'
-    - '#262104'
-    - '#fffbe6'
-  -
-    - '#ff4f19'
-    - '#15084d'
-    - '#5ce6e6'
-
-#  ['#226699', '#dd2e44', '#ffcc4d'],
-#  ['#021d34', '#228fca', '#dcedf0'],
+    - '#312512' 
+    - '#cd2d10' 
+    - '#d07e40' 
+    - '#ce9464' 
+    - '#d6a786' 
+    - '#e5c9b5' 
+    - '#f7ebda'
