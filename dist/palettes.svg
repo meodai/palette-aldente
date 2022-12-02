@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 78">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 104">
       <style>
         text {
           font-family: sans-serif;
@@ -24,5 +24,19 @@
 <rect width="26.571428571428573" height="10" y="62" x="114.28571428571429" fill="#d6a786" />
 <rect width="26.571428571428573" height="10" y="62" x="142.85714285714286" fill="#e5c9b5" />
 <rect width="26.571428571428573" height="10" y="62" x="171.42857142857144" fill="#f7ebda" />
+<text y="86.28571428571429" x="3">Acapulco Pomegranate</text><rect width="12.285714285714286" height="10" y="88" x="0" fill="#f2ebdf" />
+<rect width="12.285714285714286" height="10" y="88" x="14.285714285714286" fill="#353130" />
+<rect width="12.285714285714286" height="10" y="88" x="28.571428571428573" fill="#2f72a6" />
+<rect width="12.285714285714286" height="10" y="88" x="42.85714285714286" fill="#4e90c0" />
+<rect width="12.285714285714286" height="10" y="88" x="57.142857142857146" fill="#6ca6ce" />
+<rect width="12.285714285714286" height="10" y="88" x="71.42857142857143" fill="#80b994" />
+<rect width="12.285714285714286" height="10" y="88" x="85.71428571428572" fill="#55ab8c" />
+<rect width="12.285714285714286" height="10" y="88" x="100" fill="#f0b44c" />
+<rect width="12.285714285714286" height="10" y="88" x="114.28571428571429" fill="#dd8c40" />
+<rect width="12.285714285714286" height="10" y="88" x="128.57142857142858" fill="#e099a8" />
+<rect width="12.285714285714286" height="10" y="88" x="142.85714285714286" fill="#d76f76" />
+<rect width="12.285714285714286" height="10" y="88" x="157.14285714285714" fill="#c35448" />
+<rect width="12.285714285714286" height="10" y="88" x="171.42857142857144" fill="#947b98" />
+<rect width="12.285714285714286" height="10" y="88" x="185.71428571428572" fill="#786488" />
     </svg>
   
