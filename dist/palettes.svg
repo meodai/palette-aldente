@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 234">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 286">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -79,5 +79,19 @@ text {
 <rect width="31.333333333333336" height="10" y="218" x="100" fill="#e39e90" />
 <rect width="31.333333333333336" height="10" y="218" x="133.33333333333334" fill="#edc5bb" />
 <rect width="31.333333333333336" height="10" y="218" x="166.66666666666669" fill="#dbf5dc" />
+<text y="241" x="3">Nymph's Love</text><rect width="31.333333333333336" height="10" y="244" x="0" fill="#36343f" />
+<rect width="31.333333333333336" height="10" y="244" x="33.333333333333336" fill="#3e4c69" />
+<rect width="31.333333333333336" height="10" y="244" x="66.66666666666667" fill="#726382" />
+<rect width="31.333333333333336" height="10" y="244" x="100" fill="#c97481" />
+<rect width="31.333333333333336" height="10" y="244" x="133.33333333333334" fill="#ec9699" />
+<rect width="31.333333333333336" height="10" y="244" x="166.66666666666669" fill="#dfc3c7" />
+<text y="267" x="3">Fusilli Darkness</text><rect width="23" height="10" y="270" x="0" fill="#f1e9d6" />
+<rect width="23" height="10" y="270" x="25" fill="#0f1d30" />
+<rect width="23" height="10" y="270" x="50" fill="#284462" />
+<rect width="23" height="10" y="270" x="75" fill="#82617c" />
+<rect width="23" height="10" y="270" x="100" fill="#c47080" />
+<rect width="23" height="10" y="270" x="125" fill="#bc5b34" />
+<rect width="23" height="10" y="270" x="150" fill="#d4a44f" />
+<rect width="23" height="10" y="270" x="175" fill="#395d54" />
     </svg>
   
