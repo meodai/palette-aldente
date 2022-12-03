@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 208">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 234">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -73,5 +73,11 @@ text {
 <rect width="31.333333333333336" height="10" y="192" x="100" fill="#ffffff" />
 <rect width="31.333333333333336" height="10" y="192" x="133.33333333333334" fill="#abfcf8" />
 <rect width="31.333333333333336" height="10" y="192" x="166.66666666666669" fill="#b9fdd6" />
+<text y="215" x="3">Reptile of Mint</text><rect width="31.333333333333336" height="10" y="218" x="0" fill="#0f1910" />
+<rect width="31.333333333333336" height="10" y="218" x="33.333333333333336" fill="#615829" />
+<rect width="31.333333333333336" height="10" y="218" x="66.66666666666667" fill="#af8e4f" />
+<rect width="31.333333333333336" height="10" y="218" x="100" fill="#e39e90" />
+<rect width="31.333333333333336" height="10" y="218" x="133.33333333333334" fill="#edc5bb" />
+<rect width="31.333333333333336" height="10" y="218" x="166.66666666666669" fill="#dbf5dc" />
     </svg>
   
