@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/meodai/palette-aldente#readme",
   "dependencies": {
+    "ase-util": "^1.0.3",
     "chalk": "^5.1.2",
     "color-name-api": "^0.3.0",
     "color-name-list": "^9.26.1",
