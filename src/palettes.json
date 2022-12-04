@@ -1,0 +1,46 @@
+[  
+  {
+    "name": "Shirotokuro",
+    "colors": ["#f9f0de", "#392b24"]
+  },
+  {
+    "name": "Marunouchi",
+    "colors": ["#f9f0de", "#e51531"]
+  },
+  {
+    "name": "Edo",
+    "colors": ["#f9f0de", "#e51531", "#392b24"]
+  },
+  {
+    "name": "Upper East Side",
+    "colors": ["#392b24", "#fab511", "#f9f0de"]
+  },
+  {
+    "name": "Kinopio",
+    "colors": ["#f9f0de", "#d0bba3", "#392b24"]
+  },
+  {
+    "name": "Kafica",
+    "colors": ["#f9f0de", "#d0bba3", "#927154"]
+  },
+  {
+    "name": "Hygge",
+    "colors": ["#f9f0de", "#e94d26", "#726c5d", "#392b24"]
+  },
+  {
+    "name": "Kyoto",
+    "colors": ["#f9f0de", "#c67333", "#927154", "#392b24"]
+  },
+  {
+    "name": "Piet",
+    "colors": ["#f9f0de", "#e51531", "#2a70ae", "#fab511", "#392b24"]
+  },
+  {
+    "name": "Grammercy",
+    "colors": ["#f9f0de", "#fab511", "#c67333", "#927154", "#392b24"]
+  },
+  {
+    "name": "Africana",
+    "colors": ["#d2452b", "#385d32", "#392b24", "#fab511", "#f9f0de"]
+  }
+]

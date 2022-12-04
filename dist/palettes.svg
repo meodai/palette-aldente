@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 1586">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 1872">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -17,310 +17,349 @@ text {
           font-size: 6px;
         }
       </style>
-      <text y="7" x="3">Anaheim</text><rect width="38" height="10" y="10" x="0" fill="#ebdfd3" />
-<rect width="38" height="10" y="10" x="40" fill="#df9f2c" />
-<rect width="38" height="10" y="10" x="80" fill="#5b3524" />
-<rect width="38" height="10" y="10" x="120" fill="#a09684" />
-<rect width="38" height="10" y="10" x="160" fill="#8b7f6c" />
-<text y="33" x="3">Ando</text><rect width="38" height="10" y="36" x="0" fill="#2b292b" />
-<rect width="38" height="10" y="36" x="40" fill="#786e66" />
-<rect width="38" height="10" y="36" x="80" fill="#3f3e3a" />
-<rect width="38" height="10" y="36" x="120" fill="#cac6c3" />
-<rect width="38" height="10" y="36" x="160" fill="#afa69e" />
-<text y="59" x="3">Arianda</text><rect width="38" height="10" y="62" x="0" fill="#d95f76" />
-<rect width="38" height="10" y="62" x="40" fill="#b5a2a1" />
-<rect width="38" height="10" y="62" x="80" fill="#f2911b" />
-<rect width="38" height="10" y="62" x="120" fill="#d9501e" />
-<rect width="38" height="10" y="62" x="160" fill="#d93829" />
-<text y="85" x="3">Asuka</text><rect width="38" height="10" y="88" x="0" fill="#bfb7af" />
-<rect width="38" height="10" y="88" x="40" fill="#d8ccc0" />
-<rect width="38" height="10" y="88" x="80" fill="#f2e2d5" />
-<rect width="38" height="10" y="88" x="120" fill="#a59f9b" />
-<rect width="38" height="10" y="88" x="160" fill="#f2d7cd" />
-<text y="111" x="3">Benelit</text><rect width="38" height="10" y="114" x="0" fill="#f2f5ee" />
-<rect width="38" height="10" y="114" x="40" fill="#e0ddd8" />
-<rect width="38" height="10" y="114" x="80" fill="#dc3638" />
-<rect width="38" height="10" y="114" x="120" fill="#757472" />
-<rect width="38" height="10" y="114" x="160" fill="#201c1d" />
-<text y="137" x="3">Blush Response</text><rect width="38" height="10" y="140" x="0" fill="#8c4a50" />
-<rect width="38" height="10" y="140" x="40" fill="#c35b4e" />
-<rect width="38" height="10" y="140" x="80" fill="#d9aa8f" />
-<rect width="38" height="10" y="140" x="120" fill="#e5cbbf" />
-<rect width="38" height="10" y="140" x="160" fill="#f2edea" />
-<text y="163" x="3">Bosmak</text><rect width="38" height="10" y="166" x="0" fill="#f7eee5" />
-<rect width="38" height="10" y="166" x="40" fill="#f7bb41" />
-<rect width="38" height="10" y="166" x="80" fill="#f6c698" />
-<rect width="38" height="10" y="166" x="120" fill="#f8fdff" />
-<rect width="38" height="10" y="166" x="160" fill="#f2a476" />
-<text y="189" x="3">Bradshaw</text><rect width="38" height="10" y="192" x="0" fill="#f28095" />
-<rect width="38" height="10" y="192" x="40" fill="#da5069" />
-<rect width="38" height="10" y="192" x="80" fill="#fc8461" />
-<rect width="38" height="10" y="192" x="120" fill="#e19a7e" />
-<rect width="38" height="10" y="192" x="160" fill="#cea39d" />
-<text y="215" x="3">Burnt Berry</text><rect width="38" height="10" y="218" x="0" fill="#dccfc6" />
-<rect width="38" height="10" y="218" x="40" fill="#9d917b" />
-<rect width="38" height="10" y="218" x="80" fill="#463a2a" />
-<rect width="38" height="10" y="218" x="120" fill="#d6c2b9" />
-<rect width="38" height="10" y="218" x="160" fill="#b76750" />
-<text y="241" x="3">Cacti Bloom</text><rect width="38" height="10" y="244" x="0" fill="#a6243c" />
-<rect width="38" height="10" y="244" x="40" fill="#f21d56" />
-<rect width="38" height="10" y="244" x="80" fill="#f2bf27" />
-<rect width="38" height="10" y="244" x="120" fill="#f29422" />
-<rect width="38" height="10" y="244" x="160" fill="#2d3c1f" />
-<text y="267" x="3">Cacti Dream</text><rect width="38" height="10" y="270" x="0" fill="#29361b" />
-<rect width="38" height="10" y="270" x="40" fill="#f39233" />
-<rect width="38" height="10" y="270" x="80" fill="#f3e3d6" />
-<rect width="38" height="10" y="270" x="120" fill="#140f0c" />
-<rect width="38" height="10" y="270" x="160" fill="#cc3314" />
-<text y="293" x="3">Cappadocia</text><rect width="38" height="10" y="296" x="0" fill="#eeeff4" />
-<rect width="38" height="10" y="296" x="40" fill="#d1bbae" />
-<rect width="38" height="10" y="296" x="80" fill="#1d1e23" />
-<rect width="38" height="10" y="296" x="120" fill="#b14441" />
-<rect width="38" height="10" y="296" x="160" fill="#af8976" />
-<text y="319" x="3">Caramel</text><rect width="38" height="10" y="322" x="0" fill="#d3c3b6" />
-<rect width="38" height="10" y="322" x="40" fill="#bab2a7" />
-<rect width="38" height="10" y="322" x="80" fill="#bf9c74" />
-<rect width="38" height="10" y="322" x="120" fill="#bf5b03" />
-<rect width="38" height="10" y="322" x="160" fill="#993503" />
-<text y="345" x="3">Checkov</text><rect width="38" height="10" y="348" x="0" fill="#112233" />
-<rect width="38" height="10" y="348" x="40" fill="#adabae" />
-<rect width="38" height="10" y="348" x="80" fill="#16474a" />
-<rect width="38" height="10" y="348" x="120" fill="#133536" />
-<rect width="38" height="10" y="348" x="160" fill="#c26646" />
-<text y="371" x="3">Chiharu</text><rect width="38" height="10" y="374" x="0" fill="#dbd0c3" />
-<rect width="38" height="10" y="374" x="40" fill="#f2a74b" />
-<rect width="38" height="10" y="374" x="80" fill="#d88236" />
-<rect width="38" height="10" y="374" x="120" fill="#724116" />
-<rect width="38" height="10" y="374" x="160" fill="#a55f21" />
-<text y="397" x="3">Cocos</text><rect width="38" height="10" y="400" x="0" fill="#0c0c0e" />
-<rect width="38" height="10" y="400" x="40" fill="#837560" />
-<rect width="38" height="10" y="400" x="80" fill="#e28a27" />
-<rect width="38" height="10" y="400" x="120" fill="#9d5d24" />
-<rect width="38" height="10" y="400" x="160" fill="#f8fdfe" />
-<text y="423" x="3">Coffee Cup</text><rect width="38" height="10" y="426" x="0" fill="#32363f" />
-<rect width="38" height="10" y="426" x="40" fill="#d7cec5" />
-<rect width="38" height="10" y="426" x="80" fill="#f3efec" />
-<rect width="38" height="10" y="426" x="120" fill="#956446" />
-<rect width="38" height="10" y="426" x="160" fill="#e6e2df" />
-<text y="449" x="3">Earthenware</text><rect width="38" height="10" y="452" x="0" fill="#918679" />
-<rect width="38" height="10" y="452" x="40" fill="#d1c9be" />
-<rect width="38" height="10" y="452" x="80" fill="#fafafa" />
-<rect width="38" height="10" y="452" x="120" fill="#594b42" />
-<rect width="38" height="10" y="452" x="160" fill="#d3a679" />
-<text y="475" x="3">Edo</text><rect width="38" height="10" y="478" x="0" fill="#fffeff" />
-<rect width="38" height="10" y="478" x="40" fill="#a58c68" />
-<rect width="38" height="10" y="478" x="80" fill="#2f2a26" />
-<rect width="38" height="10" y="478" x="120" fill="#8c847a" />
-<rect width="38" height="10" y="478" x="160" fill="#df3f36" />
-<text y="501" x="3">Elevated Basic</text><rect width="38" height="10" y="504" x="0" fill="#4b7ba6" />
-<rect width="38" height="10" y="504" x="40" fill="#4e5925" />
-<rect width="38" height="10" y="504" x="80" fill="#f2b138" />
-<rect width="38" height="10" y="504" x="120" fill="#f2e8dc" />
-<rect width="38" height="10" y="504" x="160" fill="#f25749" />
-<text y="527" x="3">Ellsworth</text><rect width="38" height="10" y="530" x="0" fill="#f0eee2" />
-<rect width="38" height="10" y="530" x="40" fill="#a18a6b" />
-<rect width="38" height="10" y="530" x="80" fill="#61574e" />
-<rect width="38" height="10" y="530" x="120" fill="#3f3f3d" />
-<rect width="38" height="10" y="530" x="160" fill="#0d0d0d" />
-<text y="553" x="3">Esquisse</text><rect width="38" height="10" y="556" x="0" fill="#c20a29" />
-<rect width="38" height="10" y="556" x="40" fill="#d6a4b5" />
-<rect width="38" height="10" y="556" x="80" fill="#0d1e5a" />
-<rect width="38" height="10" y="556" x="120" fill="#023f36" />
-<rect width="38" height="10" y="556" x="160" fill="#0e0e0e" />
-<text y="579" x="3">Fashion</text><rect width="38" height="10" y="582" x="0" fill="#bf0326" />
-<rect width="38" height="10" y="582" x="40" fill="#592f56" />
-<rect width="38" height="10" y="582" x="80" fill="#f2d441" />
-<rect width="38" height="10" y="582" x="120" fill="#f2eadc" />
-<rect width="38" height="10" y="582" x="160" fill="#bf775d" />
-<text y="605" x="3">Futaba</text><rect width="38" height="10" y="608" x="0" fill="#d9831a" />
-<rect width="38" height="10" y="608" x="40" fill="#9f724b" />
-<rect width="38" height="10" y="608" x="80" fill="#ece3de" />
-<rect width="38" height="10" y="608" x="120" fill="#cf9071" />
-<rect width="38" height="10" y="608" x="160" fill="#8b3305" />
-<text y="631" x="3">Gelato Prime</text><rect width="38" height="10" y="634" x="0" fill="#f29f05" />
-<rect width="38" height="10" y="634" x="40" fill="#f3ab00" />
-<rect width="38" height="10" y="634" x="80" fill="#efc362" />
-<rect width="38" height="10" y="634" x="120" fill="#722835" />
-<rect width="38" height="10" y="634" x="160" fill="#d44f49" />
-<text y="657" x="3">Grace</text><rect width="38" height="10" y="660" x="0" fill="#dfd4cb" />
-<rect width="38" height="10" y="660" x="40" fill="#143c21" />
-<rect width="38" height="10" y="660" x="80" fill="#816c4b" />
-<rect width="38" height="10" y="660" x="120" fill="#e0a7b8" />
-<rect width="38" height="10" y="660" x="160" fill="#f8623b" />
-<text y="683" x="3">Harimau</text><rect width="38" height="10" y="686" x="0" fill="#281740" />
-<rect width="38" height="10" y="686" x="40" fill="#f29d35" />
-<rect width="38" height="10" y="686" x="80" fill="#04504e" />
-<rect width="38" height="10" y="686" x="120" fill="#f27405" />
-<rect width="38" height="10" y="686" x="160" fill="#f24c3d" />
-<text y="709" x="3">Hermione</text><rect width="38" height="10" y="712" x="0" fill="#d98b2b" />
-<rect width="38" height="10" y="712" x="40" fill="#a35e46" />
-<rect width="38" height="10" y="712" x="80" fill="#d3d3d3" />
-<rect width="38" height="10" y="712" x="120" fill="#d9593d" />
-<rect width="38" height="10" y="712" x="160" fill="#d9bbb8" />
-<text y="735" x="3">High Fashion</text><rect width="38" height="10" y="738" x="0" fill="#cd2525" />
-<rect width="38" height="10" y="738" x="40" fill="#c04483" />
-<rect width="38" height="10" y="738" x="80" fill="#2d8579" />
-<rect width="38" height="10" y="738" x="120" fill="#1a1921" />
-<rect width="38" height="10" y="738" x="160" fill="#ddd8d4" />
-<text y="761" x="3">Hua Kanda</text><rect width="38" height="10" y="764" x="0" fill="#ecf2f0" />
-<rect width="38" height="10" y="764" x="40" fill="#d9946c" />
-<rect width="38" height="10" y="764" x="80" fill="#260b01" />
-<rect width="38" height="10" y="764" x="120" fill="#80875e" />
-<rect width="38" height="10" y="764" x="160" fill="#d96459" />
-<text y="787" x="3">Kekkon</text><rect width="38" height="10" y="790" x="0" fill="#f2eee5" />
-<rect width="38" height="10" y="790" x="40" fill="#d9bea7" />
-<rect width="38" height="10" y="790" x="80" fill="#bf9a7a" />
-<rect width="38" height="10" y="790" x="120" fill="#73554c" />
-<rect width="38" height="10" y="790" x="160" fill="#bf7e78" />
-<text y="813" x="3">Koh Chela</text><rect width="38" height="10" y="816" x="0" fill="#cc8f5c" />
-<rect width="38" height="10" y="816" x="40" fill="#935a45" />
-<rect width="38" height="10" y="816" x="80" fill="#968579" />
-<rect width="38" height="10" y="816" x="120" fill="#8c3211" />
-<rect width="38" height="10" y="816" x="160" fill="#753326" />
-<text y="839" x="3">Lotus Plain</text><rect width="38" height="10" y="842" x="0" fill="#eae6e2" />
-<rect width="38" height="10" y="842" x="40" fill="#d9865a" />
-<rect width="38" height="10" y="842" x="80" fill="#4f616f" />
-<rect width="38" height="10" y="842" x="120" fill="#f2bfac" />
-<rect width="38" height="10" y="842" x="160" fill="#d96055" />
-<text y="865" x="3">Makoto</text><rect width="38" height="10" y="868" x="0" fill="#b0a48e" />
-<rect width="38" height="10" y="868" x="40" fill="#f1c7ae" />
-<rect width="38" height="10" y="868" x="80" fill="#f3f0eb" />
-<rect width="38" height="10" y="868" x="120" fill="#aa8773" />
-<rect width="38" height="10" y="868" x="160" fill="#e4cbb7" />
-<text y="891" x="3">Mallow</text><rect width="38" height="10" y="894" x="0" fill="#bdbbbf" />
-<rect width="38" height="10" y="894" x="40" fill="#e3e1e5" />
-<rect width="38" height="10" y="894" x="80" fill="#f0cec7" />
-<rect width="38" height="10" y="894" x="120" fill="#a7999a" />
-<rect width="38" height="10" y="894" x="160" fill="#edd8d1" />
-<text y="917" x="3">Maneki</text><rect width="38" height="10" y="920" x="0" fill="#eecb05" />
-<rect width="38" height="10" y="920" x="40" fill="#cb9d56" />
-<rect width="38" height="10" y="920" x="80" fill="#fffbff" />
-<rect width="38" height="10" y="920" x="120" fill="#f22a13" />
-<rect width="38" height="10" y="920" x="160" fill="#415237" />
-<text y="943" x="3">Marit</text><rect width="38" height="10" y="946" x="0" fill="#f1ab94" />
-<rect width="38" height="10" y="946" x="40" fill="#e9cbb2" />
-<rect width="38" height="10" y="946" x="80" fill="#e0d7bd" />
-<rect width="38" height="10" y="946" x="120" fill="#e3820e" />
-<rect width="38" height="10" y="946" x="160" fill="#d06709" />
-<text y="969" x="3">Marshmallow Sunset</text><rect width="38" height="10" y="972" x="0" fill="#50566c" />
-<rect width="38" height="10" y="972" x="40" fill="#eaddcd" />
-<rect width="38" height="10" y="972" x="80" fill="#e0c694" />
-<rect width="38" height="10" y="972" x="120" fill="#7d8f9c" />
-<rect width="38" height="10" y="972" x="160" fill="#dbb48d" />
-<text y="995" x="3">Monatsblatter</text><rect width="38" height="10" y="998" x="0" fill="#f0ede4" />
-<rect width="38" height="10" y="998" x="40" fill="#f0ede4" />
-<rect width="38" height="10" y="998" x="80" fill="#f0ede4" />
-<rect width="38" height="10" y="998" x="120" fill="#403a36" />
-<rect width="38" height="10" y="998" x="160" fill="#26221a" />
-<text y="1021" x="3">Morgana</text><rect width="38" height="10" y="1024" x="0" fill="#325952" />
-<rect width="38" height="10" y="1024" x="40" fill="#517369" />
-<rect width="38" height="10" y="1024" x="80" fill="#91caaf" />
-<rect width="38" height="10" y="1024" x="120" fill="#838c7d" />
-<rect width="38" height="10" y="1024" x="160" fill="#9ca692" />
-<text y="1047" x="3">Mulberry</text><rect width="38" height="10" y="1050" x="0" fill="#e1cfdf" />
-<rect width="38" height="10" y="1050" x="40" fill="#adabae" />
-<rect width="38" height="10" y="1050" x="80" fill="#204d50" />
-<rect width="38" height="10" y="1050" x="120" fill="#133536" />
-<rect width="38" height="10" y="1050" x="160" fill="#aa7346" />
-<text y="1073" x="3">Napoli</text><rect width="38" height="10" y="1076" x="0" fill="#bf7c03" />
-<rect width="38" height="10" y="1076" x="40" fill="#e7e3de" />
-<rect width="38" height="10" y="1076" x="80" fill="#696262" />
-<rect width="38" height="10" y="1076" x="120" fill="#f2b8bf" />
-<rect width="38" height="10" y="1076" x="160" fill="#131210" />
-<text y="1099" x="3">Nasturtiums</text><rect width="38" height="10" y="1102" x="0" fill="#d1d2aa" />
-<rect width="38" height="10" y="1102" x="40" fill="#5c7346" />
-<rect width="38" height="10" y="1102" x="80" fill="#eeaf24" />
-<rect width="38" height="10" y="1102" x="120" fill="#d9771e" />
-<rect width="38" height="10" y="1102" x="160" fill="#d7481e" />
-<text y="1125" x="3">Naya</text><rect width="38" height="10" y="1128" x="0" fill="#e7cfdf" />
-<rect width="38" height="10" y="1128" x="40" fill="#adabae" />
-<rect width="38" height="10" y="1128" x="80" fill="#16474a" />
-<rect width="38" height="10" y="1128" x="120" fill="#133536" />
-<rect width="38" height="10" y="1128" x="160" fill="#c26646" />
-<text y="1151" x="3">New Eden</text><rect width="38" height="10" y="1154" x="0" fill="#ee9b0f" />
-<rect width="38" height="10" y="1154" x="40" fill="#ff7518" />
-<rect width="38" height="10" y="1154" x="80" fill="#fe8c68" />
-<rect width="38" height="10" y="1154" x="120" fill="#ff5001" />
-<rect width="38" height="10" y="1154" x="160" fill="#b87332" />
-<text y="1177" x="3">Nikkeidai</text><rect width="38" height="10" y="1180" x="0" fill="#f66689" />
-<rect width="38" height="10" y="1180" x="40" fill="#65136c" />
-<rect width="38" height="10" y="1180" x="80" fill="#f22e0e" />
-<rect width="38" height="10" y="1180" x="120" fill="#00a75e" />
-<rect width="38" height="10" y="1180" x="160" fill="#d7d7d7" />
-<text y="1203" x="3">Ochre Comfort</text><rect width="38" height="10" y="1206" x="0" fill="#d9d7bf" />
-<rect width="38" height="10" y="1206" x="40" fill="#f2cb05" />
-<rect width="38" height="10" y="1206" x="80" fill="#f2b705" />
-<rect width="38" height="10" y="1206" x="120" fill="#f29f05" />
-<rect width="38" height="10" y="1206" x="160" fill="#f27405" />
-<text y="1229" x="3">Okage</text><rect width="38" height="10" y="1232" x="0" fill="#ff4b2a" />
-<rect width="38" height="10" y="1232" x="40" fill="#ff9488" />
-<rect width="38" height="10" y="1232" x="80" fill="#f1857a" />
-<rect width="38" height="10" y="1232" x="120" fill="#d6d6d6" />
-<rect width="38" height="10" y="1232" x="160" fill="#413b31" />
-<text y="1255" x="3">Okumura</text><rect width="38" height="10" y="1258" x="0" fill="#262326" />
-<rect width="38" height="10" y="1258" x="40" fill="#a69b8d" />
-<rect width="38" height="10" y="1258" x="80" fill="#d9b79a" />
-<rect width="38" height="10" y="1258" x="120" fill="#d9a08b" />
-<rect width="38" height="10" y="1258" x="160" fill="#a67e7b" />
-<text y="1281" x="3">Pink Whiskey</text><rect width="38" height="10" y="1284" x="0" fill="#f2ede9" />
-<rect width="38" height="10" y="1284" x="40" fill="#fddbd2" />
-<rect width="38" height="10" y="1284" x="80" fill="#b2b3ad" />
-<rect width="38" height="10" y="1284" x="120" fill="#35342e" />
-<rect width="38" height="10" y="1284" x="160" fill="#bd887a" />
-<text y="1307" x="3">Plum Cupcake</text><rect width="38" height="10" y="1310" x="0" fill="#401323" />
-<rect width="38" height="10" y="1310" x="40" fill="#6a2e43" />
-<rect width="38" height="10" y="1310" x="80" fill="#8c3a60" />
-<rect width="38" height="10" y="1310" x="120" fill="#a65866" />
-<rect width="38" height="10" y="1310" x="160" fill="#d9a7b0" />
-<text y="1333" x="3">Pops</text><rect width="38" height="10" y="1336" x="0" fill="#a60a33" />
-<rect width="38" height="10" y="1336" x="40" fill="#a61c5c" />
-<rect width="38" height="10" y="1336" x="80" fill="#380140" />
-<rect width="38" height="10" y="1336" x="120" fill="#f27329" />
-<rect width="38" height="10" y="1336" x="160" fill="#d91604" />
-<text y="1359" x="3">Pot Pourri</text><rect width="38" height="10" y="1362" x="0" fill="#c6a890" />
-<rect width="38" height="10" y="1362" x="40" fill="#3e2924" />
-<rect width="38" height="10" y="1362" x="80" fill="#feba3d" />
-<rect width="38" height="10" y="1362" x="120" fill="#fecabd" />
-<rect width="38" height="10" y="1362" x="160" fill="#fb4a1a" />
-<text y="1385" x="3">Scarry</text><rect width="38" height="10" y="1388" x="0" fill="#06c2ec" />
-<rect width="38" height="10" y="1388" x="40" fill="#f0d10b" />
-<rect width="38" height="10" y="1388" x="80" fill="#be9820" />
-<rect width="38" height="10" y="1388" x="120" fill="#f15a38" />
-<rect width="38" height="10" y="1388" x="160" fill="#f1f1f0" />
-<text y="1411" x="3">Sherbet</text><rect width="38" height="10" y="1414" x="0" fill="#fdc9a4" />
-<rect width="38" height="10" y="1414" x="40" fill="#f5b1a6" />
-<rect width="38" height="10" y="1414" x="80" fill="#eca6a8" />
-<rect width="38" height="10" y="1414" x="120" fill="#e1adb9" />
-<rect width="38" height="10" y="1414" x="160" fill="#d0bfd7" />
-<text y="1437" x="3">Sojiro</text><rect width="38" height="10" y="1440" x="0" fill="#ead8c4" />
-<rect width="38" height="10" y="1440" x="40" fill="#bb9e40" />
-<rect width="38" height="10" y="1440" x="80" fill="#7d8846" />
-<rect width="38" height="10" y="1440" x="120" fill="#ce906b" />
-<rect width="38" height="10" y="1440" x="160" fill="#c3c7a6" />
-<text y="1463" x="3">Stockholm Lollipop</text><rect width="38" height="10" y="1466" x="0" fill="#1c2137" />
-<rect width="38" height="10" y="1466" x="40" fill="#284555" />
-<rect width="38" height="10" y="1466" x="80" fill="#de4639" />
-<rect width="38" height="10" y="1466" x="120" fill="#db6528" />
-<rect width="38" height="10" y="1466" x="160" fill="#f5ad0d" />
-<text y="1489" x="3">Sunflower</text><rect width="38" height="10" y="1492" x="0" fill="#eeacb0" />
-<rect width="38" height="10" y="1492" x="40" fill="#e94b24" />
-<rect width="38" height="10" y="1492" x="80" fill="#020001" />
-<rect width="38" height="10" y="1492" x="120" fill="#f6cb0d" />
-<rect width="38" height="10" y="1492" x="160" fill="#f3e6de" />
-<text y="1515" x="3">Takamaki</text><rect width="38" height="10" y="1518" x="0" fill="#bf4974" />
-<rect width="38" height="10" y="1518" x="40" fill="#f257a0" />
-<rect width="38" height="10" y="1518" x="80" fill="#d971aa" />
-<rect width="38" height="10" y="1518" x="120" fill="#aebf8a" />
-<rect width="38" height="10" y="1518" x="160" fill="#3c401d" />
-<text y="1541" x="3">The Phantom Geisha</text><rect width="38" height="10" y="1544" x="0" fill="#f1f3ee" />
-<rect width="38" height="10" y="1544" x="40" fill="#bf925a" />
-<rect width="38" height="10" y="1544" x="80" fill="#464e41" />
-<rect width="38" height="10" y="1544" x="120" fill="#a62014" />
-<rect width="38" height="10" y="1544" x="160" fill="#bf1515" />
-<text y="1567" x="3">Vegan Cheesecake</text><rect width="38" height="10" y="1570" x="0" fill="#e6e4cc" />
-<rect width="38" height="10" y="1570" x="40" fill="#bf8c60" />
-<rect width="38" height="10" y="1570" x="80" fill="#d03814" />
-<rect width="38" height="10" y="1570" x="120" fill="#97632b" />
-<rect width="38" height="10" y="1570" x="160" fill="#edbeaa" />
+      <text y="7" x="3">Shirotokuro</text><rect width="98" height="10" y="10" x="0" fill="#f9f0de" />
+<rect width="98" height="10" y="10" x="100" fill="#392b24" />
+<text y="33" x="3">Marunouchi</text><rect width="98" height="10" y="36" x="0" fill="#f9f0de" />
+<rect width="98" height="10" y="36" x="100" fill="#e51531" />
+<text y="59" x="3">Edo</text><rect width="64.66666666666667" height="10" y="62" x="0" fill="#f9f0de" />
+<rect width="64.66666666666667" height="10" y="62" x="66.66666666666667" fill="#e51531" />
+<rect width="64.66666666666667" height="10" y="62" x="133.33333333333334" fill="#392b24" />
+<text y="85" x="3">Upper East Side</text><rect width="64.66666666666667" height="10" y="88" x="0" fill="#392b24" />
+<rect width="64.66666666666667" height="10" y="88" x="66.66666666666667" fill="#fab511" />
+<rect width="64.66666666666667" height="10" y="88" x="133.33333333333334" fill="#f9f0de" />
+<text y="111" x="3">Kinopio</text><rect width="64.66666666666667" height="10" y="114" x="0" fill="#f9f0de" />
+<rect width="64.66666666666667" height="10" y="114" x="66.66666666666667" fill="#d0bba3" />
+<rect width="64.66666666666667" height="10" y="114" x="133.33333333333334" fill="#392b24" />
+<text y="137" x="3">Kafica</text><rect width="64.66666666666667" height="10" y="140" x="0" fill="#f9f0de" />
+<rect width="64.66666666666667" height="10" y="140" x="66.66666666666667" fill="#d0bba3" />
+<rect width="64.66666666666667" height="10" y="140" x="133.33333333333334" fill="#927154" />
+<text y="163" x="3">Hygge</text><rect width="48" height="10" y="166" x="0" fill="#f9f0de" />
+<rect width="48" height="10" y="166" x="50" fill="#e94d26" />
+<rect width="48" height="10" y="166" x="100" fill="#726c5d" />
+<rect width="48" height="10" y="166" x="150" fill="#392b24" />
+<text y="189" x="3">Kyoto</text><rect width="48" height="10" y="192" x="0" fill="#f9f0de" />
+<rect width="48" height="10" y="192" x="50" fill="#c67333" />
+<rect width="48" height="10" y="192" x="100" fill="#927154" />
+<rect width="48" height="10" y="192" x="150" fill="#392b24" />
+<text y="215" x="3">Piet</text><rect width="38" height="10" y="218" x="0" fill="#f9f0de" />
+<rect width="38" height="10" y="218" x="40" fill="#e51531" />
+<rect width="38" height="10" y="218" x="80" fill="#2a70ae" />
+<rect width="38" height="10" y="218" x="120" fill="#fab511" />
+<rect width="38" height="10" y="218" x="160" fill="#392b24" />
+<text y="241" x="3">Grammercy</text><rect width="38" height="10" y="244" x="0" fill="#f9f0de" />
+<rect width="38" height="10" y="244" x="40" fill="#fab511" />
+<rect width="38" height="10" y="244" x="80" fill="#c67333" />
+<rect width="38" height="10" y="244" x="120" fill="#927154" />
+<rect width="38" height="10" y="244" x="160" fill="#392b24" />
+<text y="267" x="3">Africana</text><rect width="38" height="10" y="270" x="0" fill="#d2452b" />
+<rect width="38" height="10" y="270" x="40" fill="#385d32" />
+<rect width="38" height="10" y="270" x="80" fill="#392b24" />
+<rect width="38" height="10" y="270" x="120" fill="#fab511" />
+<rect width="38" height="10" y="270" x="160" fill="#f9f0de" />
+<text y="293" x="3">Anaheim</text><rect width="38" height="10" y="296" x="0" fill="#ebdfd3" />
+<rect width="38" height="10" y="296" x="40" fill="#df9f2c" />
+<rect width="38" height="10" y="296" x="80" fill="#5b3524" />
+<rect width="38" height="10" y="296" x="120" fill="#a09684" />
+<rect width="38" height="10" y="296" x="160" fill="#8b7f6c" />
+<text y="319" x="3">Ando</text><rect width="38" height="10" y="322" x="0" fill="#2b292b" />
+<rect width="38" height="10" y="322" x="40" fill="#786e66" />
+<rect width="38" height="10" y="322" x="80" fill="#3f3e3a" />
+<rect width="38" height="10" y="322" x="120" fill="#cac6c3" />
+<rect width="38" height="10" y="322" x="160" fill="#afa69e" />
+<text y="345" x="3">Arianda</text><rect width="38" height="10" y="348" x="0" fill="#d95f76" />
+<rect width="38" height="10" y="348" x="40" fill="#b5a2a1" />
+<rect width="38" height="10" y="348" x="80" fill="#f2911b" />
+<rect width="38" height="10" y="348" x="120" fill="#d9501e" />
+<rect width="38" height="10" y="348" x="160" fill="#d93829" />
+<text y="371" x="3">Asuka</text><rect width="38" height="10" y="374" x="0" fill="#bfb7af" />
+<rect width="38" height="10" y="374" x="40" fill="#d8ccc0" />
+<rect width="38" height="10" y="374" x="80" fill="#f2e2d5" />
+<rect width="38" height="10" y="374" x="120" fill="#a59f9b" />
+<rect width="38" height="10" y="374" x="160" fill="#f2d7cd" />
+<text y="397" x="3">Benelit</text><rect width="38" height="10" y="400" x="0" fill="#f2f5ee" />
+<rect width="38" height="10" y="400" x="40" fill="#e0ddd8" />
+<rect width="38" height="10" y="400" x="80" fill="#dc3638" />
+<rect width="38" height="10" y="400" x="120" fill="#757472" />
+<rect width="38" height="10" y="400" x="160" fill="#201c1d" />
+<text y="423" x="3">Blush Response</text><rect width="38" height="10" y="426" x="0" fill="#8c4a50" />
+<rect width="38" height="10" y="426" x="40" fill="#c35b4e" />
+<rect width="38" height="10" y="426" x="80" fill="#d9aa8f" />
+<rect width="38" height="10" y="426" x="120" fill="#e5cbbf" />
+<rect width="38" height="10" y="426" x="160" fill="#f2edea" />
+<text y="449" x="3">Bosmak</text><rect width="38" height="10" y="452" x="0" fill="#f7eee5" />
+<rect width="38" height="10" y="452" x="40" fill="#f7bb41" />
+<rect width="38" height="10" y="452" x="80" fill="#f6c698" />
+<rect width="38" height="10" y="452" x="120" fill="#f8fdff" />
+<rect width="38" height="10" y="452" x="160" fill="#f2a476" />
+<text y="475" x="3">Bradshaw</text><rect width="38" height="10" y="478" x="0" fill="#f28095" />
+<rect width="38" height="10" y="478" x="40" fill="#da5069" />
+<rect width="38" height="10" y="478" x="80" fill="#fc8461" />
+<rect width="38" height="10" y="478" x="120" fill="#e19a7e" />
+<rect width="38" height="10" y="478" x="160" fill="#cea39d" />
+<text y="501" x="3">Burnt Berry</text><rect width="38" height="10" y="504" x="0" fill="#dccfc6" />
+<rect width="38" height="10" y="504" x="40" fill="#9d917b" />
+<rect width="38" height="10" y="504" x="80" fill="#463a2a" />
+<rect width="38" height="10" y="504" x="120" fill="#d6c2b9" />
+<rect width="38" height="10" y="504" x="160" fill="#b76750" />
+<text y="527" x="3">Cacti Bloom</text><rect width="38" height="10" y="530" x="0" fill="#a6243c" />
+<rect width="38" height="10" y="530" x="40" fill="#f21d56" />
+<rect width="38" height="10" y="530" x="80" fill="#f2bf27" />
+<rect width="38" height="10" y="530" x="120" fill="#f29422" />
+<rect width="38" height="10" y="530" x="160" fill="#2d3c1f" />
+<text y="553" x="3">Cacti Dream</text><rect width="38" height="10" y="556" x="0" fill="#29361b" />
+<rect width="38" height="10" y="556" x="40" fill="#f39233" />
+<rect width="38" height="10" y="556" x="80" fill="#f3e3d6" />
+<rect width="38" height="10" y="556" x="120" fill="#140f0c" />
+<rect width="38" height="10" y="556" x="160" fill="#cc3314" />
+<text y="579" x="3">Cappadocia</text><rect width="38" height="10" y="582" x="0" fill="#eeeff4" />
+<rect width="38" height="10" y="582" x="40" fill="#d1bbae" />
+<rect width="38" height="10" y="582" x="80" fill="#1d1e23" />
+<rect width="38" height="10" y="582" x="120" fill="#b14441" />
+<rect width="38" height="10" y="582" x="160" fill="#af8976" />
+<text y="605" x="3">Caramel</text><rect width="38" height="10" y="608" x="0" fill="#d3c3b6" />
+<rect width="38" height="10" y="608" x="40" fill="#bab2a7" />
+<rect width="38" height="10" y="608" x="80" fill="#bf9c74" />
+<rect width="38" height="10" y="608" x="120" fill="#bf5b03" />
+<rect width="38" height="10" y="608" x="160" fill="#993503" />
+<text y="631" x="3">Checkov</text><rect width="38" height="10" y="634" x="0" fill="#112233" />
+<rect width="38" height="10" y="634" x="40" fill="#adabae" />
+<rect width="38" height="10" y="634" x="80" fill="#16474a" />
+<rect width="38" height="10" y="634" x="120" fill="#133536" />
+<rect width="38" height="10" y="634" x="160" fill="#c26646" />
+<text y="657" x="3">Chiharu</text><rect width="38" height="10" y="660" x="0" fill="#dbd0c3" />
+<rect width="38" height="10" y="660" x="40" fill="#f2a74b" />
+<rect width="38" height="10" y="660" x="80" fill="#d88236" />
+<rect width="38" height="10" y="660" x="120" fill="#724116" />
+<rect width="38" height="10" y="660" x="160" fill="#a55f21" />
+<text y="683" x="3">Cocos</text><rect width="38" height="10" y="686" x="0" fill="#0c0c0e" />
+<rect width="38" height="10" y="686" x="40" fill="#837560" />
+<rect width="38" height="10" y="686" x="80" fill="#e28a27" />
+<rect width="38" height="10" y="686" x="120" fill="#9d5d24" />
+<rect width="38" height="10" y="686" x="160" fill="#f8fdfe" />
+<text y="709" x="3">Coffee Cup</text><rect width="38" height="10" y="712" x="0" fill="#32363f" />
+<rect width="38" height="10" y="712" x="40" fill="#d7cec5" />
+<rect width="38" height="10" y="712" x="80" fill="#f3efec" />
+<rect width="38" height="10" y="712" x="120" fill="#956446" />
+<rect width="38" height="10" y="712" x="160" fill="#e6e2df" />
+<text y="735" x="3">Earthenware</text><rect width="38" height="10" y="738" x="0" fill="#918679" />
+<rect width="38" height="10" y="738" x="40" fill="#d1c9be" />
+<rect width="38" height="10" y="738" x="80" fill="#fafafa" />
+<rect width="38" height="10" y="738" x="120" fill="#594b42" />
+<rect width="38" height="10" y="738" x="160" fill="#d3a679" />
+<text y="761" x="3">Edo</text><rect width="38" height="10" y="764" x="0" fill="#fffeff" />
+<rect width="38" height="10" y="764" x="40" fill="#a58c68" />
+<rect width="38" height="10" y="764" x="80" fill="#2f2a26" />
+<rect width="38" height="10" y="764" x="120" fill="#8c847a" />
+<rect width="38" height="10" y="764" x="160" fill="#df3f36" />
+<text y="787" x="3">Elevated Basic</text><rect width="38" height="10" y="790" x="0" fill="#4b7ba6" />
+<rect width="38" height="10" y="790" x="40" fill="#4e5925" />
+<rect width="38" height="10" y="790" x="80" fill="#f2b138" />
+<rect width="38" height="10" y="790" x="120" fill="#f2e8dc" />
+<rect width="38" height="10" y="790" x="160" fill="#f25749" />
+<text y="813" x="3">Ellsworth</text><rect width="38" height="10" y="816" x="0" fill="#f0eee2" />
+<rect width="38" height="10" y="816" x="40" fill="#a18a6b" />
+<rect width="38" height="10" y="816" x="80" fill="#61574e" />
+<rect width="38" height="10" y="816" x="120" fill="#3f3f3d" />
+<rect width="38" height="10" y="816" x="160" fill="#0d0d0d" />
+<text y="839" x="3">Esquisse</text><rect width="38" height="10" y="842" x="0" fill="#c20a29" />
+<rect width="38" height="10" y="842" x="40" fill="#d6a4b5" />
+<rect width="38" height="10" y="842" x="80" fill="#0d1e5a" />
+<rect width="38" height="10" y="842" x="120" fill="#023f36" />
+<rect width="38" height="10" y="842" x="160" fill="#0e0e0e" />
+<text y="865" x="3">Fashion</text><rect width="38" height="10" y="868" x="0" fill="#bf0326" />
+<rect width="38" height="10" y="868" x="40" fill="#592f56" />
+<rect width="38" height="10" y="868" x="80" fill="#f2d441" />
+<rect width="38" height="10" y="868" x="120" fill="#f2eadc" />
+<rect width="38" height="10" y="868" x="160" fill="#bf775d" />
+<text y="891" x="3">Futaba</text><rect width="38" height="10" y="894" x="0" fill="#d9831a" />
+<rect width="38" height="10" y="894" x="40" fill="#9f724b" />
+<rect width="38" height="10" y="894" x="80" fill="#ece3de" />
+<rect width="38" height="10" y="894" x="120" fill="#cf9071" />
+<rect width="38" height="10" y="894" x="160" fill="#8b3305" />
+<text y="917" x="3">Gelato Prime</text><rect width="38" height="10" y="920" x="0" fill="#f29f05" />
+<rect width="38" height="10" y="920" x="40" fill="#f3ab00" />
+<rect width="38" height="10" y="920" x="80" fill="#efc362" />
+<rect width="38" height="10" y="920" x="120" fill="#722835" />
+<rect width="38" height="10" y="920" x="160" fill="#d44f49" />
+<text y="943" x="3">Grace</text><rect width="38" height="10" y="946" x="0" fill="#dfd4cb" />
+<rect width="38" height="10" y="946" x="40" fill="#143c21" />
+<rect width="38" height="10" y="946" x="80" fill="#816c4b" />
+<rect width="38" height="10" y="946" x="120" fill="#e0a7b8" />
+<rect width="38" height="10" y="946" x="160" fill="#f8623b" />
+<text y="969" x="3">Harimau</text><rect width="38" height="10" y="972" x="0" fill="#281740" />
+<rect width="38" height="10" y="972" x="40" fill="#f29d35" />
+<rect width="38" height="10" y="972" x="80" fill="#04504e" />
+<rect width="38" height="10" y="972" x="120" fill="#f27405" />
+<rect width="38" height="10" y="972" x="160" fill="#f24c3d" />
+<text y="995" x="3">Hermione</text><rect width="38" height="10" y="998" x="0" fill="#d98b2b" />
+<rect width="38" height="10" y="998" x="40" fill="#a35e46" />
+<rect width="38" height="10" y="998" x="80" fill="#d3d3d3" />
+<rect width="38" height="10" y="998" x="120" fill="#d9593d" />
+<rect width="38" height="10" y="998" x="160" fill="#d9bbb8" />
+<text y="1021" x="3">High Fashion</text><rect width="38" height="10" y="1024" x="0" fill="#cd2525" />
+<rect width="38" height="10" y="1024" x="40" fill="#c04483" />
+<rect width="38" height="10" y="1024" x="80" fill="#2d8579" />
+<rect width="38" height="10" y="1024" x="120" fill="#1a1921" />
+<rect width="38" height="10" y="1024" x="160" fill="#ddd8d4" />
+<text y="1047" x="3">Hua Kanda</text><rect width="38" height="10" y="1050" x="0" fill="#ecf2f0" />
+<rect width="38" height="10" y="1050" x="40" fill="#d9946c" />
+<rect width="38" height="10" y="1050" x="80" fill="#260b01" />
+<rect width="38" height="10" y="1050" x="120" fill="#80875e" />
+<rect width="38" height="10" y="1050" x="160" fill="#d96459" />
+<text y="1073" x="3">Kekkon</text><rect width="38" height="10" y="1076" x="0" fill="#f2eee5" />
+<rect width="38" height="10" y="1076" x="40" fill="#d9bea7" />
+<rect width="38" height="10" y="1076" x="80" fill="#bf9a7a" />
+<rect width="38" height="10" y="1076" x="120" fill="#73554c" />
+<rect width="38" height="10" y="1076" x="160" fill="#bf7e78" />
+<text y="1099" x="3">Koh Chela</text><rect width="38" height="10" y="1102" x="0" fill="#cc8f5c" />
+<rect width="38" height="10" y="1102" x="40" fill="#935a45" />
+<rect width="38" height="10" y="1102" x="80" fill="#968579" />
+<rect width="38" height="10" y="1102" x="120" fill="#8c3211" />
+<rect width="38" height="10" y="1102" x="160" fill="#753326" />
+<text y="1125" x="3">Lotus Plain</text><rect width="38" height="10" y="1128" x="0" fill="#eae6e2" />
+<rect width="38" height="10" y="1128" x="40" fill="#d9865a" />
+<rect width="38" height="10" y="1128" x="80" fill="#4f616f" />
+<rect width="38" height="10" y="1128" x="120" fill="#f2bfac" />
+<rect width="38" height="10" y="1128" x="160" fill="#d96055" />
+<text y="1151" x="3">Makoto</text><rect width="38" height="10" y="1154" x="0" fill="#b0a48e" />
+<rect width="38" height="10" y="1154" x="40" fill="#f1c7ae" />
+<rect width="38" height="10" y="1154" x="80" fill="#f3f0eb" />
+<rect width="38" height="10" y="1154" x="120" fill="#aa8773" />
+<rect width="38" height="10" y="1154" x="160" fill="#e4cbb7" />
+<text y="1177" x="3">Mallow</text><rect width="38" height="10" y="1180" x="0" fill="#bdbbbf" />
+<rect width="38" height="10" y="1180" x="40" fill="#e3e1e5" />
+<rect width="38" height="10" y="1180" x="80" fill="#f0cec7" />
+<rect width="38" height="10" y="1180" x="120" fill="#a7999a" />
+<rect width="38" height="10" y="1180" x="160" fill="#edd8d1" />
+<text y="1203" x="3">Maneki</text><rect width="38" height="10" y="1206" x="0" fill="#eecb05" />
+<rect width="38" height="10" y="1206" x="40" fill="#cb9d56" />
+<rect width="38" height="10" y="1206" x="80" fill="#fffbff" />
+<rect width="38" height="10" y="1206" x="120" fill="#f22a13" />
+<rect width="38" height="10" y="1206" x="160" fill="#415237" />
+<text y="1229" x="3">Marit</text><rect width="38" height="10" y="1232" x="0" fill="#f1ab94" />
+<rect width="38" height="10" y="1232" x="40" fill="#e9cbb2" />
+<rect width="38" height="10" y="1232" x="80" fill="#e0d7bd" />
+<rect width="38" height="10" y="1232" x="120" fill="#e3820e" />
+<rect width="38" height="10" y="1232" x="160" fill="#d06709" />
+<text y="1255" x="3">Marshmallow Sunset</text><rect width="38" height="10" y="1258" x="0" fill="#50566c" />
+<rect width="38" height="10" y="1258" x="40" fill="#eaddcd" />
+<rect width="38" height="10" y="1258" x="80" fill="#e0c694" />
+<rect width="38" height="10" y="1258" x="120" fill="#7d8f9c" />
+<rect width="38" height="10" y="1258" x="160" fill="#dbb48d" />
+<text y="1281" x="3">Monatsblatter</text><rect width="38" height="10" y="1284" x="0" fill="#f0ede4" />
+<rect width="38" height="10" y="1284" x="40" fill="#f0ede4" />
+<rect width="38" height="10" y="1284" x="80" fill="#f0ede4" />
+<rect width="38" height="10" y="1284" x="120" fill="#403a36" />
+<rect width="38" height="10" y="1284" x="160" fill="#26221a" />
+<text y="1307" x="3">Morgana</text><rect width="38" height="10" y="1310" x="0" fill="#325952" />
+<rect width="38" height="10" y="1310" x="40" fill="#517369" />
+<rect width="38" height="10" y="1310" x="80" fill="#91caaf" />
+<rect width="38" height="10" y="1310" x="120" fill="#838c7d" />
+<rect width="38" height="10" y="1310" x="160" fill="#9ca692" />
+<text y="1333" x="3">Mulberry</text><rect width="38" height="10" y="1336" x="0" fill="#e1cfdf" />
+<rect width="38" height="10" y="1336" x="40" fill="#adabae" />
+<rect width="38" height="10" y="1336" x="80" fill="#204d50" />
+<rect width="38" height="10" y="1336" x="120" fill="#133536" />
+<rect width="38" height="10" y="1336" x="160" fill="#aa7346" />
+<text y="1359" x="3">Napoli</text><rect width="38" height="10" y="1362" x="0" fill="#bf7c03" />
+<rect width="38" height="10" y="1362" x="40" fill="#e7e3de" />
+<rect width="38" height="10" y="1362" x="80" fill="#696262" />
+<rect width="38" height="10" y="1362" x="120" fill="#f2b8bf" />
+<rect width="38" height="10" y="1362" x="160" fill="#131210" />
+<text y="1385" x="3">Nasturtiums</text><rect width="38" height="10" y="1388" x="0" fill="#d1d2aa" />
+<rect width="38" height="10" y="1388" x="40" fill="#5c7346" />
+<rect width="38" height="10" y="1388" x="80" fill="#eeaf24" />
+<rect width="38" height="10" y="1388" x="120" fill="#d9771e" />
+<rect width="38" height="10" y="1388" x="160" fill="#d7481e" />
+<text y="1411" x="3">Naya</text><rect width="38" height="10" y="1414" x="0" fill="#e7cfdf" />
+<rect width="38" height="10" y="1414" x="40" fill="#adabae" />
+<rect width="38" height="10" y="1414" x="80" fill="#16474a" />
+<rect width="38" height="10" y="1414" x="120" fill="#133536" />
+<rect width="38" height="10" y="1414" x="160" fill="#c26646" />
+<text y="1437" x="3">New Eden</text><rect width="38" height="10" y="1440" x="0" fill="#ee9b0f" />
+<rect width="38" height="10" y="1440" x="40" fill="#ff7518" />
+<rect width="38" height="10" y="1440" x="80" fill="#fe8c68" />
+<rect width="38" height="10" y="1440" x="120" fill="#ff5001" />
+<rect width="38" height="10" y="1440" x="160" fill="#b87332" />
+<text y="1463" x="3">Nikkeidai</text><rect width="38" height="10" y="1466" x="0" fill="#f66689" />
+<rect width="38" height="10" y="1466" x="40" fill="#65136c" />
+<rect width="38" height="10" y="1466" x="80" fill="#f22e0e" />
+<rect width="38" height="10" y="1466" x="120" fill="#00a75e" />
+<rect width="38" height="10" y="1466" x="160" fill="#d7d7d7" />
+<text y="1489" x="3">Ochre Comfort</text><rect width="38" height="10" y="1492" x="0" fill="#d9d7bf" />
+<rect width="38" height="10" y="1492" x="40" fill="#f2cb05" />
+<rect width="38" height="10" y="1492" x="80" fill="#f2b705" />
+<rect width="38" height="10" y="1492" x="120" fill="#f29f05" />
+<rect width="38" height="10" y="1492" x="160" fill="#f27405" />
+<text y="1515" x="3">Okage</text><rect width="38" height="10" y="1518" x="0" fill="#ff4b2a" />
+<rect width="38" height="10" y="1518" x="40" fill="#ff9488" />
+<rect width="38" height="10" y="1518" x="80" fill="#f1857a" />
+<rect width="38" height="10" y="1518" x="120" fill="#d6d6d6" />
+<rect width="38" height="10" y="1518" x="160" fill="#413b31" />
+<text y="1541" x="3">Okumura</text><rect width="38" height="10" y="1544" x="0" fill="#262326" />
+<rect width="38" height="10" y="1544" x="40" fill="#a69b8d" />
+<rect width="38" height="10" y="1544" x="80" fill="#d9b79a" />
+<rect width="38" height="10" y="1544" x="120" fill="#d9a08b" />
+<rect width="38" height="10" y="1544" x="160" fill="#a67e7b" />
+<text y="1567" x="3">Pink Whiskey</text><rect width="38" height="10" y="1570" x="0" fill="#f2ede9" />
+<rect width="38" height="10" y="1570" x="40" fill="#fddbd2" />
+<rect width="38" height="10" y="1570" x="80" fill="#b2b3ad" />
+<rect width="38" height="10" y="1570" x="120" fill="#35342e" />
+<rect width="38" height="10" y="1570" x="160" fill="#bd887a" />
+<text y="1593" x="3">Plum Cupcake</text><rect width="38" height="10" y="1596" x="0" fill="#401323" />
+<rect width="38" height="10" y="1596" x="40" fill="#6a2e43" />
+<rect width="38" height="10" y="1596" x="80" fill="#8c3a60" />
+<rect width="38" height="10" y="1596" x="120" fill="#a65866" />
+<rect width="38" height="10" y="1596" x="160" fill="#d9a7b0" />
+<text y="1619" x="3">Pops</text><rect width="38" height="10" y="1622" x="0" fill="#a60a33" />
+<rect width="38" height="10" y="1622" x="40" fill="#a61c5c" />
+<rect width="38" height="10" y="1622" x="80" fill="#380140" />
+<rect width="38" height="10" y="1622" x="120" fill="#f27329" />
+<rect width="38" height="10" y="1622" x="160" fill="#d91604" />
+<text y="1645" x="3">Pot Pourri</text><rect width="38" height="10" y="1648" x="0" fill="#c6a890" />
+<rect width="38" height="10" y="1648" x="40" fill="#3e2924" />
+<rect width="38" height="10" y="1648" x="80" fill="#feba3d" />
+<rect width="38" height="10" y="1648" x="120" fill="#fecabd" />
+<rect width="38" height="10" y="1648" x="160" fill="#fb4a1a" />
+<text y="1671" x="3">Scarry</text><rect width="38" height="10" y="1674" x="0" fill="#06c2ec" />
+<rect width="38" height="10" y="1674" x="40" fill="#f0d10b" />
+<rect width="38" height="10" y="1674" x="80" fill="#be9820" />
+<rect width="38" height="10" y="1674" x="120" fill="#f15a38" />
+<rect width="38" height="10" y="1674" x="160" fill="#f1f1f0" />
+<text y="1697" x="3">Sherbet</text><rect width="38" height="10" y="1700" x="0" fill="#fdc9a4" />
+<rect width="38" height="10" y="1700" x="40" fill="#f5b1a6" />
+<rect width="38" height="10" y="1700" x="80" fill="#eca6a8" />
+<rect width="38" height="10" y="1700" x="120" fill="#e1adb9" />
+<rect width="38" height="10" y="1700" x="160" fill="#d0bfd7" />
+<text y="1723" x="3">Sojiro</text><rect width="38" height="10" y="1726" x="0" fill="#ead8c4" />
+<rect width="38" height="10" y="1726" x="40" fill="#bb9e40" />
+<rect width="38" height="10" y="1726" x="80" fill="#7d8846" />
+<rect width="38" height="10" y="1726" x="120" fill="#ce906b" />
+<rect width="38" height="10" y="1726" x="160" fill="#c3c7a6" />
+<text y="1749" x="3">Stockholm Lollipop</text><rect width="38" height="10" y="1752" x="0" fill="#1c2137" />
+<rect width="38" height="10" y="1752" x="40" fill="#284555" />
+<rect width="38" height="10" y="1752" x="80" fill="#de4639" />
+<rect width="38" height="10" y="1752" x="120" fill="#db6528" />
+<rect width="38" height="10" y="1752" x="160" fill="#f5ad0d" />
+<text y="1775" x="3">Sunflower</text><rect width="38" height="10" y="1778" x="0" fill="#eeacb0" />
+<rect width="38" height="10" y="1778" x="40" fill="#e94b24" />
+<rect width="38" height="10" y="1778" x="80" fill="#020001" />
+<rect width="38" height="10" y="1778" x="120" fill="#f6cb0d" />
+<rect width="38" height="10" y="1778" x="160" fill="#f3e6de" />
+<text y="1801" x="3">Takamaki</text><rect width="38" height="10" y="1804" x="0" fill="#bf4974" />
+<rect width="38" height="10" y="1804" x="40" fill="#f257a0" />
+<rect width="38" height="10" y="1804" x="80" fill="#d971aa" />
+<rect width="38" height="10" y="1804" x="120" fill="#aebf8a" />
+<rect width="38" height="10" y="1804" x="160" fill="#3c401d" />
+<text y="1827" x="3">The Phantom Geisha</text><rect width="38" height="10" y="1830" x="0" fill="#f1f3ee" />
+<rect width="38" height="10" y="1830" x="40" fill="#bf925a" />
+<rect width="38" height="10" y="1830" x="80" fill="#464e41" />
+<rect width="38" height="10" y="1830" x="120" fill="#a62014" />
+<rect width="38" height="10" y="1830" x="160" fill="#bf1515" />
+<text y="1853" x="3">Vegan Cheesecake</text><rect width="38" height="10" y="1856" x="0" fill="#e6e4cc" />
+<rect width="38" height="10" y="1856" x="40" fill="#bf8c60" />
+<rect width="38" height="10" y="1856" x="80" fill="#d03814" />
+<rect width="38" height="10" y="1856" x="120" fill="#97632b" />
+<rect width="38" height="10" y="1856" x="160" fill="#edbeaa" />
     </svg>
   
