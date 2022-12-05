@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 286">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 312">
       <style>
         @font-face {
   font-family: 'DM Serif Display';
@@ -93,5 +93,10 @@ text {
 <rect width="23" height="10" y="270" x="125" fill="#bc5b34" />
 <rect width="23" height="10" y="270" x="150" fill="#d4a44f" />
 <rect width="23" height="10" y="270" x="175" fill="#395d54" />
+<text y="293" x="3">Tandoori Desert</text><rect width="38" height="10" y="296" x="0" fill="#ebe7e0" />
+<rect width="38" height="10" y="296" x="40" fill="#262626" />
+<rect width="38" height="10" y="296" x="80" fill="#bc594e" />
+<rect width="38" height="10" y="296" x="120" fill="#bca357" />
+<rect width="38" height="10" y="296" x="160" fill="#516b9e" />
     </svg>
   
