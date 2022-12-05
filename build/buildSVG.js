@@ -1,14 +1,12 @@
 import fs from 'fs';
 
-// read svg.css to inline it
-const css = fs.readFileSync('./build/svg.css', 'utf8');
-
 const defaultOptions = {
   width: 200,
   colorSampleHeight: 10,
   padding: 5,
   inlineSpace: 2,
   fontSize: 6,
+  svgcss: '',
 };
 
 /**
@@ -73,6 +71,7 @@ export function buildSVG(
     padding,
     inlineSpace,
     fontSize,
+    svgcss
   } = options;
 
 
@@ -83,7 +82,7 @@ export function buildSVG(
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
       <style>
-        ${css}
+        ${svgcss}
         text {
           font-size: ${fontSize}px;
         }

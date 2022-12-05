@@ -146,7 +146,15 @@ program
         if (options.svg) {
           fs.writeFileSync(
               path.join(options.out, 'palettes.svg'),
-              buildSVG(paletteArray),
+              buildSVG(
+                  paletteArray,
+                  {
+                    svgcss: fs.readFileSync(
+                        path.join(__dirname, 'svg.css'),
+                        'utf8',
+                    ),
+                  },
+              ),
               'utf8',
           );
 
