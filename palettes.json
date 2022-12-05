@@ -139,5 +139,19 @@
       "#516b9e"
     ],
     "name": "Tandoori Desert"
+  },
+  {
+    "colors": [
+      "#ebe7e0",
+      "#262626",
+      "#bc594e",
+      "#bf7e4f",
+      "#bca357",
+      "#5a844d",
+      "#467991",
+      "#516b9e",
+      "#656198"
+    ],
+    "name": "Nero Desert"
   }
 ]
