@@ -1,6 +1,6 @@
 {
   "name": "palette-aldente",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "A collection of color palettes",
   "main": "dist/palettes.js",
   "type": "module",

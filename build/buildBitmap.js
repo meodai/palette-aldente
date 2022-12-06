@@ -1,17 +1,17 @@
 import {createCanvas} from 'canvas';
 
 const defaultPaletteOptions = {
-  width: 400,
-  colorSwatchHeight: 30,
-  colorSwatchGap: 4,
+  width: 500,
+  colorSwatchHeight: 35,
+  colorSwatchGap: 2,
   padding: 5,
-  fontSize: 20,
-  fontGutter: 10,
+  fontSize: 15,
+  fontGutter: 7,
   fontFamily: '"sans-serif"',
   fontWeight: 'bold',
   backgroundColor: 'transparent',
   textColor: '#202124',
-  strokeWidth: 1,
+  strokeWidth: 0,
   strokeColor: '#202124',
 };
 
@@ -55,6 +55,7 @@ function createPalette(palette, options) {
     const top = opt.fontSize + opt.fontGutter + opt.padding;
     const left = opt.padding + (i * (colorWidth + opt.colorSwatchGap));
     ctx.fillStyle = typeof c === 'object' ? c.value : c;
+    ctx.lineWidth = opt.strokeWidth;
 
     ctx.beginPath();
     ctx.rect(
@@ -64,7 +65,9 @@ function createPalette(palette, options) {
         opt.colorSwatchHeight,
     );
     ctx.fill();
-    ctx.stroke();
+    if (opt.strokeWidth && opt.strokeColor) {
+      ctx.stroke();
+    }
     ctx.closePath();
   });
 
