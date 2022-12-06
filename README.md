@@ -75,6 +75,10 @@ To use this in your JS code import or include `dist/palettes.js`. It exposes the
 ## Used by
 [York Town Hall Colors](https://github.com/studioyorktown/coloryorktownhall)
 
+## Example PNG Export
+
+![List of Palettes as PNG](/dist/palettes.png)
+
 ## Example SVG Export
 
-![List of Palettes](/dist/palettes.svg)
+![List of Palettes as SVG](/dist/palettes.svg)
