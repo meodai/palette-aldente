@@ -155,5 +155,13 @@
       "#656198"
     ],
     "name": "Nero Desert"
+  },
+  {
+    "name": "Brutal Tomato",
+    "colors": [
+      "#fe6666",
+      "#f6f6f6",
+      "#202125"
+    ]
   }
 ]

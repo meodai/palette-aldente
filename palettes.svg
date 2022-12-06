@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 338">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 364">
       <style>
         text {
   font-family: sans-serif;
@@ -100,5 +100,8 @@
 <rect width="20.22222222222222" height="10" y="322" x="133.33333333333331" fill="#467991" />
 <rect width="20.22222222222222" height="10" y="322" x="155.55555555555554" fill="#516b9e" />
 <rect width="20.22222222222222" height="10" y="322" x="177.77777777777777" fill="#656198" />
+<text y="345" x="3">Brutal Tomato</text><rect width="64.66666666666667" height="10" y="348" x="0" fill="#fe6666" />
+<rect width="64.66666666666667" height="10" y="348" x="66.66666666666667" fill="#f6f6f6" />
+<rect width="64.66666666666667" height="10" y="348" x="133.33333333333334" fill="#202125" />
     </svg>
   
