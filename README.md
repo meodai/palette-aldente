@@ -12,6 +12,8 @@ Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnt
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
 
+Open-sourcing your color palettes allows others to use and improve them, helps build your design expertise, and fosters collaboration within the community. This tool was built to make the process as easy and streamlined as possible. 
+
 ## Quickstart
   
 ```bash
