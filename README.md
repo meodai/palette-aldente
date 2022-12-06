@@ -8,6 +8,7 @@ Color palette parser that helps maintaining and publishing your favourite color 
 - Exports a static SVG of all the palettes
 - Exports PNG images of each palette.
 - Provides a HTML templete with all the palletes. (Ideal for github pages)
+- Ability to name your colors and palettes automatically
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
 
@@ -48,10 +49,18 @@ Arguments:
 Options:
   -V, --version                 output the version number
   -O, --out <directory>         path to output directory (default: "./dist")
+  -A, --autoname <boolean>      if true, the palette name will be generated from the colors contained (default: true)
+  --no-autoname                 unnamed palettes will be have "Untitled <n>" as name
   -F, --formats <string>        comma separated list of formats to convert to
   -D, --defaultformat <string>  default color format outputted in your target file (default: "hex")
-  -S, --svg                     export an overview SVG of the palettes (default: true)
+  -S, --svg <boolean>           export an overview SVG of the palettes (default: true)
   --no-svg                      do not export an overview SVG of the palettes
+  -J, --js <boolean>            export a JS wrapper file with the palettes an a minimal API (default: true)
+  --no-js                       do not export an JS file
+  -H, --html <boolean>          export a HTML file that showcases the palettes (default: true)
+  --no-html                     do not export an HTML file
+  -I, --img <boolen>            export PNG images of the palettes (default: true)
+  --no-img                      do not export PNG images of the palettes
   -h, --help                    display help for command
 ```
 
