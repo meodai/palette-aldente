@@ -30,6 +30,21 @@ import {
 
 import {buildSVG} from './buildSVG.js';
 
+import {createOverview, createPalette} from './buildBitmap.js';
+
+/**
+ * @param {Array} palettes
+ * @return {Array} Array of arrays of colors
+ */
+function flattenPalettes(palettes) {
+  return palettes.reduce((acc, palette) => {
+    if (palette.hasOwnProperty('palettes')) {
+      return acc.concat(flattenPalettes(palette.palettes));
+    }
+    return acc.concat(palette);
+  }, []);
+}
+
 /**
  * @param {string} value
  * @return {string} trimmed string
@@ -103,6 +118,15 @@ program
     .option(
         '--no-html',
         'do not export an HTML file',
+    )
+    .option(
+        '-I, --img <boolen>',
+        'export PNG images of the palettes',
+        true,
+    )
+    .option(
+        '--no-img',
+        'do not export PNG images of the palettes',
     );
 
 program
@@ -125,6 +149,7 @@ program
             additionalColorFormats,
             options.autoname,
         );
+        const flatPalettesArray = flattenPalettes(paletteArray);
 
         if (!fs.existsSync(options.out)) {
           fs.mkdirSync(options.out, {recursive: true});
@@ -147,7 +172,7 @@ program
           fs.writeFileSync(
               path.join(options.out, 'palettes.svg'),
               buildSVG(
-                  paletteArray,
+                  flatPalettesArray,
                   {
                     svgcss: fs.readFileSync(
                         path.join(__dirname, 'svg.css'),
@@ -163,6 +188,49 @@ program
                 options.out,
                 'palettes.svg',
             )
+          }"`);
+        }
+
+        if (options.img) {
+          const palettesCanvases = [];
+
+          flatPalettesArray.forEach((palette, index) => {
+            const $canvas = createPalette(palette);
+
+            // convert palette.name to a valid filename
+            const paletteName = palette.name
+                .replace(/[^a-z0-9]/gi, '_').toLowerCase();
+
+            const filename = `palette-${index}-${paletteName}.png`;
+            const filepath = path.join(options.out, 'img/', filename);
+
+            if (!fs.existsSync(path.join(options.out, 'img/'))) {
+              fs.mkdirSync(path.join(options.out, 'img/'), {recursive: true});
+            }
+
+            const buffer = $canvas.toBuffer('image/png');
+
+            palettesCanvases.push($canvas)
+
+            fs.writeFileSync(
+                filepath,
+                buffer,
+            );
+          });
+
+          fs.writeFileSync(
+              path.join(options.out, 'palettes.png'),
+              createOverview(palettesCanvases).toBuffer('image/png'), 
+              'utf8',
+          );
+
+          console.log(`PNG exported palettes to "${
+            path.join(
+                options.out,
+                'palettes.png',
+            )
+          }" and individual palettes to "${
+            path.join(options.out, 'img/')
           }"`);
         }
 

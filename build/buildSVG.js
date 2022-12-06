@@ -1,5 +1,3 @@
-import fs from 'fs';
-
 const defaultOptions = {
   width: 200,
   colorSampleHeight: 10,
@@ -8,19 +6,6 @@ const defaultOptions = {
   fontSize: 6,
   svgcss: '',
 };
-
-/**
- * @param {Array} palettes
- * @return {Array} Array of arrays of colors
- */
-function flattenPalettes(palettes) {
-  return palettes.reduce((acc, palette) => {
-    if (palette.hasOwnProperty('palettes')) {
-      return acc.concat(flattenPalettes(palette.palettes));
-    }
-    return acc.concat(palette);
-  }, []);
-}
 
 /**
  * @param {String} title
@@ -74,9 +59,7 @@ export function buildSVG(
     svgcss
   } = options;
 
-
-  const palettes = flattenPalettes(paletteArray);
-  const items = palettes.length;
+  const items = paletteArray.length;
   const height = ( fontSize + colorSampleHeight + padding * 2 ) * items;
 
   return `
@@ -87,7 +70,7 @@ export function buildSVG(
           font-size: ${fontSize}px;
         }
       </style>
-      ${palettes.map((c, i) => {
+      ${paletteArray.map((c, i) => {
     const top = fontSize + fontSize/1.5 + i *
                 (colorSampleHeight + fontSize + padding * 2);
     if (c.hasOwnProperty('colors')) {
