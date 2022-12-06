@@ -17,7 +17,7 @@ const JSUMDTPL = fs.readFileSync(
     'utf8',
 );
 
-const HTMLTPL = fs.readFileSync(
+let HTMLTPL = fs.readFileSync(
     path.join(__dirname, 'tpl', 'index.html'),
     'utf8',
 );
@@ -60,7 +60,7 @@ program
         './dist',
     )
     .option(
-        '-A, --autoname <boolen>',
+        '-A, --autoname <boolean>',
         'if true, the palette name will be generated from the colors contained',
         true,
     )
@@ -78,7 +78,7 @@ program
         'hex',
     )
     .option(
-        '-S, --svg',
+        '-S, --svg <boolean>',
         'export an overview SVG of the palettes',
         true,
     )
@@ -87,7 +87,7 @@ program
         'do not export an overview SVG of the palettes',
     )
     .option(
-        '-J, --js',
+        '-J, --js <boolean>',
         'export a JS wrapper file with the palettes an a minimal API',
         true,
     )
@@ -96,7 +96,7 @@ program
         'do not export an JS file',
     )
     .option(
-        '-H, --html',
+        '-H, --html <boolean>',
         'export a HTML file that showcases the palettes',
         true,
     )
