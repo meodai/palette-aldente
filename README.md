@@ -1,6 +1,6 @@
 # Palette Aldente 🍝
 
-Color palette parser that helps maintaining and publishing your favourite color palettes:
+Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Keep your favorite color schemes organized and easily accessible for all your creative needs.
 
 - Makes sure your `yml` or `json` is actually valid
 - Exports it to JSON
