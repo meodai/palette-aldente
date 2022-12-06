@@ -16,7 +16,22 @@ Color palette parser that helps maintaining and publishing your favourite color 
 npx palette-aldente ./src/palettes.yml --formats name,rgb,hsl
 ```
 
-## Manual
+## Use to publish your palettes
+
+1. `npm install palette-aldente --save-dev`
+2. Create a [`json`](https://github.com/studioyorktown/coloryorktownhall/blob/main/src/merged.json) or [`yml`](https://github.com/meodai/palette-aldente/blob/main/src/palettes.yml) file containing your colors.
+3. Edit your `package.json` to build your actual palette ex: 
+```js
+//...
+"scripts": {
+    "build": "palette-aldente ./yourcolors.json",
+}
+```
+5. `npm run build` to build the project.
+6. Find your build in the `dist/` folder.
+7. Optionally use [this workflow](https://github.com/meodai/palette-aldente/blob/main/.github/workflows/node.js.yml) to automatically publish all changes to github pages.
+
+## CLI Manual
 
 ```bash
 $ npx palette-aldente ./mypalettes.yml 
@@ -56,6 +71,9 @@ To use this in your JS code import or include `dist/palettes.js`. It exposes the
 - `get(paletteName)` will return an object of the palete with a given name
 - `random()` returns a random palette
 - `addPalettes(object)` merges in new palettes
+
+## Used by
+[York Town Hall Colors](https://github.com/studioyorktown/coloryorktownhall)
 
 ## Example SVG Export
 
