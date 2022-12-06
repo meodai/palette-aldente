@@ -54,7 +54,7 @@ function createPalette(palette, options) {
     const relI = i/totalColors;
     const top = opt.fontSize + opt.fontGutter + opt.padding;
     const left = opt.padding + (i * (colorWidth + opt.colorSwatchGap));
-    ctx.fillStyle = c;
+    ctx.fillStyle = typeof c === 'object' ? c.value : c;
 
     ctx.beginPath();
     ctx.rect(
