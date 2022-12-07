@@ -17,7 +17,7 @@ const JSUMDTPL = fs.readFileSync(
     'utf8',
 );
 
-let HTMLTPL = fs.readFileSync(
+const HTMLTPL = fs.readFileSync(
     path.join(__dirname, 'tpl', 'index.html'),
     'utf8',
 );
@@ -32,6 +32,15 @@ import {
 import {buildSVG} from './buildSVG.js';
 
 import {createOverview, createPalette} from './buildBitmap.js';
+
+import {createPaletteFile, paletteFormats} from './buildPalletteFiles.js';
+
+const paletteFormatsExtensions = Object.keys(paletteFormats).reduce(
+    (acc, key) => {
+      acc = [...paletteFormats[key].fileExtensions, ...acc];
+      return acc;
+    }, [],
+);
 
 /**
  * @param {Array} palettes
@@ -133,6 +142,11 @@ program
     .option(
         '--no-img',
         'do not export PNG images of the palettes',
+    )
+    .option(
+        '-P, --palettefiles <string>',
+        'comma separated list of palette files to export',
+        false,
     );
 
 program
@@ -224,7 +238,7 @@ program
 
             const buffer = $canvas.toBuffer('image/png');
 
-            palettesCanvases.push($canvas)
+            palettesCanvases.push($canvas);
 
             fs.writeFileSync(
                 filepath,
@@ -234,7 +248,7 @@ program
 
           fs.writeFileSync(
               path.join(options.out, 'palettes.png'),
-              createOverview(palettesCanvases).toBuffer('image/png'), 
+              createOverview(palettesCanvases).toBuffer('image/png'),
               'utf8',
           );
 
@@ -245,6 +259,57 @@ program
             )
           }" and individual palettes to "${
             path.join(options.out, 'img/')
+          }"`);
+        }
+
+        let paletteFilesToExport = [];
+
+        if (options.palettefiles) {
+          paletteFilesToExport = options.palettefiles
+              .split(',').map((ext) => ext.trim());
+
+          paletteFilesToExport.forEach((ext) => {
+            if (!paletteFormatsExtensions.includes(ext.trim())) {
+              throw new Error(
+                  `Invalid palette file format: "${ext}". possible values are:
+                  ${paletteFormatsExtensions.join(', ')}`,
+              );
+            }
+          });
+
+          if (!fs.existsSync(path.join(options.out, 'paletteFiles/'))) {
+            fs.mkdirSync(
+                path.join(options.out, 'paletteFiles/'), {recursive: true},
+            );
+          }
+
+          const explortFormatKeys = Object.keys(paletteFormats);
+
+          paletteFilesToExport.forEach((ext) => {
+            const formatKey = explortFormatKeys.find((format) =>
+              paletteFormats[format].fileExtensions.includes(ext),
+            );
+            if (!formatKey) {
+              throw new Error(
+                  `Invalid palette file format ${ext} possible values are 
+                  ${explortFormatKeys.join(', ')}`,
+              );
+            }
+            flatPalettesArray.forEach((palette) => {
+              const palFile = createPaletteFile(palette, formatKey);
+              fs.writeFileSync(
+                  path.join(
+                      options.out,
+                      'paletteFiles/',
+                      `${palette.name}.${ext}`,
+                  ),
+                  palFile,
+              );
+            });
+          });
+
+          console.log(`Palette files exported to: "${
+            path.join(options.out, 'paletteFiles/')
           }"`);
         }
 
