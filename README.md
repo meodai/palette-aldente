@@ -1,6 +1,6 @@
 # Palette Aldente 🍝
 
-Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Keep your favorite color schemes organized and easily accessible for all your creative needs.
+Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Curate your favorite color schemes and share them effortlessly.
 
 - Makes sure your `yml` or `json` is actually valid
 - Exports it to JSON
