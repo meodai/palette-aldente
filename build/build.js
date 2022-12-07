@@ -22,11 +22,6 @@ import colorsBestOf from 'color-name-list/dist/colornames.bestof.esm.mjs';
 import {FindColors} from 'color-name-api/src/findColors.js';
 import {getPaletteTitle} from 'color-name-api/src/generatePaletteName.js';
 
-/*
-findColors.getNamesForValues(
-  urlColorList, uniqueMode, listKey
-)*/
-
 const colorsLists = {
   default: colors,
   colors: colors,
@@ -173,6 +168,7 @@ function createPaletteArray(
     defaultOutputFormat = 'hex',
     additionalOutputFormats = [],
     autoname = true,
+    nameList = 'bestOf',
 ) {
   let untitledCount = -1;
 
@@ -196,7 +192,7 @@ function createPaletteArray(
           Array.isArray(palette) ? palette : palette.colors,
           defaultOutputFormat,
           additionalOutputFormats,
-          'bestOf',
+          nameList,
       );
     }
 

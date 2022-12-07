@@ -26,6 +26,7 @@ import {
   possibleConverters,
   readFile,
   createPaletteArray,
+  avalibleColorNameLists,
 } from './build.js';
 
 import {buildSVG} from './buildSVG.js';
@@ -93,6 +94,11 @@ program
         'hex',
     )
     .option(
+        '-N, --namelist <string>',
+        'specify color name list to use to name colors on export',
+        'bestOf',
+    )
+    .option(
         '-S, --svg <boolean>',
         'export an overview SVG of the palettes',
         true,
@@ -141,6 +147,13 @@ program
         );
       }
 
+      if (!avalibleColorNameLists.includes(options.namelist)) {
+        throw new Error(
+            `Invalid color name list ${options.namelist} possible values are 
+            ${avalibleColorNameLists.join(', ')}`,
+        );
+      }
+
       if (fs.existsSync(file)) {
         const inputPalette = readFile(file);
         const paletteArray = createPaletteArray(
@@ -148,6 +161,7 @@ program
             defaultColorFormat,
             additionalColorFormats,
             options.autoname,
+            options.namelist,
         );
         const flatPalettesArray = flattenPalettes(paletteArray);
 
