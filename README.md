@@ -1,6 +1,6 @@
 # Palette Aldente 🍝
 
-Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Keep your favorite color schemes organized and easily accessible for all your creative needs.
+Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Curate your favorite color schemes and share them effortlessly.
 
 - Makes sure your `yml` or `json` is actually valid
 - Exports it to JSON
@@ -11,6 +11,8 @@ Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnt
 - Ability to name your colors and palettes automatically
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
+
+Open-sourcing your color palettes allows others to use and improve them, helps build your design expertise, and fosters collaboration within the community. This tool was built to make the process as easy and streamlined as possible. 
 
 ## Quickstart
   
