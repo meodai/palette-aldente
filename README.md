@@ -18,7 +18,7 @@ Open-sourcing your color palettes allows others to use and improve them, helps b
 ## Quickstart
   
 ```bash
-npx palette-aldente ./src/palettes.yml --formats name,rgb,hsl
+npx palette-aldente ./src/palettes.yml --formats name,rgb,hsl --namelist bestOf --palettefiles ase
 ```
 
 ## Use to publish your palettes
