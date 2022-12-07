@@ -11,6 +11,7 @@ Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnt
 - Ability to name your colors and palettes automatically
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
+- Exports Palettes for Photoshop, Illustrator, Gimp, Sketch whatever you can dream of.
 
 Open-sourcing your color palettes allows others to use and improve them, helps build your design expertise, and fosters collaboration within the community. This tool was built to make the process as easy and streamlined as possible. 
 
@@ -42,6 +43,7 @@ $ npx palette-aldente ./mypalettes.yml
 $ palette-aldente --help
 
 Usage: palette-aldente [options] <file>
+Usage: palette-aldente [options] <file>
 
 CLI to manage color palettes
 
@@ -55,6 +57,7 @@ Options:
   --no-autoname                 unnamed palettes will be have "Untitled <n>" as name
   -F, --formats <string>        comma separated list of formats to convert to
   -D, --defaultformat <string>  default color format outputted in your target file (default: "hex")
+  -N, --namelist <string>       specify color name list to use to name colors on export (default: "bestOf")
   -S, --svg <boolean>           export an overview SVG of the palettes (default: true)
   --no-svg                      do not export an overview SVG of the palettes
   -J, --js <boolean>            export a JS wrapper file with the palettes an a minimal API (default: true)
@@ -63,6 +66,7 @@ Options:
   --no-html                     do not export an HTML file
   -I, --img <boolen>            export PNG images of the palettes (default: true)
   --no-img                      do not export PNG images of the palettes
+  -P, --palettefiles <string>   comma separated list of palette files to export (default: false)
   -h, --help                    display help for command
 ```
 
