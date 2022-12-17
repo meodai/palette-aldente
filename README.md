@@ -1,3 +1,5 @@
+![Palette Aldente Logo](palette-aldente-logo.png "Palette Aldente")
+
 # Palette Aldente 🍝
 
 Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Curate your favorite color schemes and share them effortlessly.
