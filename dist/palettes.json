@@ -163,5 +163,18 @@
       "#f6f6f6",
       "#202125"
     ]
+  },
+  {
+    "name": "foundcolor.co",
+    "palettes": [
+      {
+        "name": "minimalism050-2",
+        "colors": [
+          "#bfa350",
+          "#abbbbb",
+          "#ce453c"
+        ]
+      }
+    ]
   }
 ]

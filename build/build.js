@@ -42,7 +42,7 @@ const possibleConverters = [
 // console.log( converter('lrgb')('blue') );
 
 /**
- * @param {array|object} item 
+ * @param {array|object} item
  * @return {boolean|item} valid item or false
  */
 function validatePaletteItem(item) {
@@ -105,6 +105,39 @@ function parseColors(
   const parsedColors = colorsArr.map((color) => {
     const colorObj = {};
 
+    // if color is an object, try to find a color value and a possible name
+    if (!Array.isArray(color) && typeof color === 'object') {
+      const colorKeys = Object.keys(color);
+      const colorKey = colorKeys.find(
+          (key) => {
+            const lowerKey = key.toLowerCase();
+
+            return lowerKey === 'value' ||
+            lowerKey === 'color' ||
+            lowerKey === 'hex' ||
+            lowerKey === 'rgb' ||
+            lowerKey === 'hsl';
+          },
+      );
+
+      const nameKey = colorKeys.find(
+          (key) => {
+            const lowerKey = key.toLowerCase();
+            return lowerKey === 'name' ||
+                   lowerKey === 'title';
+          },
+      );
+
+      if (!colorKey) {
+        console.error('Invalid color object', color);
+        return false;
+      }
+
+      colorObj.name = color[nameKey];
+      console.log(color, colorKey, color[colorKey]);
+      color = color[colorKey];
+    }
+
     const parsedColor = parse(color);
 
     if (parsedColor) {
@@ -149,18 +182,19 @@ function parseColors(
   ).map((colorNameObj) => colorNameObj.name);
 
   namesArr.forEach((name, i) => {
-    parsedColors[i].name = name;
+    parsedColors[i].name = parsedColors[i].hasOwnProperty('name') ?
+    parsedColors[i].name : name;
   });
 
   return parsedColors;
 };
 
 /**
- * 
- * @param {Array|Object} paletteArrFromFile Parse a palette from a file 
+ * @param {Array|Object} paletteArrFromFile Parse a palette from a file
  * @param {String} defaultOutputFormat Default output format
  * @param {Array} additionalOutputFormats Array of additional output formats
  * @param {Boolean} autoname Determine if palettes should be autonamed
+ * @param {String} nameList List to use for autonaming
  * @return {Array} Array of parsed palettes
  */
 function createPaletteArray(

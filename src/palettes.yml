@@ -127,3 +127,20 @@
     - '#fe6666'
     - '#f6f6f6'
     - '#202125'
+
+
+- 
+  name: foundcolor.co
+  palettes:
+    -
+      name: minimalism050-2
+      colors:
+        - 
+          name: Aztec Gold
+          value: '#bfa350'
+        - 
+          name: Tower Gray
+          value: '#abbbbb'
+        -
+          name: Jasper
+          value: '#ce453c'
