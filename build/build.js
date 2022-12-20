@@ -134,7 +134,6 @@ function parseColors(
       }
 
       colorObj.name = color[nameKey];
-      console.log(color, colorKey, color[colorKey]);
       color = color[colorKey];
     }
 
