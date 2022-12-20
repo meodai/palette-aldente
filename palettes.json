@@ -60,7 +60,7 @@
       "#d74f32",
       "#3b2a54"
     ],
-    "name": "Warrior Pie"
+    "name": "White Tomato"
   },
   {
     "colors": [
@@ -104,7 +104,7 @@
       "#edc5bb",
       "#dbf5dc"
     ],
-    "name": "Reptile of Mint"
+    "name": "Reptile Flip"
   },
   {
     "colors": [
@@ -173,6 +173,30 @@
           "#bfa350",
           "#abbbbb",
           "#ce453c"
+        ]
+      },
+      {
+        "name": "peet0711",
+        "colors": [
+          "#a5a5a5",
+          "#bbd4db",
+          "#f6c14f"
+        ]
+      },
+      {
+        "name": "klausmicke",
+        "colors": [
+          "#aea57c",
+          "#dd7969",
+          "#9ea1b2"
+        ]
+      },
+      {
+        "name": "nevaduh",
+        "colors": [
+          "#e3c7bc",
+          "#e85a4e",
+          "#0a4737"
         ]
       }
     ]
