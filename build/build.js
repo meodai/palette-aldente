@@ -101,6 +101,7 @@ function parseColors(
     defaultOutputFormat = 'hex',
     additionalOutputFormats = [],
     nameList = 'bestOf',
+    ignoreInitalColorProps = false,
 ) {
   const parsedColors = colorsArr.map((color) => {
     const colorObj = {};
@@ -134,7 +135,9 @@ function parseColors(
       }
 
       // if the color was an object, preserve all the other properties
-      Object.assign(colorObj, color);
+      if (!ignoreInitalColorProps) {
+        Object.assign(colorObj, color);
+      }
 
       colorObj.name = color[nameKey];
       color = color[colorKey];
@@ -205,6 +208,7 @@ function createPaletteArray(
     additionalOutputFormats = [],
     autoname = true,
     nameList = 'bestOf',
+    ignoreInitalColorProps = false,
 ) {
   let untitledCount = -1;
 
@@ -229,6 +233,7 @@ function createPaletteArray(
           defaultOutputFormat,
           additionalOutputFormats,
           nameList,
+          ignoreInitalColorProps,
       );
     }
 
@@ -238,6 +243,8 @@ function createPaletteArray(
           defaultOutputFormat,
           additionalOutputFormats,
           autoname,
+          nameList,
+          ignoreInitalColorProps,
       );
     }
 

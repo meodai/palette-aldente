@@ -170,9 +170,18 @@
       {
         "name": "minimalism050-2",
         "colors": [
-          "#bfa350",
-          "#abbbbb",
-          "#ce453c"
+          {
+            "value": "#bfa350",
+            "some": "meta information"
+          },
+          {
+            "value": "#abbbbb",
+            "some": "meta information 2"
+          },
+          {
+            "value": "#ce453c",
+            "some": "meta information 3"
+          }
         ]
       },
       {

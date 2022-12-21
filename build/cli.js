@@ -103,6 +103,12 @@ program
         'hex',
     )
     .option(
+        '-G --ignorecolorprops <boolean>',
+        'if a input color is an object that contains props that are not ' +
+        'listed in the color format, ignore them',
+        false,
+    )
+    .option(
         '-N, --namelist <string>',
         'specify color name list to use to name colors on export',
         'bestOf',
@@ -176,6 +182,7 @@ program
             additionalColorFormats,
             options.autoname,
             options.namelist,
+            options.ignorecolorprops,
         );
         const flatPalettesArray = flattenPalettes(paletteArray);
 

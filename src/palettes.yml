@@ -138,12 +138,16 @@
         - 
           name: Aztec Gold
           value: '#bfa350'
+          some: 'meta information'
+
         - 
           name: Tower Gray
           value: '#abbbbb'
+          some: 'meta information 2'
         -
           name: Jasper
           value: '#ce453c'
+          some: 'meta information 3'
     -
       name: peet0711
       colors:
