@@ -133,6 +133,9 @@ function parseColors(
         return false;
       }
 
+      // if the color was an object, preserve all the other properties
+      Object.assign(colorObj, color);
+
       colorObj.name = color[nameKey];
       color = color[colorKey];
     }
