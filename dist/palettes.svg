@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 468">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 494">
       <style>
         text {
   font-family: sans-serif;
@@ -115,5 +115,10 @@
 <text y="449" x="3">nevaduh</text><rect width="64.66666666666667" height="10" y="452" x="0" fill="#e3c7bc" />
 <rect width="64.66666666666667" height="10" y="452" x="66.66666666666667" fill="#e85a4e" />
 <rect width="64.66666666666667" height="10" y="452" x="133.33333333333334" fill="#0a4737" />
+<text y="475" x="3">Puffy Cheddar</text><rect width="38" height="10" y="478" x="0" fill="#ede8e1" />
+<rect width="38" height="10" y="478" x="40" fill="#a37673" />
+<rect width="38" height="10" y="478" x="80" fill="#eea22c" />
+<rect width="38" height="10" y="478" x="120" fill="#2c763d" />
+<rect width="38" height="10" y="478" x="160" fill="#1c3445" />
     </svg>
   
