@@ -90,6 +90,37 @@ To use this in your JS code import or include `dist/palettes.js`. It exposes the
 - `random()` returns a random palette
 - `addPalettes(object)` merges in new palettes
 
+## Publish
+
+### Github Pages
+
+By default, `palette-aldente` exports an HTML file that you can publish on github pages. To do so automaically whenevery you edit your palette file, you can copy (this workflow](https://github.com/meodai/palette-aldente/blob/main/.github/workflows/node.js.yml) to your own `.github/workflows/` directory or simply use the "actions" tab on your repository.
+
+After the workflow successfully passed, make sure to turn on "Pages" in your github repository (settings > pages).
+
+### NPM
+
+If you want to reuse your palettes in ofther prjects you might want to use NPM to publush them. 
+Just add the following to your `package.json`
+
+```
+  "main": "dist/palettes.js",
+  "type": "module",
+```
+```
+  "exports": {
+    "import": "./dist/palettes.esm.js",
+    "require": "./dist/palettes.js"
+  },
+```
+
+after that you can import your palettes easily:
+```js
+import { colorPalettes } from "omorovdcolors"; 
+// or
+import { colorPalettes } from "https://cdn.skypack.dev/somorovdcolors@1.0.1";
+```
+
 ## Used by
 [York Town Hall Colors](https://github.com/studioyorktown/coloryorktownhall)
 
