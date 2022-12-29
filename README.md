@@ -15,7 +15,34 @@ Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnt
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
 - Exports Palettes for Photoshop, Illustrator, Gimp, Sketch whatever you can dream of.
 
-Open-sourcing your color palettes allows others to use and improve them, helps build your design expertise, and fosters collaboration within the community. This tool was built to make the process as easy and streamlined as possible. 
+Open-sourcing your color palettes allows others to use and improve them, helps build your design expertise, and fosters collaboration within the community. This tool was built to make the process as easy and streamlined as possible.
+
+```text
+┏━━━━━━━━━━━━━━┓         ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓       ┏━━━━━━━━━━━━━━━━━━━┓                               
+┃ your colors  ┃░░       ┃                           ┃   ┌───▶       html        ┃─▓─ ┐                          
+┣━━━━━━━━━━━━━━┫░░  ┌───▶┃      Palette Aldente      ┃   │   ┗━━━━━━━━━━━━━━━━━━━┛▓▓                             
+┃              ┃░░  │    ┃                           ┃   │     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │                          
+┃  - #ede8e1   ┃░░  │    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛   │   ┏━━━━━━━━━━━━━━━━━━━┓                               
+┃  - #a37673   ┃░░  │                  │                 ├───▶        svg        ┃─▓─ ┤                          
+┃  - #eea22c   ┃○───┘                  │                 │   ┗━━━━━━━━━━━━━━━━━━━┛▓▓                             
+┃  - #2c763d   ┃░░                     │                 │     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │                          
+┃  - #1c3445   ┃░░                     ▼                 │   ┏━━━━━━━━━━━━━━━━━━━┓         ┏━━━━━━━━━━━━━━━━━━┓  
+┃              ┃░░       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓   ├───▶  ase, pal, etc..  ┃─▓─ ┼ ─ ─▶   Github Pages   ┃░░
+┗━━━━━━━━━━━━━━┛░░       ┃           json            ┃▓▓ │   ┗━━━━━━━━━━━━━━━━━━━┛▓▓       ┗━━━━━━━━━━━━━━━━━━┛░░
+  ░░░░░░░░░░░░░░░░       ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫▓▓ │     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │      ░░░░░░░░░░░░░░░░░░░░
+                         ┃{                          ┃▓▓ │   ┏━━━━━━━━━━━━━━━━━━━┓         ┏━━━━━━━━━━━━━━━━━━┓  
+                         ┃  "name": "Puffy Cheddar", ┃▓▓ ├───▶        png        ┃─▓─ ┼ ─ ─▶       NPM        ┃░░
+                         ┃  "colors": [              ┃▓▓ │   ┗━━━━━━━━━━━━━━━━━━━┛▓▓       ┗━━━━━━━━━━━━━━━━━━┛░░
+                         ┃    {hex, name, hsl...}    ┃▓▓ │     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │      ░░░░░░░░░░░░░░░░░░░░
+                         ┃    {hex, name, hsl...}    ┃▓▓ │   ┏━━━━━━━━━━━━━━━━━━━┓                               
+                         ┃    {hex, name, hsl...}    ┃●──┼───▶        svg        ┃─▓─ ┤                          
+                         ┃    {hex, name, hsl...}    ┃▓▓ │   ┗━━━━━━━━━━━━━━━━━━━┛▓▓                             
+                         ┃    {hex, name, hsl...}    ┃▓▓ │     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │                          
+                         ┃   ],                      ┃▓▓ │   ┏━━━━━━━━━━━━━━━━━━━┓                               
+                         ┃}                          ┃▓▓ └───▶ js (browser/node) ┃─▓─ ┘                          
+                         ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛▓▓     ┗━━━━━━━━━━━━━━━━━━━┛▓▓                             
+                           ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                             
+```
 
 ## Quickstart
   
