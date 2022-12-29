@@ -109,6 +109,7 @@ function parseColors(
     // if color is an object, try to find a color value and a possible name
     if (!Array.isArray(color) && typeof color === 'object') {
       const colorKeys = Object.keys(color);
+
       const colorKey = colorKeys.find(
           (key) => {
             const lowerKey = key.toLowerCase();
@@ -187,8 +188,9 @@ function parseColors(
   ).map((colorNameObj) => colorNameObj.name);
 
   namesArr.forEach((name, i) => {
-    parsedColors[i].name = parsedColors[i].hasOwnProperty('name') ?
-    parsedColors[i].name : name;
+    parsedColors[i].name = parsedColors[i].hasOwnProperty('name') &&
+                           parsedColors[i].name ?
+                           parsedColors[i].name : name;
   });
 
   return parsedColors;
