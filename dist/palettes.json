@@ -219,5 +219,15 @@
       "#1c3445"
     ],
     "name": "Puffy Cheddar"
+  },
+  {
+    "name": "Y.M.C.K",
+    "colors": [
+      "#eee9e5",
+      "#383736",
+      "#d85794",
+      "#45abcb",
+      "#ebc92a"
+    ]
   }
 ]
