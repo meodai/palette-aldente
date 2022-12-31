@@ -1,5 +1,8 @@
 # Palette Aldente 🍝
 
+[![github sponsor count](https://img.shields.io/github/sponsors/meodai)](https://github.com/sponsors/meodai)
+[![npm version](https://img.shields.io/npm/v/palette-aldente.svg)](https://www.npmjs.com/package/palette-aldente)
+
 Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnte]! Curate your favorite color schemes and share them effortlessly.
 
 - Makes sure your `yml` or `json` is actually valid
