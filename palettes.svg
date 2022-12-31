@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 494">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 520">
       <style>
         text {
   font-family: sans-serif;
@@ -120,5 +120,10 @@
 <rect width="38" height="10" y="478" x="80" fill="#eea22c" />
 <rect width="38" height="10" y="478" x="120" fill="#2c763d" />
 <rect width="38" height="10" y="478" x="160" fill="#1c3445" />
+<text y="501" x="3">Y.M.C.K</text><rect width="38" height="10" y="504" x="0" fill="#eee9e5" />
+<rect width="38" height="10" y="504" x="40" fill="#383736" />
+<rect width="38" height="10" y="504" x="80" fill="#d85794" />
+<rect width="38" height="10" y="504" x="120" fill="#45abcb" />
+<rect width="38" height="10" y="504" x="160" fill="#ebc92a" />
     </svg>
   
