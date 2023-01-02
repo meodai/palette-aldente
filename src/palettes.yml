@@ -128,63 +128,6 @@
     - '#f6f6f6'
     - '#202125'
 
-
-- 
-  name: foundcolor.co
-  palettes:
-    -
-      name: minimalism050-2
-      colors:
-        - 
-          name: Aztec Gold
-          value: '#bfa350'
-          some: 'meta information'
-
-        - 
-          name: Tower Gray
-          value: '#abbbbb'
-          some: 'meta information 2'
-        -
-          name: Jasper
-          value: '#ce453c'
-          some: 'meta information 3'
-    -
-      name: peet0711
-      colors:
-        - 
-          name: Quick Silver
-          value: '#A5A5A5'
-        - 
-          name: Jungle Mist
-          value: '#BBD4DB'
-        -
-          name: Casablanca
-          value: '#F6C14F'
-    -
-      name: klausmicke
-      colors:
-        - 
-          name: Mongoose
-          value: '#AEA57C'
-        - 
-          name: Japonica
-          value: '#DD7969'
-        -
-          name: Santas Gray
-          value: '#9EA1B2'
-    -
-      name: nevaduh
-      colors:
-        - 
-          name: Bone
-          value: '#E3C7BC'
-        - 
-          name: Burnt Sienna
-          value: '#E85A4E'
-        -
-          name: Bottle Green
-          value: '#0A4737'
-
 -
   - '#ede8e1'
   - '#a37673'
@@ -200,3 +143,12 @@
     - '#d85794'
     - '#45abcb'
     - '#ebc92a'
+
+-
+  - '#221716'
+  - '#4e2c28'
+  - '#8a4e3d'
+  - '#e8d6c2'
+  - '#dcab86'
+  - '#e6864f'
+  - '#bf462b'

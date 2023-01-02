@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 520">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 442">
       <style>
         text {
   font-family: sans-serif;
@@ -103,27 +103,22 @@
 <text y="345" x="3">Brutal Tomato</text><rect width="64.66666666666667" height="10" y="348" x="0" fill="#fe6666" />
 <rect width="64.66666666666667" height="10" y="348" x="66.66666666666667" fill="#f6f6f6" />
 <rect width="64.66666666666667" height="10" y="348" x="133.33333333333334" fill="#202125" />
-<text y="371" x="3">minimalism050-2</text><rect width="64.66666666666667" height="10" y="374" x="0" fill="#bfa350" />
-<rect width="64.66666666666667" height="10" y="374" x="66.66666666666667" fill="#abbbbb" />
-<rect width="64.66666666666667" height="10" y="374" x="133.33333333333334" fill="#ce453c" />
-<text y="397" x="3">peet0711</text><rect width="64.66666666666667" height="10" y="400" x="0" fill="#a5a5a5" />
-<rect width="64.66666666666667" height="10" y="400" x="66.66666666666667" fill="#bbd4db" />
-<rect width="64.66666666666667" height="10" y="400" x="133.33333333333334" fill="#f6c14f" />
-<text y="423" x="3">klausmicke</text><rect width="64.66666666666667" height="10" y="426" x="0" fill="#aea57c" />
-<rect width="64.66666666666667" height="10" y="426" x="66.66666666666667" fill="#dd7969" />
-<rect width="64.66666666666667" height="10" y="426" x="133.33333333333334" fill="#9ea1b2" />
-<text y="449" x="3">nevaduh</text><rect width="64.66666666666667" height="10" y="452" x="0" fill="#e3c7bc" />
-<rect width="64.66666666666667" height="10" y="452" x="66.66666666666667" fill="#e85a4e" />
-<rect width="64.66666666666667" height="10" y="452" x="133.33333333333334" fill="#0a4737" />
-<text y="475" x="3">Puffy Cheddar</text><rect width="38" height="10" y="478" x="0" fill="#ede8e1" />
-<rect width="38" height="10" y="478" x="40" fill="#a37673" />
-<rect width="38" height="10" y="478" x="80" fill="#eea22c" />
-<rect width="38" height="10" y="478" x="120" fill="#2c763d" />
-<rect width="38" height="10" y="478" x="160" fill="#1c3445" />
-<text y="501" x="3">Y.M.C.K</text><rect width="38" height="10" y="504" x="0" fill="#eee9e5" />
-<rect width="38" height="10" y="504" x="40" fill="#383736" />
-<rect width="38" height="10" y="504" x="80" fill="#d85794" />
-<rect width="38" height="10" y="504" x="120" fill="#45abcb" />
-<rect width="38" height="10" y="504" x="160" fill="#ebc92a" />
+<text y="371" x="3">Puffy Cheddar</text><rect width="38" height="10" y="374" x="0" fill="#ede8e1" />
+<rect width="38" height="10" y="374" x="40" fill="#a37673" />
+<rect width="38" height="10" y="374" x="80" fill="#eea22c" />
+<rect width="38" height="10" y="374" x="120" fill="#2c763d" />
+<rect width="38" height="10" y="374" x="160" fill="#1c3445" />
+<text y="397" x="3">Y.M.C.K</text><rect width="38" height="10" y="400" x="0" fill="#eee9e5" />
+<rect width="38" height="10" y="400" x="40" fill="#383736" />
+<rect width="38" height="10" y="400" x="80" fill="#d85794" />
+<rect width="38" height="10" y="400" x="120" fill="#45abcb" />
+<rect width="38" height="10" y="400" x="160" fill="#ebc92a" />
+<text y="423" x="3">Brown Feather</text><rect width="26.571428571428573" height="10" y="426" x="0" fill="#221716" />
+<rect width="26.571428571428573" height="10" y="426" x="28.571428571428573" fill="#4e2c28" />
+<rect width="26.571428571428573" height="10" y="426" x="57.142857142857146" fill="#8a4e3d" />
+<rect width="26.571428571428573" height="10" y="426" x="85.71428571428572" fill="#e8d6c2" />
+<rect width="26.571428571428573" height="10" y="426" x="114.28571428571429" fill="#dcab86" />
+<rect width="26.571428571428573" height="10" y="426" x="142.85714285714286" fill="#e6864f" />
+<rect width="26.571428571428573" height="10" y="426" x="171.42857142857144" fill="#bf462b" />
     </svg>
   

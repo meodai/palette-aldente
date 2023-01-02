@@ -165,52 +165,6 @@
     ]
   },
   {
-    "name": "foundcolor.co",
-    "palettes": [
-      {
-        "name": "minimalism050-2",
-        "colors": [
-          {
-            "value": "#bfa350",
-            "some": "meta information"
-          },
-          {
-            "value": "#abbbbb",
-            "some": "meta information 2"
-          },
-          {
-            "value": "#ce453c",
-            "some": "meta information 3"
-          }
-        ]
-      },
-      {
-        "name": "peet0711",
-        "colors": [
-          "#a5a5a5",
-          "#bbd4db",
-          "#f6c14f"
-        ]
-      },
-      {
-        "name": "klausmicke",
-        "colors": [
-          "#aea57c",
-          "#dd7969",
-          "#9ea1b2"
-        ]
-      },
-      {
-        "name": "nevaduh",
-        "colors": [
-          "#e3c7bc",
-          "#e85a4e",
-          "#0a4737"
-        ]
-      }
-    ]
-  },
-  {
     "colors": [
       "#ede8e1",
       "#a37673",
@@ -229,5 +183,17 @@
       "#45abcb",
       "#ebc92a"
     ]
+  },
+  {
+    "colors": [
+      "#221716",
+      "#4e2c28",
+      "#8a4e3d",
+      "#e8d6c2",
+      "#dcab86",
+      "#e6864f",
+      "#bf462b"
+    ],
+    "name": "Brown Feather"
   }
 ]
