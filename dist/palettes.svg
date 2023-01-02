@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 442">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 468">
       <style>
         text {
   font-family: sans-serif;
@@ -120,5 +120,11 @@
 <rect width="26.571428571428573" height="10" y="426" x="114.28571428571429" fill="#e8d6c2" />
 <rect width="26.571428571428573" height="10" y="426" x="142.85714285714286" fill="#e6864f" />
 <rect width="26.571428571428573" height="10" y="426" x="171.42857142857144" fill="#bf462b" />
+<text y="449" x="3">Spiced King</text><rect width="31.333333333333336" height="10" y="452" x="0" fill="#383b34" />
+<rect width="31.333333333333336" height="10" y="452" x="33.333333333333336" fill="#4d4c32" />
+<rect width="31.333333333333336" height="10" y="452" x="66.66666666666667" fill="#7a603c" />
+<rect width="31.333333333333336" height="10" y="452" x="100" fill="#c97759" />
+<rect width="31.333333333333336" height="10" y="452" x="133.33333333333334" fill="#e59a84" />
+<rect width="31.333333333333336" height="10" y="452" x="166.66666666666669" fill="#cdc4b9" />
     </svg>
   
