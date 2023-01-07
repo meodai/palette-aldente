@@ -207,5 +207,45 @@
     ],
     "src": "https://farbvelo.elastiq.ch/?s=eyJzIjoiOTJjYjI5NzM5MDM0YiIsImEiOjYsImNnIjo0LCJoZyI6ZmFsc2UsImhiIjpmYWxzZSwiaG8iOmZhbHNlLCJoYyI6ZmFsc2UsImh0IjpmYWxzZSwiYiI6ZmFsc2UsInAiOjAuMDQ2MjYyNzEwODEzNDkyMDYsIm1kIjo2MCwiY20iOiJsYWIiLCJmIjoiSHVlIEJpbmdvIiwiYyI6ImhzbHV2Iiwic2MiOmZhbHNlLCJidyI6dHJ1ZSwiYWgiOmZhbHNlLCJpdSI6IiIsImxtIjp0cnVlLCJzbSI6dHJ1ZSwiY3YiOiJoZXgiLCJxbSI6ImFydC1wYWxldHRlIiwibmwiOiJiZXN0T2YifQ==",
     "name": "Spiced King"
+  },
+  {
+    "colors": [
+      "#f0ead8",
+      "#ff7f75",
+      "#f76e7c",
+      "#f73668",
+      "#021e66"
+    ],
+    "name": "Smoked On Melon"
+  },
+  {
+    "colors": [
+      "#ff4444",
+      "#78b5e3",
+      "#f5b111",
+      "#d1d1c2",
+      "#181d1f"
+    ],
+    "name": "Wishing Corn"
+  },
+  {
+    "colors": [
+      "#c7c0a7",
+      "#ed2860",
+      "#f79f07",
+      "#33302d",
+      "#6666e2"
+    ],
+    "name": "Mad of Mana"
+  },
+  {
+    "colors": [
+      "#f3c318",
+      "#ef6760",
+      "#2aaaaa",
+      "#5243c2",
+      "#eae3e9"
+    ],
+    "name": "Teal Me No Commander"
   }
 ]

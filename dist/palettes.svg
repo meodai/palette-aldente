@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 468">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 572">
       <style>
         text {
   font-family: sans-serif;
@@ -126,5 +126,25 @@
 <rect width="31.333333333333336" height="10" y="452" x="100" fill="#c97759" />
 <rect width="31.333333333333336" height="10" y="452" x="133.33333333333334" fill="#e59a84" />
 <rect width="31.333333333333336" height="10" y="452" x="166.66666666666669" fill="#cdc4b9" />
+<text y="475" x="3">Smoked On Melon</text><rect width="38" height="10" y="478" x="0" fill="#f0ead8" />
+<rect width="38" height="10" y="478" x="40" fill="#ff7f75" />
+<rect width="38" height="10" y="478" x="80" fill="#f76e7c" />
+<rect width="38" height="10" y="478" x="120" fill="#f73668" />
+<rect width="38" height="10" y="478" x="160" fill="#021e66" />
+<text y="501" x="3">Wishing Corn</text><rect width="38" height="10" y="504" x="0" fill="#ff4444" />
+<rect width="38" height="10" y="504" x="40" fill="#78b5e3" />
+<rect width="38" height="10" y="504" x="80" fill="#f5b111" />
+<rect width="38" height="10" y="504" x="120" fill="#d1d1c2" />
+<rect width="38" height="10" y="504" x="160" fill="#181d1f" />
+<text y="527" x="3">Mad of Mana</text><rect width="38" height="10" y="530" x="0" fill="#c7c0a7" />
+<rect width="38" height="10" y="530" x="40" fill="#ed2860" />
+<rect width="38" height="10" y="530" x="80" fill="#f79f07" />
+<rect width="38" height="10" y="530" x="120" fill="#33302d" />
+<rect width="38" height="10" y="530" x="160" fill="#6666e2" />
+<text y="553" x="3">Teal Me No Commander</text><rect width="38" height="10" y="556" x="0" fill="#f3c318" />
+<rect width="38" height="10" y="556" x="40" fill="#ef6760" />
+<rect width="38" height="10" y="556" x="80" fill="#2aaaaa" />
+<rect width="38" height="10" y="556" x="120" fill="#5243c2" />
+<rect width="38" height="10" y="556" x="160" fill="#eae3e9" />
     </svg>
   
