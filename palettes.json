@@ -247,5 +247,15 @@
       "#eae3e9"
     ],
     "name": "Teal Me No Commander"
+  },
+  {
+    "colors": [
+      "#ddd4c3",
+      "#30343f",
+      "#e59500",
+      "#9bbdad",
+      "#e61500"
+    ],
+    "name": "Cheddar Bone"
   }
 ]

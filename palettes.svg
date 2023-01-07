@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 572">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 598">
       <style>
         text {
   font-family: sans-serif;
@@ -146,5 +146,10 @@
 <rect width="38" height="10" y="556" x="80" fill="#2aaaaa" />
 <rect width="38" height="10" y="556" x="120" fill="#5243c2" />
 <rect width="38" height="10" y="556" x="160" fill="#eae3e9" />
+<text y="579" x="3">Cheddar Bone</text><rect width="38" height="10" y="582" x="0" fill="#ddd4c3" />
+<rect width="38" height="10" y="582" x="40" fill="#30343f" />
+<rect width="38" height="10" y="582" x="80" fill="#e59500" />
+<rect width="38" height="10" y="582" x="120" fill="#9bbdad" />
+<rect width="38" height="10" y="582" x="160" fill="#e61500" />
     </svg>
   
