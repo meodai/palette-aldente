@@ -1,141 +1,11 @@
-- name: Twilight Chocolate
-  colors: 
-    - '#1b1b19'
-    - '#803e23'
-    - '#ac6633'
-    - '#ea9e52'
-    - '#f7eedf'
-    - '#d7d3c8'
-    - '#aacfc8'
+## example file palette file
+## also works as JSON or JSON5
 
-- name: Gentle Sting
-  colors:
-    - '#1b1b19'
-    - '#da704a'
-    - '#c8afbc'
-    - '#f6cab4'
+# your palettes can have a name
+# but they don't have to, palette-aldente will
+# generate a name for you
 
-- name: Lobster Café
-  colors:
-    - '#312512' 
-    - '#cd2d10' 
-    - '#d07e40' 
-    - '#ce9464' 
-    - '#d6a786' 
-    - '#e5c9b5' 
-    - '#f7ebda'
-  
 - 
-  - '#f2ebdf'
-  - '#353130'
-  - '#2F72A6'
-  - '#4E90C0'
-  - '#6CA6CE'
-  - '#80b994'
-  - '#55ab8c'
-  - '#f0b44c'
-  - '#dd8c40'
-  - '#e099a8'
-  - '#d76f76'
-  - '#c35448'
-  - '#947b98'
-  - '#786488'
-
--
-  - '#29181e'
-  - '#81695d'
-  - '#ce7f50'
-  - '#ebe1e2'
-  - '#d74f32'
-  - '#3b2a54'
-
--
-  - '#f8ffad'
-  - '#ffcf6e'
-  - '#f49854'
-  - '#c7aba1'
-  - '#ecdfe3'
-  - '#b4a9ec'
-  - '#977cc7'
-  - '#292222'
-
--
-  - '#090909'
-  - '#f8f8f8'
-  - '#71ee6b'
-  - '#e541c7'
-
--
-  - '#1e1b22' 
-  - '#f3aebd' 
-  - '#fdf4da' 
-  - '#ffffff' 
-  - '#abfcf8' 
-  - '#b9fdd6'
-
--
-  - '#0f1910' 
-  - '#615829' 
-  - '#af8e4f' 
-  - '#e39e90' 
-  - '#edc5bb' 
-  - '#dbf5dc'
-
--
-  - '#36343f' 
-  - '#3e4c69' 
-  - '#726382' 
-  - '#c97481' 
-  - '#ec9699' 
-  - '#dfc3c7'
-
--
-  - '#f1e9d6'
-  - '#0f1d30'
-  - '#284462'
-  - '#82617c'
-  - '#c47080'
-  - '#bc5b34'
-  - '#d4a44f'
-  - '#395d54'
-
--
-  author: 'ippsketch'
-  colors:
-    - '#ebe7e0'
-    - '#262626'
-    - '#bc594e'
-    - '#bca357'
-    - '#516b9e'
-
--
-  author: 'ippsketch'
-  colors:
-    - '#ebe7e0'
-    - '#262626'
-    - '#bc594e'
-    - '#bf7e4f'
-    - '#bca357'
-    - '#5a844d'
-    - '#467991'
-    - '#516b9e'
-    - '#656198'
-
--
-  name: Brutal Tomato
-  colors:
-    - '#fe6666'
-    - '#f6f6f6'
-    - '#202125'
-
--
-  - '#ede8e1'
-  - '#a37673'
-  - '#eea22c'
-  - '#2c763d'
-  - '#1c3445'
-
--
   name: Y.M.C.K
   colors:
     - '#eee9e5'
@@ -144,14 +14,25 @@
     - '#45abcb'
     - '#ebc92a'
 
+
+# a palette can also be a simple list of colors
 -
-  - '#221716'
-  - '#4e2c28'
-  - '#8a4e3d'
-  - '#dcab86'
-  - '#e8d6c2'
-  - '#e6864f'
-  - '#bf462b'
+  - '#29181e'
+  - '#81695d'
+  - '#ce7f50'
+  - '#ebe1e2'
+  - '#d74f32'
+  - '#3b2a54'
+
+# it can contain fields that make sense to you
+-
+  author: 'ippsketch'
+  colors:
+    - '#ebe7e0'
+    - '#262626'
+    - '#bc594e'
+    - '#bca357'
+    - '#516b9e'
 
 -
   colors:
@@ -163,66 +44,24 @@
     - '#cdc4b9'
   src: https://farbvelo.elastiq.ch/?s=eyJzIjoiOTJjYjI5NzM5MDM0YiIsImEiOjYsImNnIjo0LCJoZyI6ZmFsc2UsImhiIjpmYWxzZSwiaG8iOmZhbHNlLCJoYyI6ZmFsc2UsImh0IjpmYWxzZSwiYiI6ZmFsc2UsInAiOjAuMDQ2MjYyNzEwODEzNDkyMDYsIm1kIjo2MCwiY20iOiJsYWIiLCJmIjoiSHVlIEJpbmdvIiwiYyI6ImhzbHV2Iiwic2MiOmZhbHNlLCJidyI6dHJ1ZSwiYWgiOmZhbHNlLCJpdSI6IiIsImxtIjp0cnVlLCJzbSI6dHJ1ZSwiY3YiOiJoZXgiLCJxbSI6ImFydC1wYWxldHRlIiwibmwiOiJiZXN0T2YifQ==
 
--
-  - "#F0EAD8" 
-  - "#FF7F75" 
-  - "#F76E7C" 
-  - "#F73668" 
-  - "#021E66"
-
--
-  - "#FF4444" 
-  - "#78B5E3" 
-  - "#F5B111" 
-  - "#D1D1C2" 
-  - "#181D1F"
-
--
-  - "#C7C0A7" 
-  - "#ED2860" 
-  - "#F79F07" 
-  - "#33302D" 
-  - "#6666E2"
-
--
-  - "#F3C318" 
-  - "#EF6760" 
-  - "#2AAAAA" 
-  - "#5243C2" 
-  - "#EAE3E9"
+# you can also group your palettes
 
 - 
-  - "#DDD4C3"
-  - "#30343F"
-  - "#E59500"
-  - "#9BBDAD"
-  - "#E61500"
-
--
-  - "#1B618C"
-  - "#55CCD9"
-  - "#F2BC57"
-  - "#F24949"
-  - "#023059"
-  - "#459DBF"
-  - "#87BF60"
-  - "#D9D16A"
-  - "#F2F2F2"
-  - "#632973"
-  - "#02734A"
-  - "#F25C05"
-  - "#8D95A6"
-  - "#0A7360"
-  - "#F28705"
-  - "#D98825"
-  - "#F2F2F2"
-  - "#D9D7D8"
-  - "#3B5159"
-  - "#5D848C"
-  - "#7CA2A6"
-  - "#262321"
-  - "#906FA6"
-  - "#025951"
-  - "#252625"
-  - "#D99191"
-  - "#F2F2F2"
+  name: 'My palettes'
+  palettes:
+    - 
+      name: 'Y.M.C.K'
+      colors:
+        - '#eee9e5'
+        - '#383736'
+        - '#d85794'
+        - '#45abcb'
+        - '#ebc92a'
+    - 
+      name: 'Y.M.C.K'
+      colors:
+        - '#eee9e5'
+        - '#383736'
+        - '#d85794'
+        - '#45abcb'
+        - '#ebc92a'

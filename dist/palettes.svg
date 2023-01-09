@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 624">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
       <style>
         text {
   font-family: sans-serif;
@@ -10,173 +10,37 @@
           font-size: 6px;
         }
       </style>
-      <text y="7" x="3">Twilight Chocolate</text><rect width="26.571428571428573" height="10" y="10" x="0" fill="#1b1b19" />
-<rect width="26.571428571428573" height="10" y="10" x="28.571428571428573" fill="#803e23" />
-<rect width="26.571428571428573" height="10" y="10" x="57.142857142857146" fill="#ac6633" />
-<rect width="26.571428571428573" height="10" y="10" x="85.71428571428572" fill="#ea9e52" />
-<rect width="26.571428571428573" height="10" y="10" x="114.28571428571429" fill="#f7eedf" />
-<rect width="26.571428571428573" height="10" y="10" x="142.85714285714286" fill="#d7d3c8" />
-<rect width="26.571428571428573" height="10" y="10" x="171.42857142857144" fill="#aacfc8" />
-<text y="33" x="3">Gentle Sting</text><rect width="48" height="10" y="36" x="0" fill="#1b1b19" />
-<rect width="48" height="10" y="36" x="50" fill="#da704a" />
-<rect width="48" height="10" y="36" x="100" fill="#c8afbc" />
-<rect width="48" height="10" y="36" x="150" fill="#f6cab4" />
-<text y="59" x="3">Lobster Café</text><rect width="26.571428571428573" height="10" y="62" x="0" fill="#312512" />
-<rect width="26.571428571428573" height="10" y="62" x="28.571428571428573" fill="#cd2d10" />
-<rect width="26.571428571428573" height="10" y="62" x="57.142857142857146" fill="#d07e40" />
-<rect width="26.571428571428573" height="10" y="62" x="85.71428571428572" fill="#ce9464" />
-<rect width="26.571428571428573" height="10" y="62" x="114.28571428571429" fill="#d6a786" />
-<rect width="26.571428571428573" height="10" y="62" x="142.85714285714286" fill="#e5c9b5" />
-<rect width="26.571428571428573" height="10" y="62" x="171.42857142857144" fill="#f7ebda" />
-<text y="85" x="3">Acapulco Pomegranate</text><rect width="12.285714285714286" height="10" y="88" x="0" fill="#f2ebdf" />
-<rect width="12.285714285714286" height="10" y="88" x="14.285714285714286" fill="#353130" />
-<rect width="12.285714285714286" height="10" y="88" x="28.571428571428573" fill="#2f72a6" />
-<rect width="12.285714285714286" height="10" y="88" x="42.85714285714286" fill="#4e90c0" />
-<rect width="12.285714285714286" height="10" y="88" x="57.142857142857146" fill="#6ca6ce" />
-<rect width="12.285714285714286" height="10" y="88" x="71.42857142857143" fill="#80b994" />
-<rect width="12.285714285714286" height="10" y="88" x="85.71428571428572" fill="#55ab8c" />
-<rect width="12.285714285714286" height="10" y="88" x="100" fill="#f0b44c" />
-<rect width="12.285714285714286" height="10" y="88" x="114.28571428571429" fill="#dd8c40" />
-<rect width="12.285714285714286" height="10" y="88" x="128.57142857142858" fill="#e099a8" />
-<rect width="12.285714285714286" height="10" y="88" x="142.85714285714286" fill="#d76f76" />
-<rect width="12.285714285714286" height="10" y="88" x="157.14285714285714" fill="#c35448" />
-<rect width="12.285714285714286" height="10" y="88" x="171.42857142857144" fill="#947b98" />
-<rect width="12.285714285714286" height="10" y="88" x="185.71428571428572" fill="#786488" />
-<text y="111" x="3">White Tomato</text><rect width="31.333333333333336" height="10" y="114" x="0" fill="#29181e" />
-<rect width="31.333333333333336" height="10" y="114" x="33.333333333333336" fill="#81695d" />
-<rect width="31.333333333333336" height="10" y="114" x="66.66666666666667" fill="#ce7f50" />
-<rect width="31.333333333333336" height="10" y="114" x="100" fill="#ebe1e2" />
-<rect width="31.333333333333336" height="10" y="114" x="133.33333333333334" fill="#d74f32" />
-<rect width="31.333333333333336" height="10" y="114" x="166.66666666666669" fill="#3b2a54" />
-<text y="137" x="3">Banana Tulip</text><rect width="23" height="10" y="140" x="0" fill="#f8ffad" />
-<rect width="23" height="10" y="140" x="25" fill="#ffcf6e" />
-<rect width="23" height="10" y="140" x="50" fill="#f49854" />
-<rect width="23" height="10" y="140" x="75" fill="#c7aba1" />
-<rect width="23" height="10" y="140" x="100" fill="#ecdfe3" />
-<rect width="23" height="10" y="140" x="125" fill="#b4a9ec" />
-<rect width="23" height="10" y="140" x="150" fill="#977cc7" />
-<rect width="23" height="10" y="140" x="175" fill="#292222" />
-<text y="163" x="3">Herbivore Pink</text><rect width="48" height="10" y="166" x="0" fill="#090909" />
-<rect width="48" height="10" y="166" x="50" fill="#f8f8f8" />
-<rect width="48" height="10" y="166" x="100" fill="#71ee6b" />
-<rect width="48" height="10" y="166" x="150" fill="#e541c7" />
-<text y="189" x="3">Ibis Mintastic</text><rect width="31.333333333333336" height="10" y="192" x="0" fill="#1e1b22" />
-<rect width="31.333333333333336" height="10" y="192" x="33.333333333333336" fill="#f3aebd" />
-<rect width="31.333333333333336" height="10" y="192" x="66.66666666666667" fill="#fdf4da" />
-<rect width="31.333333333333336" height="10" y="192" x="100" fill="#ffffff" />
-<rect width="31.333333333333336" height="10" y="192" x="133.33333333333334" fill="#abfcf8" />
-<rect width="31.333333333333336" height="10" y="192" x="166.66666666666669" fill="#b9fdd6" />
-<text y="215" x="3">Reptile Flip</text><rect width="31.333333333333336" height="10" y="218" x="0" fill="#0f1910" />
-<rect width="31.333333333333336" height="10" y="218" x="33.333333333333336" fill="#615829" />
-<rect width="31.333333333333336" height="10" y="218" x="66.66666666666667" fill="#af8e4f" />
-<rect width="31.333333333333336" height="10" y="218" x="100" fill="#e39e90" />
-<rect width="31.333333333333336" height="10" y="218" x="133.33333333333334" fill="#edc5bb" />
-<rect width="31.333333333333336" height="10" y="218" x="166.66666666666669" fill="#dbf5dc" />
-<text y="241" x="3">Nymph's Love</text><rect width="31.333333333333336" height="10" y="244" x="0" fill="#36343f" />
-<rect width="31.333333333333336" height="10" y="244" x="33.333333333333336" fill="#3e4c69" />
-<rect width="31.333333333333336" height="10" y="244" x="66.66666666666667" fill="#726382" />
-<rect width="31.333333333333336" height="10" y="244" x="100" fill="#c97481" />
-<rect width="31.333333333333336" height="10" y="244" x="133.33333333333334" fill="#ec9699" />
-<rect width="31.333333333333336" height="10" y="244" x="166.66666666666669" fill="#dfc3c7" />
-<text y="267" x="3">Fusilli Darkness</text><rect width="23" height="10" y="270" x="0" fill="#f1e9d6" />
-<rect width="23" height="10" y="270" x="25" fill="#0f1d30" />
-<rect width="23" height="10" y="270" x="50" fill="#284462" />
-<rect width="23" height="10" y="270" x="75" fill="#82617c" />
-<rect width="23" height="10" y="270" x="100" fill="#c47080" />
-<rect width="23" height="10" y="270" x="125" fill="#bc5b34" />
-<rect width="23" height="10" y="270" x="150" fill="#d4a44f" />
-<rect width="23" height="10" y="270" x="175" fill="#395d54" />
-<text y="293" x="3">Tandoori Desert</text><rect width="38" height="10" y="296" x="0" fill="#ebe7e0" />
-<rect width="38" height="10" y="296" x="40" fill="#262626" />
-<rect width="38" height="10" y="296" x="80" fill="#bc594e" />
-<rect width="38" height="10" y="296" x="120" fill="#bca357" />
-<rect width="38" height="10" y="296" x="160" fill="#516b9e" />
-<text y="319" x="3">Nero Desert</text><rect width="20.22222222222222" height="10" y="322" x="0" fill="#ebe7e0" />
-<rect width="20.22222222222222" height="10" y="322" x="22.22222222222222" fill="#262626" />
-<rect width="20.22222222222222" height="10" y="322" x="44.44444444444444" fill="#bc594e" />
-<rect width="20.22222222222222" height="10" y="322" x="66.66666666666666" fill="#bf7e4f" />
-<rect width="20.22222222222222" height="10" y="322" x="88.88888888888889" fill="#bca357" />
-<rect width="20.22222222222222" height="10" y="322" x="111.11111111111111" fill="#5a844d" />
-<rect width="20.22222222222222" height="10" y="322" x="133.33333333333331" fill="#467991" />
-<rect width="20.22222222222222" height="10" y="322" x="155.55555555555554" fill="#516b9e" />
-<rect width="20.22222222222222" height="10" y="322" x="177.77777777777777" fill="#656198" />
-<text y="345" x="3">Brutal Tomato</text><rect width="64.66666666666667" height="10" y="348" x="0" fill="#fe6666" />
-<rect width="64.66666666666667" height="10" y="348" x="66.66666666666667" fill="#f6f6f6" />
-<rect width="64.66666666666667" height="10" y="348" x="133.33333333333334" fill="#202125" />
-<text y="371" x="3">Puffy Cheddar</text><rect width="38" height="10" y="374" x="0" fill="#ede8e1" />
-<rect width="38" height="10" y="374" x="40" fill="#a37673" />
-<rect width="38" height="10" y="374" x="80" fill="#eea22c" />
-<rect width="38" height="10" y="374" x="120" fill="#2c763d" />
-<rect width="38" height="10" y="374" x="160" fill="#1c3445" />
-<text y="397" x="3">Y.M.C.K</text><rect width="38" height="10" y="400" x="0" fill="#eee9e5" />
-<rect width="38" height="10" y="400" x="40" fill="#383736" />
-<rect width="38" height="10" y="400" x="80" fill="#d85794" />
-<rect width="38" height="10" y="400" x="120" fill="#45abcb" />
-<rect width="38" height="10" y="400" x="160" fill="#ebc92a" />
-<text y="423" x="3">Lunatic Kisses</text><rect width="26.571428571428573" height="10" y="426" x="0" fill="#221716" />
-<rect width="26.571428571428573" height="10" y="426" x="28.571428571428573" fill="#4e2c28" />
-<rect width="26.571428571428573" height="10" y="426" x="57.142857142857146" fill="#8a4e3d" />
-<rect width="26.571428571428573" height="10" y="426" x="85.71428571428572" fill="#dcab86" />
-<rect width="26.571428571428573" height="10" y="426" x="114.28571428571429" fill="#e8d6c2" />
-<rect width="26.571428571428573" height="10" y="426" x="142.85714285714286" fill="#e6864f" />
-<rect width="26.571428571428573" height="10" y="426" x="171.42857142857144" fill="#bf462b" />
-<text y="449" x="3">Spiced King</text><rect width="31.333333333333336" height="10" y="452" x="0" fill="#383b34" />
-<rect width="31.333333333333336" height="10" y="452" x="33.333333333333336" fill="#4d4c32" />
-<rect width="31.333333333333336" height="10" y="452" x="66.66666666666667" fill="#7a603c" />
-<rect width="31.333333333333336" height="10" y="452" x="100" fill="#c97759" />
-<rect width="31.333333333333336" height="10" y="452" x="133.33333333333334" fill="#e59a84" />
-<rect width="31.333333333333336" height="10" y="452" x="166.66666666666669" fill="#cdc4b9" />
-<text y="475" x="3">Smoked On Melon</text><rect width="38" height="10" y="478" x="0" fill="#f0ead8" />
-<rect width="38" height="10" y="478" x="40" fill="#ff7f75" />
-<rect width="38" height="10" y="478" x="80" fill="#f76e7c" />
-<rect width="38" height="10" y="478" x="120" fill="#f73668" />
-<rect width="38" height="10" y="478" x="160" fill="#021e66" />
-<text y="501" x="3">Wishing Corn</text><rect width="38" height="10" y="504" x="0" fill="#ff4444" />
-<rect width="38" height="10" y="504" x="40" fill="#78b5e3" />
-<rect width="38" height="10" y="504" x="80" fill="#f5b111" />
-<rect width="38" height="10" y="504" x="120" fill="#d1d1c2" />
-<rect width="38" height="10" y="504" x="160" fill="#181d1f" />
-<text y="527" x="3">Mad of Mana</text><rect width="38" height="10" y="530" x="0" fill="#c7c0a7" />
-<rect width="38" height="10" y="530" x="40" fill="#ed2860" />
-<rect width="38" height="10" y="530" x="80" fill="#f79f07" />
-<rect width="38" height="10" y="530" x="120" fill="#33302d" />
-<rect width="38" height="10" y="530" x="160" fill="#6666e2" />
-<text y="553" x="3">Teal Me No Commander</text><rect width="38" height="10" y="556" x="0" fill="#f3c318" />
-<rect width="38" height="10" y="556" x="40" fill="#ef6760" />
-<rect width="38" height="10" y="556" x="80" fill="#2aaaaa" />
-<rect width="38" height="10" y="556" x="120" fill="#5243c2" />
-<rect width="38" height="10" y="556" x="160" fill="#eae3e9" />
-<text y="579" x="3">Cheddar Bone</text><rect width="38" height="10" y="582" x="0" fill="#ddd4c3" />
-<rect width="38" height="10" y="582" x="40" fill="#30343f" />
-<rect width="38" height="10" y="582" x="80" fill="#e59500" />
-<rect width="38" height="10" y="582" x="120" fill="#9bbdad" />
-<rect width="38" height="10" y="582" x="160" fill="#e61500" />
-<text y="605" x="3">Silverfish Nero</text><rect width="5.407407407407407" height="10" y="608" x="0" fill="#1b618c" />
-<rect width="5.407407407407407" height="10" y="608" x="7.407407407407407" fill="#55ccd9" />
-<rect width="5.407407407407407" height="10" y="608" x="14.814814814814815" fill="#f2bc57" />
-<rect width="5.407407407407407" height="10" y="608" x="22.22222222222222" fill="#f24949" />
-<rect width="5.407407407407407" height="10" y="608" x="29.62962962962963" fill="#023059" />
-<rect width="5.407407407407407" height="10" y="608" x="37.03703703703704" fill="#459dbf" />
-<rect width="5.407407407407407" height="10" y="608" x="44.44444444444444" fill="#87bf60" />
-<rect width="5.407407407407407" height="10" y="608" x="51.851851851851855" fill="#d9d16a" />
-<rect width="5.407407407407407" height="10" y="608" x="59.25925925925926" fill="#f2f2f2" />
-<rect width="5.407407407407407" height="10" y="608" x="66.66666666666666" fill="#632973" />
-<rect width="5.407407407407407" height="10" y="608" x="74.07407407407408" fill="#02734a" />
-<rect width="5.407407407407407" height="10" y="608" x="81.48148148148148" fill="#f25c05" />
-<rect width="5.407407407407407" height="10" y="608" x="88.88888888888889" fill="#8d95a6" />
-<rect width="5.407407407407407" height="10" y="608" x="96.29629629629629" fill="#0a7360" />
-<rect width="5.407407407407407" height="10" y="608" x="103.70370370370371" fill="#f28705" />
-<rect width="5.407407407407407" height="10" y="608" x="111.11111111111111" fill="#d98825" />
-<rect width="5.407407407407407" height="10" y="608" x="118.51851851851852" fill="#f2f2f2" />
-<rect width="5.407407407407407" height="10" y="608" x="125.92592592592592" fill="#d9d7d8" />
-<rect width="5.407407407407407" height="10" y="608" x="133.33333333333331" fill="#3b5159" />
-<rect width="5.407407407407407" height="10" y="608" x="140.74074074074076" fill="#5d848c" />
-<rect width="5.407407407407407" height="10" y="608" x="148.14814814814815" fill="#7ca2a6" />
-<rect width="5.407407407407407" height="10" y="608" x="155.55555555555554" fill="#262321" />
-<rect width="5.407407407407407" height="10" y="608" x="162.96296296296296" fill="#906fa6" />
-<rect width="5.407407407407407" height="10" y="608" x="170.37037037037038" fill="#025951" />
-<rect width="5.407407407407407" height="10" y="608" x="177.77777777777777" fill="#252625" />
-<rect width="5.407407407407407" height="10" y="608" x="185.1851851851852" fill="#d99191" />
-<rect width="5.407407407407407" height="10" y="608" x="192.59259259259258" fill="#f2f2f2" />
+      <text y="7" x="3">Y.M.C.K</text><rect width="38" height="10" y="10" x="0" fill="#eee9e5" />
+<rect width="38" height="10" y="10" x="40" fill="#383736" />
+<rect width="38" height="10" y="10" x="80" fill="#d85794" />
+<rect width="38" height="10" y="10" x="120" fill="#45abcb" />
+<rect width="38" height="10" y="10" x="160" fill="#ebc92a" />
+<text y="33" x="3">White Tomato</text><rect width="31.333333333333336" height="10" y="36" x="0" fill="#29181e" />
+<rect width="31.333333333333336" height="10" y="36" x="33.333333333333336" fill="#81695d" />
+<rect width="31.333333333333336" height="10" y="36" x="66.66666666666667" fill="#ce7f50" />
+<rect width="31.333333333333336" height="10" y="36" x="100" fill="#ebe1e2" />
+<rect width="31.333333333333336" height="10" y="36" x="133.33333333333334" fill="#d74f32" />
+<rect width="31.333333333333336" height="10" y="36" x="166.66666666666669" fill="#3b2a54" />
+<text y="59" x="3">Tandoori Desert</text><rect width="38" height="10" y="62" x="0" fill="#ebe7e0" />
+<rect width="38" height="10" y="62" x="40" fill="#262626" />
+<rect width="38" height="10" y="62" x="80" fill="#bc594e" />
+<rect width="38" height="10" y="62" x="120" fill="#bca357" />
+<rect width="38" height="10" y="62" x="160" fill="#516b9e" />
+<text y="85" x="3">Spiced King</text><rect width="31.333333333333336" height="10" y="88" x="0" fill="#383b34" />
+<rect width="31.333333333333336" height="10" y="88" x="33.333333333333336" fill="#4d4c32" />
+<rect width="31.333333333333336" height="10" y="88" x="66.66666666666667" fill="#7a603c" />
+<rect width="31.333333333333336" height="10" y="88" x="100" fill="#c97759" />
+<rect width="31.333333333333336" height="10" y="88" x="133.33333333333334" fill="#e59a84" />
+<rect width="31.333333333333336" height="10" y="88" x="166.66666666666669" fill="#cdc4b9" />
+<text y="111" x="3">Y.M.C.K</text><rect width="38" height="10" y="114" x="0" fill="#eee9e5" />
+<rect width="38" height="10" y="114" x="40" fill="#383736" />
+<rect width="38" height="10" y="114" x="80" fill="#d85794" />
+<rect width="38" height="10" y="114" x="120" fill="#45abcb" />
+<rect width="38" height="10" y="114" x="160" fill="#ebc92a" />
+<text y="137" x="3">Y.M.C.K</text><rect width="38" height="10" y="140" x="0" fill="#eee9e5" />
+<rect width="38" height="10" y="140" x="40" fill="#383736" />
+<rect width="38" height="10" y="140" x="80" fill="#d85794" />
+<rect width="38" height="10" y="140" x="120" fill="#45abcb" />
+<rect width="38" height="10" y="140" x="160" fill="#ebc92a" />
     </svg>
   
