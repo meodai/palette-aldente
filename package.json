@@ -29,10 +29,10 @@
   "homepage": "https://github.com/meodai/palette-aldente#readme",
   "dependencies": {
     "anypalette": "^0.6.0",
-    "canvas": "^2.10.2",
+    "canvas": "^2.11.2",
     "chalk": "^5.1.2",
-    "color-name-api": "^0.10.0",
-    "color-name-list": "^10.0.1",
+    "color-name-api": "^0.24.0",
+    "color-name-list": "^10.13.0",
     "color-name-lists": "^3.15.0",
     "commander": "^9.4.1",
     "culori": "^2.0.3",

@@ -24,7 +24,6 @@ import {getPaletteTitle} from 'color-name-api/src/generatePaletteName.js';
 
 const colorsLists = {
   default: colors,
-  colors: colors,
   bestOf: colorsBestOf,
 };
 
