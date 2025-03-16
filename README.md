@@ -7,10 +7,10 @@ Introducing the ultimate color palette companion: **Palette Aldente** [alˈdɛnt
 
 - Makes sure your `yml` or `json` is actually valid
 - Exports it to JSON
-- Provides a handy JS wrapper that works everyhere. (Node, Browser, Codepen etc..)
+- Provides a handy JS wrapper that works everywhere. (Node, Browser, Codepen etc..)
 - Exports a static SVG of all the palettes
 - Exports PNG images of each palette.
-- Provides a HTML templete with all the palletes. (Ideal for github pages)
+- Provides a HTML template with all the palettes. (Ideal for github pages)
 - Ability to name your colors and palettes automatically
 - Coverts almost any color format to any other.
 - Possibility to additionally convert to different color formats: lab, lch, oklab, hsl, etc...
@@ -102,14 +102,15 @@ After the workflow successfully passed, make sure to turn on "Pages" in your git
 
 ### NPM
 
-If you want to reuse your palettes in ofther prjects you might want to use NPM to publush them. 
+If you want to reuse your palettes in ofter projects you might want to use NPM to publish them.
 Just add the following to your `package.json`
 
-```
+```json
   "main": "dist/palettes.js",
   "type": "module",
 ```
-```
+
+```json
   "exports": {
     "import": "./dist/palettes.esm.js",
     "require": "./dist/palettes.js"
@@ -117,6 +118,7 @@ Just add the following to your `package.json`
 ```
 
 after that you can import your palettes easily:
+
 ```js
 import { colorPalettes } from "omorovdcolors"; 
 // or
