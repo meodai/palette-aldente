@@ -29,7 +29,7 @@
   "homepage": "https://github.com/meodai/palette-aldente#readme",
   "dependencies": {
     "anypalette": "^0.6.0",
-    "canvas": "^2.11.2",
+    "canvas": "^3.1.0",
     "chalk": "^5.1.2",
     "color-name-api": "^0.24.0",
     "color-name-list": "^10.13.0",
