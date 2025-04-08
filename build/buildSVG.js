@@ -54,9 +54,8 @@ export function buildSVG(
     width,
     colorSampleHeight,
     padding,
-    inlineSpace,
     fontSize,
-    svgcss
+    svgcss,
   } = options;
 
   const items = paletteArray.length;

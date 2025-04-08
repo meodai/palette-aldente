@@ -1,9 +1,12 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+(function(global, factory) {
+  typeof exports === 'object' &&
+  typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.colorPalettes = {}));
-})(this, (function (exports) { 'use strict';
-  /**palettes**/
+  (global = typeof globalThis !== 'undefined' ?
+    globalThis : global || self, factory(global.colorPalettes = {}));
+})(globalThis, (function(exports) {
+  'use strict';
+  /** palettes**/
 
   /**
    * @param {Array} palettes
@@ -47,6 +50,6 @@
     },
   };
 
-  
+
   exports.colorPalettes = colorPalettes;
 }));

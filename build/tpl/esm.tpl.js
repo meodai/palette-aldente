@@ -1,4 +1,4 @@
-/**palettes**/
+/** palettes **/
 
 /**
  * @param {Array} palettes

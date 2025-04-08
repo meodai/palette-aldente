@@ -51,7 +51,6 @@ function createPalette(palette, options) {
   const colorWidth = (w - opt.padding * 2) / totalColors - opt.colorSwatchGap;
 
   palette.colors.forEach((c, i) => {
-    const relI = i/totalColors;
     const top = opt.fontSize + opt.fontGutter + opt.padding;
     const left = opt.padding + (i * (colorWidth + opt.colorSwatchGap));
     ctx.fillStyle = typeof c === 'object' ? c.value : c;

@@ -7,7 +7,8 @@
   "scripts": {
     "build": "node build/cli.js ./src/palettes.yml",
     "build:js": "rollup --config rollup.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint ./build"
   },
   "repository": {
     "type": "git",
