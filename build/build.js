@@ -38,8 +38,6 @@ const possibleConverters = [
   'dlch', 'yiq', 'lrgb', 'hex', 'name',
 ];
 
-// console.log( converter('lrgb')('blue') );
-
 /**
  * @param {array|object} item
  * @return {boolean|item} valid item or false
@@ -93,6 +91,7 @@ function readFile(pathToFile) {
  * @param {String} defaultOutputFormat Main output format
  * @param {Array} additionalOutputFormats Other formats besides default
  * @param {String} nameList Key of colorNameLists to use for naming
+ * @param {boolean} ignoreInitialColorProps Whether to ignore initial properties
  * @return {Array} Array of parsed colors
  */
 function parseColors(
@@ -100,7 +99,7 @@ function parseColors(
     defaultOutputFormat = 'hex',
     additionalOutputFormats = [],
     nameList = 'bestOf',
-    ignoreInitalColorProps = false,
+    ignoreInitialColorProps = false,
 ) {
   const parsedColors = colorsArr.map((color) => {
     const colorObj = {};
@@ -135,7 +134,7 @@ function parseColors(
       }
 
       // if the color was an object, preserve all the other properties
-      if (!ignoreInitalColorProps) {
+      if (!ignoreInitialColorProps) {
         Object.assign(colorObj, color);
       }
 
@@ -167,7 +166,9 @@ function parseColors(
           }
 
           if (format !== 'name') {
-            colorInOtherFormat = converter(format)(color);
+            colorInOtherFormat = format === 'hex' ?
+              formatHex(color) :
+              converter(format)(color);
             delete colorInOtherFormat.mode;
           }
 
@@ -201,6 +202,7 @@ function parseColors(
  * @param {Array} additionalOutputFormats Array of additional output formats
  * @param {Boolean} autoname Determine if palettes should be autonamed
  * @param {String} nameList List to use for autonaming
+ * @param {boolean} ignoreInitialColorProps Whether to ignore initial properties
  * @return {Array} Array of parsed palettes
  */
 function createPaletteArray(
@@ -209,7 +211,7 @@ function createPaletteArray(
     additionalOutputFormats = [],
     autoname = true,
     nameList = 'bestOf',
-    ignoreInitalColorProps = false,
+    ignoreInitialColorProps = false,
 ) {
   let untitledCount = -1;
 
@@ -234,7 +236,7 @@ function createPaletteArray(
           defaultOutputFormat,
           additionalOutputFormats,
           nameList,
-          ignoreInitalColorProps,
+          ignoreInitialColorProps,
       );
     }
 
@@ -245,7 +247,7 @@ function createPaletteArray(
           additionalOutputFormats,
           autoname,
           nameList,
-          ignoreInitalColorProps,
+          ignoreInitialColorProps,
       );
     }
 

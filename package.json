@@ -35,7 +35,7 @@
     "color-name-list": "^10.13.0",
     "color-name-lists": "^3.15.0",
     "commander": "^9.4.1",
-    "culori": "^2.0.3",
+    "culori": "^4.0.1",
     "js-yaml": "^4.1.0",
     "palette-aldente": "^1.15.0",
     "seedrandom": "^3.0.5"
