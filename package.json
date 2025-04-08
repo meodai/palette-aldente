@@ -37,6 +37,7 @@
     "commander": "^9.4.1",
     "culori": "^2.0.3",
     "js-yaml": "^4.1.0",
+    "palette-aldente": "^1.15.0",
     "seedrandom": "^3.0.5"
   },
   "devDependencies": {

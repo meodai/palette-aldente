@@ -7,6 +7,13 @@ import {fileURLToPath} from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const packagejson = JSON.parse(
+    fs.readFileSync(
+        path.join(__dirname, '..', 'package.json'),
+        'utf8',
+    ),
+);
+
 const JSESMTPL = fs.readFileSync(
     path.join(__dirname, 'tpl', 'esm.tpl.js'),
     'utf8',
@@ -70,9 +77,9 @@ function parsePossibleConverters(value) {
 }
 
 program
-    .name('palette-aldente')
-    .description('CLI to manage color palettes')
-    .version('1.0.0');
+  .name("palette-aldente")
+  .description("CLI to manage color palettes")
+  .version(packagejson.version);
 
 program
     .argument(
