@@ -144,7 +144,7 @@ function parseColors(
 
     const parsedColor = parse(color);
 
-    if (parsedColor) {
+    if (parsedColor) { // parse returns undefined if the color is invalid
       colorObj.hex = formatHex(color);
       colorObj.value = defaultOutputFormat === 'hex' ?
       formatHex(color) : converter(defaultOutputFormat)(color);

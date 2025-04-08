@@ -77,9 +77,9 @@ function parsePossibleConverters(value) {
 }
 
 program
-  .name("palette-aldente")
-  .description("CLI to manage color palettes")
-  .version(packagejson.version);
+    .name('palette-aldente')
+    .description('CLI to manage color palettes')
+    .version(packagejson.version);
 
 program
     .argument(
