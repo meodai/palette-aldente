@@ -17,8 +17,8 @@ import {
 } from 'culori';
 
 import colorNameLists from 'color-name-lists';
-import colors from 'color-name-list/dist/colornames.esm.mjs';
-import colorsBestOf from 'color-name-list/dist/colornames.bestof.esm.mjs';
+import {colornames as colors} from "color-name-list";
+import {colornames as colorsBestOf} from 'color-name-list/bestof';
 import {FindColors} from 'color-name-api/src/findColors.js';
 import {getPaletteTitle} from 'color-name-api/src/generatePaletteName.js';
 
