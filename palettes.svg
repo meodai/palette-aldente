@@ -1,5 +1,5 @@
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 156">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 182">
       <style>
         text {
   font-family: sans-serif;
@@ -42,5 +42,10 @@
 <rect width="38" height="10" y="140" x="80" fill="#d85794" />
 <rect width="38" height="10" y="140" x="120" fill="#45abcb" />
 <rect width="38" height="10" y="140" x="160" fill="#ebc92a" />
+<text y="163" x="3">My Fany Color Models palette</text><rect width="38" height="10" y="166" x="0" fill="#7d2429" />
+<rect width="38" height="10" y="166" x="40" fill="#ff7d00" />
+<rect width="38" height="10" y="166" x="80" fill="#5f5e5e" />
+<rect width="38" height="10" y="166" x="120" fill="#909090" />
+<rect width="38" height="10" y="166" x="160" fill="#d6cfc2" />
     </svg>
   
