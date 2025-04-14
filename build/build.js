@@ -17,7 +17,7 @@ import {
 } from 'culori';
 
 import colorNameLists from 'color-name-lists';
-import {colornames as colors} from "color-name-list";
+import {colornames as colors} from 'color-name-list';
 import {colornames as colorsBestOf} from 'color-name-list/bestof';
 import {FindColors} from 'color-name-api/src/findColors.js';
 import {getPaletteTitle} from 'color-name-api/src/generatePaletteName.js';
@@ -178,8 +178,9 @@ function parseColors(
 
       return colorObj;
     } else {
-      console.error('Invalid color value', color);
-      return false;
+      throw new Error(
+          `Invalid color value: ${color}. Please check the color format.`,
+      );
     }
   });
 
@@ -217,7 +218,7 @@ function createPaletteArray(
 
   return paletteArrFromFile.map((palette) => {
     if (!validatePaletteItem(palette)) {
-      return;
+      throw new Error('Invalid palette item. Must be an array or object.');
     }
 
     let paletteObj = {};
