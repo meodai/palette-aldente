@@ -67,5 +67,15 @@
         ]
       }
     ]
+  },
+  {
+    "name": "My Fany Color Models palette",
+    "colors": [
+      "#7d2429",
+      "#ff7d00",
+      "#5f5e5e",
+      "#909090",
+      "#d6cfc2"
+    ]
   }
 ]
