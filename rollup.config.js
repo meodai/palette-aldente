@@ -11,7 +11,7 @@ export default {
     {
       file: 'dist/palettes.esm.js',
       format: 'esm',
-    }
+    },
   ],
   plugins: [json()],
 };
