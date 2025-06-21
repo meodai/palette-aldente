@@ -216,6 +216,14 @@ function createPaletteArray(
 ) {
   let untitledCount = -1;
 
+  // Handle the case where the input is an object with a 'colors' property
+  // instead of directly being an array of palettes
+  if (!Array.isArray(paletteArrFromFile) &&
+      paletteArrFromFile.colors &&
+      Array.isArray(paletteArrFromFile.colors)) {
+    paletteArrFromFile = [paletteArrFromFile.colors];
+  }
+
   return paletteArrFromFile.map((palette) => {
     if (!validatePaletteItem(palette)) {
       throw new Error('Invalid palette item. Must be an array or object.');
